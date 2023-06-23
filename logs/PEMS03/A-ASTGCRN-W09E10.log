@@ -1,0 +1,1959 @@
+2022-07-14 22:02:03,155 - INFO - Log directory: ./log/PEMS03/TGCRN
+2022-07-14 22:02:03,156 - INFO - adj_mx=None, batch_size=64, cheb_k=2, column_wise=False, cuda=True, cudaid=2, dataset='PEMS03', debug=False, default_graph=True, device=device(type='cuda'), disc='TranNoaW09E10', distance_file='data/PEMS03/PEMS03.csv', early_stop=True, early_stop_patience=15, embed_dim=10, epochs=300, exp_id=3, grad_norm=False, horizon=12, id_filename='data/PEMS03/PEMS03.txt', input_dim=1, lag=12, log_dir='./log/PEMS03/TGCRN', log_step=20, loss_func='mae', lr_decay=False, lr_decay_rate=0.3, lr_decay_step='5,20,40,70', lr_init=0.003, mae_thresh=None, mape_thresh=0.0, max_grad_norm=5, mode='train', model='TGCRN', model_dir='./pre-trained/PEMS03/TGCRN', normalizer='std', num_layers=2, num_nodes=358, output_dim=1, plot=False, real_value=True, rnn_units=64, runs=1, seed=10, teacher_forcing=False, test_ratio=0.2, tod=False, type='connectivity', val_ratio=0.2, weight_decay=0.0009
+2022-07-14 22:02:03,156 - INFO - Experiment log path in: ./log/PEMS03/TGCRN
+2022-07-14 22:02:03,163 - INFO - 
+
+-------------The Running is:0-------------
+2022-07-14 22:02:05,509 - INFO - *****************Model Parameter*****************
+2022-07-14 22:02:05,510 - INFO - Total params num: 799757
+2022-07-14 22:02:05,510 - INFO - *****************Finish Parameter****************
+2022-07-14 22:02:07,229 - INFO - Experiment best-model path in: ./pre-trained/PEMS03/TGCRN/3_TranNoaW09E10best_model0.pth
+2022-07-14 22:02:07,581 - INFO - Train Epoch 1: 0/245 Loss: 170.756912
+2022-07-14 22:02:13,546 - INFO - Train Epoch 1: 20/245 Loss: 117.849388
+2022-07-14 22:02:19,525 - INFO - Train Epoch 1: 40/245 Loss: 45.783398
+2022-07-14 22:02:25,493 - INFO - Train Epoch 1: 60/245 Loss: 38.275291
+2022-07-14 22:02:31,466 - INFO - Train Epoch 1: 80/245 Loss: 38.076439
+2022-07-14 22:02:37,444 - INFO - Train Epoch 1: 100/245 Loss: 33.375206
+2022-07-14 22:02:43,438 - INFO - Train Epoch 1: 120/245 Loss: 28.910818
+2022-07-14 22:02:49,434 - INFO - Train Epoch 1: 140/245 Loss: 29.545984
+2022-07-14 22:02:55,438 - INFO - Train Epoch 1: 160/245 Loss: 25.468801
+2022-07-14 22:03:01,440 - INFO - Train Epoch 1: 180/245 Loss: 23.604664
+2022-07-14 22:03:07,470 - INFO - Train Epoch 1: 200/245 Loss: 26.827665
+2022-07-14 22:03:14,087 - INFO - Train Epoch 1: 220/245 Loss: 21.877754
+2022-07-14 22:03:20,119 - INFO - Train Epoch 1: 240/245 Loss: 22.287453
+2022-07-14 22:03:21,329 - INFO - **********Train Epoch 1: averaged Loss: 41.584037, tf_ratio: 1.000000
+2022-07-14 22:03:30,135 - INFO - **********Val Epoch 1: average Loss: 20.831702
+2022-07-14 22:03:30,135 - INFO - **********Epoch 001:Training Time: 74.1010s/epoch, Inference Time: 8.8053s/epoch
+2022-07-14 22:03:30,136 - INFO - *********************************Current best model saved!
+2022-07-14 22:03:30,444 - INFO - Train Epoch 2: 0/245 Loss: 19.631227
+2022-07-14 22:03:36,487 - INFO - Train Epoch 2: 20/245 Loss: 20.801407
+2022-07-14 22:03:42,533 - INFO - Train Epoch 2: 40/245 Loss: 22.958378
+2022-07-14 22:03:48,593 - INFO - Train Epoch 2: 60/245 Loss: 22.588970
+2022-07-14 22:03:54,659 - INFO - Train Epoch 2: 80/245 Loss: 20.938955
+2022-07-14 22:04:00,743 - INFO - Train Epoch 2: 100/245 Loss: 20.972342
+2022-07-14 22:04:06,826 - INFO - Train Epoch 2: 120/245 Loss: 21.191156
+2022-07-14 22:04:12,906 - INFO - Train Epoch 2: 140/245 Loss: 18.648693
+2022-07-14 22:04:18,986 - INFO - Train Epoch 2: 160/245 Loss: 19.727751
+2022-07-14 22:04:25,064 - INFO - Train Epoch 2: 180/245 Loss: 19.356270
+2022-07-14 22:04:31,145 - INFO - Train Epoch 2: 200/245 Loss: 19.235441
+2022-07-14 22:04:37,226 - INFO - Train Epoch 2: 220/245 Loss: 18.785492
+2022-07-14 22:04:43,302 - INFO - Train Epoch 2: 240/245 Loss: 20.549623
+2022-07-14 22:04:44,519 - INFO - **********Train Epoch 2: averaged Loss: 20.806410, tf_ratio: 1.000000
+2022-07-14 22:04:53,368 - INFO - **********Val Epoch 2: average Loss: 19.819428
+2022-07-14 22:04:53,368 - INFO - **********Epoch 002:Training Time: 74.3799s/epoch, Inference Time: 8.8475s/epoch
+2022-07-14 22:04:53,368 - INFO - *********************************Current best model saved!
+2022-07-14 22:04:53,678 - INFO - Train Epoch 3: 0/245 Loss: 20.539820
+2022-07-14 22:04:59,788 - INFO - Train Epoch 3: 20/245 Loss: 19.146555
+2022-07-14 22:05:05,926 - INFO - Train Epoch 3: 40/245 Loss: 19.563856
+2022-07-14 22:05:12,065 - INFO - Train Epoch 3: 60/245 Loss: 20.257439
+2022-07-14 22:05:18,206 - INFO - Train Epoch 3: 80/245 Loss: 19.559641
+2022-07-14 22:05:24,361 - INFO - Train Epoch 3: 100/245 Loss: 19.712746
+2022-07-14 22:05:30,523 - INFO - Train Epoch 3: 120/245 Loss: 18.321659
+2022-07-14 22:05:36,679 - INFO - Train Epoch 3: 140/245 Loss: 18.245831
+2022-07-14 22:05:42,832 - INFO - Train Epoch 3: 160/245 Loss: 19.492819
+2022-07-14 22:05:48,993 - INFO - Train Epoch 3: 180/245 Loss: 18.993145
+2022-07-14 22:05:55,162 - INFO - Train Epoch 3: 200/245 Loss: 19.269447
+2022-07-14 22:06:01,360 - INFO - Train Epoch 3: 220/245 Loss: 19.842215
+2022-07-14 22:06:07,529 - INFO - Train Epoch 3: 240/245 Loss: 20.758013
+2022-07-14 22:06:08,757 - INFO - **********Train Epoch 3: averaged Loss: 19.565466, tf_ratio: 1.000000
+2022-07-14 22:06:17,780 - INFO - **********Val Epoch 3: average Loss: 22.218790
+2022-07-14 22:06:17,781 - INFO - **********Epoch 003:Training Time: 75.3853s/epoch, Inference Time: 9.0226s/epoch
+2022-07-14 22:06:18,090 - INFO - Train Epoch 4: 0/245 Loss: 22.466780
+2022-07-14 22:06:24,310 - INFO - Train Epoch 4: 20/245 Loss: 20.493206
+2022-07-14 22:06:30,474 - INFO - Train Epoch 4: 40/245 Loss: 17.463089
+2022-07-14 22:06:36,712 - INFO - Train Epoch 4: 60/245 Loss: 19.578386
+2022-07-14 22:06:42,917 - INFO - Train Epoch 4: 80/245 Loss: 18.679968
+2022-07-14 22:06:49,113 - INFO - Train Epoch 4: 100/245 Loss: 18.114525
+2022-07-14 22:06:55,375 - INFO - Train Epoch 4: 120/245 Loss: 16.807030
+2022-07-14 22:07:01,594 - INFO - Train Epoch 4: 140/245 Loss: 18.741163
+2022-07-14 22:07:07,755 - INFO - Train Epoch 4: 160/245 Loss: 17.710403
+2022-07-14 22:07:14,035 - INFO - Train Epoch 4: 180/245 Loss: 19.319345
+2022-07-14 22:07:20,294 - INFO - Train Epoch 4: 200/245 Loss: 20.209955
+2022-07-14 22:07:26,540 - INFO - Train Epoch 4: 220/245 Loss: 19.844530
+2022-07-14 22:07:32,735 - INFO - Train Epoch 4: 240/245 Loss: 18.058689
+2022-07-14 22:07:33,972 - INFO - **********Train Epoch 4: averaged Loss: 19.205269, tf_ratio: 1.000000
+2022-07-14 22:07:43,088 - INFO - **********Val Epoch 4: average Loss: 19.959076
+2022-07-14 22:07:43,089 - INFO - **********Epoch 004:Training Time: 76.1930s/epoch, Inference Time: 9.1148s/epoch
+2022-07-14 22:07:43,409 - INFO - Train Epoch 5: 0/245 Loss: 18.909000
+2022-07-14 22:07:49,627 - INFO - Train Epoch 5: 20/245 Loss: 18.751656
+2022-07-14 22:07:55,762 - INFO - Train Epoch 5: 40/245 Loss: 17.196079
+2022-07-14 22:08:01,904 - INFO - Train Epoch 5: 60/245 Loss: 18.257769
+2022-07-14 22:08:08,176 - INFO - Train Epoch 5: 80/245 Loss: 18.045074
+2022-07-14 22:08:14,521 - INFO - Train Epoch 5: 100/245 Loss: 19.484703
+2022-07-14 22:08:20,770 - INFO - Train Epoch 5: 120/245 Loss: 18.232891
+2022-07-14 22:08:26,999 - INFO - Train Epoch 5: 140/245 Loss: 18.972490
+2022-07-14 22:08:33,196 - INFO - Train Epoch 5: 160/245 Loss: 19.194654
+2022-07-14 22:08:39,397 - INFO - Train Epoch 5: 180/245 Loss: 20.006838
+2022-07-14 22:08:45,590 - INFO - Train Epoch 5: 200/245 Loss: 17.529675
+2022-07-14 22:08:51,784 - INFO - Train Epoch 5: 220/245 Loss: 18.401157
+2022-07-14 22:08:57,922 - INFO - Train Epoch 5: 240/245 Loss: 17.187447
+2022-07-14 22:08:59,174 - INFO - **********Train Epoch 5: averaged Loss: 18.672150, tf_ratio: 1.000000
+2022-07-14 22:09:08,205 - INFO - **********Val Epoch 5: average Loss: 18.531884
+2022-07-14 22:09:08,206 - INFO - **********Epoch 005:Training Time: 76.0868s/epoch, Inference Time: 9.0308s/epoch
+2022-07-14 22:09:08,207 - INFO - *********************************Current best model saved!
+2022-07-14 22:09:08,519 - INFO - Train Epoch 6: 0/245 Loss: 18.725412
+2022-07-14 22:09:14,716 - INFO - Train Epoch 6: 20/245 Loss: 21.065050
+2022-07-14 22:09:20,870 - INFO - Train Epoch 6: 40/245 Loss: 19.836880
+2022-07-14 22:09:27,015 - INFO - Train Epoch 6: 60/245 Loss: 16.974409
+2022-07-14 22:09:33,153 - INFO - Train Epoch 6: 80/245 Loss: 17.194912
+2022-07-14 22:09:39,290 - INFO - Train Epoch 6: 100/245 Loss: 19.001673
+2022-07-14 22:09:45,449 - INFO - Train Epoch 6: 120/245 Loss: 18.732214
+2022-07-14 22:09:51,622 - INFO - Train Epoch 6: 140/245 Loss: 18.604082
+2022-07-14 22:09:57,823 - INFO - Train Epoch 6: 160/245 Loss: 18.883327
+2022-07-14 22:10:03,970 - INFO - Train Epoch 6: 180/245 Loss: 19.723856
+2022-07-14 22:10:10,106 - INFO - Train Epoch 6: 200/245 Loss: 18.610210
+2022-07-14 22:10:16,265 - INFO - Train Epoch 6: 220/245 Loss: 21.023031
+2022-07-14 22:10:22,423 - INFO - Train Epoch 6: 240/245 Loss: 19.020939
+2022-07-14 22:10:23,652 - INFO - **********Train Epoch 6: averaged Loss: 18.383673, tf_ratio: 1.000000
+2022-07-14 22:10:32,647 - INFO - **********Val Epoch 6: average Loss: 18.606727
+2022-07-14 22:10:32,648 - INFO - **********Epoch 006:Training Time: 75.4420s/epoch, Inference Time: 8.9942s/epoch
+2022-07-14 22:10:32,957 - INFO - Train Epoch 7: 0/245 Loss: 18.972452
+2022-07-14 22:10:39,095 - INFO - Train Epoch 7: 20/245 Loss: 17.946848
+2022-07-14 22:10:45,237 - INFO - Train Epoch 7: 40/245 Loss: 18.565996
+2022-07-14 22:10:51,383 - INFO - Train Epoch 7: 60/245 Loss: 17.275787
+2022-07-14 22:10:57,523 - INFO - Train Epoch 7: 80/245 Loss: 18.412992
+2022-07-14 22:11:03,671 - INFO - Train Epoch 7: 100/245 Loss: 17.377394
+2022-07-14 22:11:09,821 - INFO - Train Epoch 7: 120/245 Loss: 18.796690
+2022-07-14 22:11:15,960 - INFO - Train Epoch 7: 140/245 Loss: 18.360802
+2022-07-14 22:11:22,104 - INFO - Train Epoch 7: 160/245 Loss: 18.545404
+2022-07-14 22:11:28,250 - INFO - Train Epoch 7: 180/245 Loss: 17.391783
+2022-07-14 22:11:34,400 - INFO - Train Epoch 7: 200/245 Loss: 16.089611
+2022-07-14 22:11:40,546 - INFO - Train Epoch 7: 220/245 Loss: 17.712996
+2022-07-14 22:11:46,681 - INFO - Train Epoch 7: 240/245 Loss: 17.760752
+2022-07-14 22:11:47,908 - INFO - **********Train Epoch 7: averaged Loss: 18.041667, tf_ratio: 1.000000
+2022-07-14 22:11:56,853 - INFO - **********Val Epoch 7: average Loss: 18.985417
+2022-07-14 22:11:56,853 - INFO - **********Epoch 007:Training Time: 75.2623s/epoch, Inference Time: 8.9430s/epoch
+2022-07-14 22:11:57,161 - INFO - Train Epoch 8: 0/245 Loss: 18.864223
+2022-07-14 22:12:03,270 - INFO - Train Epoch 8: 20/245 Loss: 16.938948
+2022-07-14 22:12:09,475 - INFO - Train Epoch 8: 40/245 Loss: 17.652586
+2022-07-14 22:12:15,640 - INFO - Train Epoch 8: 60/245 Loss: 17.414877
+2022-07-14 22:12:21,792 - INFO - Train Epoch 8: 80/245 Loss: 15.932904
+2022-07-14 22:12:27,934 - INFO - Train Epoch 8: 100/245 Loss: 18.776646
+2022-07-14 22:12:34,087 - INFO - Train Epoch 8: 120/245 Loss: 19.499212
+2022-07-14 22:12:40,228 - INFO - Train Epoch 8: 140/245 Loss: 16.565554
+2022-07-14 22:12:46,381 - INFO - Train Epoch 8: 160/245 Loss: 17.706690
+2022-07-14 22:12:52,519 - INFO - Train Epoch 8: 180/245 Loss: 16.993155
+2022-07-14 22:12:58,664 - INFO - Train Epoch 8: 200/245 Loss: 17.431713
+2022-07-14 22:13:04,814 - INFO - Train Epoch 8: 220/245 Loss: 17.056036
+2022-07-14 22:13:10,952 - INFO - Train Epoch 8: 240/245 Loss: 17.786886
+2022-07-14 22:13:12,185 - INFO - **********Train Epoch 8: averaged Loss: 17.651154, tf_ratio: 1.000000
+2022-07-14 22:13:21,141 - INFO - **********Val Epoch 8: average Loss: 17.424792
+2022-07-14 22:13:21,141 - INFO - **********Epoch 008:Training Time: 75.3340s/epoch, Inference Time: 8.9539s/epoch
+2022-07-14 22:13:21,141 - INFO - *********************************Current best model saved!
+2022-07-14 22:13:21,457 - INFO - Train Epoch 9: 0/245 Loss: 18.025192
+2022-07-14 22:13:27,593 - INFO - Train Epoch 9: 20/245 Loss: 17.082340
+2022-07-14 22:13:33,734 - INFO - Train Epoch 9: 40/245 Loss: 18.716999
+2022-07-14 22:13:39,872 - INFO - Train Epoch 9: 60/245 Loss: 16.826725
+2022-07-14 22:13:46,017 - INFO - Train Epoch 9: 80/245 Loss: 17.835079
+2022-07-14 22:13:52,143 - INFO - Train Epoch 9: 100/245 Loss: 18.089046
+2022-07-14 22:13:58,286 - INFO - Train Epoch 9: 120/245 Loss: 17.016977
+2022-07-14 22:14:04,422 - INFO - Train Epoch 9: 140/245 Loss: 18.099564
+2022-07-14 22:14:10,565 - INFO - Train Epoch 9: 160/245 Loss: 16.809708
+2022-07-14 22:14:16,708 - INFO - Train Epoch 9: 180/245 Loss: 17.416637
+2022-07-14 22:14:22,851 - INFO - Train Epoch 9: 200/245 Loss: 17.780218
+2022-07-14 22:14:28,994 - INFO - Train Epoch 9: 220/245 Loss: 16.861187
+2022-07-14 22:14:35,133 - INFO - Train Epoch 9: 240/245 Loss: 18.431307
+2022-07-14 22:14:36,371 - INFO - **********Train Epoch 9: averaged Loss: 17.493599, tf_ratio: 1.000000
+2022-07-14 22:14:45,332 - INFO - **********Val Epoch 9: average Loss: 17.510329
+2022-07-14 22:14:45,333 - INFO - **********Epoch 009:Training Time: 75.2264s/epoch, Inference Time: 8.9602s/epoch
+2022-07-14 22:14:45,639 - INFO - Train Epoch 10: 0/245 Loss: 16.433409
+2022-07-14 22:14:51,804 - INFO - Train Epoch 10: 20/245 Loss: 15.248132
+2022-07-14 22:14:57,980 - INFO - Train Epoch 10: 40/245 Loss: 16.605761
+2022-07-14 22:15:04,131 - INFO - Train Epoch 10: 60/245 Loss: 16.915880
+2022-07-14 22:15:10,282 - INFO - Train Epoch 10: 80/245 Loss: 17.805878
+2022-07-14 22:15:16,431 - INFO - Train Epoch 10: 100/245 Loss: 16.615637
+2022-07-14 22:15:22,585 - INFO - Train Epoch 10: 120/245 Loss: 16.480545
+2022-07-14 22:15:28,868 - INFO - Train Epoch 10: 140/245 Loss: 16.807245
+2022-07-14 22:15:35,065 - INFO - Train Epoch 10: 160/245 Loss: 17.201025
+2022-07-14 22:15:41,214 - INFO - Train Epoch 10: 180/245 Loss: 17.690624
+2022-07-14 22:15:47,365 - INFO - Train Epoch 10: 200/245 Loss: 16.232738
+2022-07-14 22:15:53,604 - INFO - Train Epoch 10: 220/245 Loss: 17.178995
+2022-07-14 22:15:59,855 - INFO - Train Epoch 10: 240/245 Loss: 16.172066
+2022-07-14 22:16:01,098 - INFO - **********Train Epoch 10: averaged Loss: 17.160793, tf_ratio: 1.000000
+2022-07-14 22:16:10,254 - INFO - **********Val Epoch 10: average Loss: 17.327566
+2022-07-14 22:16:10,254 - INFO - **********Epoch 010:Training Time: 75.7664s/epoch, Inference Time: 9.1552s/epoch
+2022-07-14 22:16:10,255 - INFO - *********************************Current best model saved!
+2022-07-14 22:16:10,571 - INFO - Train Epoch 11: 0/245 Loss: 16.966547
+2022-07-14 22:16:16,753 - INFO - Train Epoch 11: 20/245 Loss: 18.228928
+2022-07-14 22:16:22,988 - INFO - Train Epoch 11: 40/245 Loss: 17.113750
+2022-07-14 22:16:29,143 - INFO - Train Epoch 11: 60/245 Loss: 18.300768
+2022-07-14 22:16:35,389 - INFO - Train Epoch 11: 80/245 Loss: 16.690027
+2022-07-14 22:16:41,638 - INFO - Train Epoch 11: 100/245 Loss: 16.917215
+2022-07-14 22:16:47,873 - INFO - Train Epoch 11: 120/245 Loss: 17.129744
+2022-07-14 22:16:54,123 - INFO - Train Epoch 11: 140/245 Loss: 16.149183
+2022-07-14 22:17:00,283 - INFO - Train Epoch 11: 160/245 Loss: 16.376616
+2022-07-14 22:17:06,463 - INFO - Train Epoch 11: 180/245 Loss: 16.623764
+2022-07-14 22:17:12,654 - INFO - Train Epoch 11: 200/245 Loss: 17.335934
+2022-07-14 22:17:18,795 - INFO - Train Epoch 11: 220/245 Loss: 18.647394
+2022-07-14 22:17:24,927 - INFO - Train Epoch 11: 240/245 Loss: 19.250824
+2022-07-14 22:17:26,153 - INFO - **********Train Epoch 11: averaged Loss: 17.225444, tf_ratio: 1.000000
+2022-07-14 22:17:35,210 - INFO - **********Val Epoch 11: average Loss: 17.003783
+2022-07-14 22:17:35,210 - INFO - **********Epoch 011:Training Time: 75.8941s/epoch, Inference Time: 9.0561s/epoch
+2022-07-14 22:17:35,211 - INFO - *********************************Current best model saved!
+2022-07-14 22:17:35,526 - INFO - Train Epoch 12: 0/245 Loss: 15.802758
+2022-07-14 22:17:41,735 - INFO - Train Epoch 12: 20/245 Loss: 17.015415
+2022-07-14 22:17:47,889 - INFO - Train Epoch 12: 40/245 Loss: 16.401335
+2022-07-14 22:17:54,023 - INFO - Train Epoch 12: 60/245 Loss: 16.096085
+2022-07-14 22:18:00,185 - INFO - Train Epoch 12: 80/245 Loss: 16.857504
+2022-07-14 22:18:06,409 - INFO - Train Epoch 12: 100/245 Loss: 16.501234
+2022-07-14 22:18:12,569 - INFO - Train Epoch 12: 120/245 Loss: 16.041508
+2022-07-14 22:18:18,716 - INFO - Train Epoch 12: 140/245 Loss: 15.917271
+2022-07-14 22:18:24,952 - INFO - Train Epoch 12: 160/245 Loss: 16.353731
+2022-07-14 22:18:31,098 - INFO - Train Epoch 12: 180/245 Loss: 16.565035
+2022-07-14 22:18:37,238 - INFO - Train Epoch 12: 200/245 Loss: 18.473604
+2022-07-14 22:18:43,418 - INFO - Train Epoch 12: 220/245 Loss: 17.408075
+2022-07-14 22:18:49,649 - INFO - Train Epoch 12: 240/245 Loss: 17.274548
+2022-07-14 22:18:50,892 - INFO - **********Train Epoch 12: averaged Loss: 16.936332, tf_ratio: 1.000000
+2022-07-14 22:18:59,928 - INFO - **********Val Epoch 12: average Loss: 17.434636
+2022-07-14 22:18:59,928 - INFO - **********Epoch 012:Training Time: 75.6778s/epoch, Inference Time: 9.0350s/epoch
+2022-07-14 22:19:00,236 - INFO - Train Epoch 13: 0/245 Loss: 16.277992
+2022-07-14 22:19:06,427 - INFO - Train Epoch 13: 20/245 Loss: 16.233276
+2022-07-14 22:19:12,604 - INFO - Train Epoch 13: 40/245 Loss: 18.692757
+2022-07-14 22:19:18,802 - INFO - Train Epoch 13: 60/245 Loss: 16.368654
+2022-07-14 22:19:24,964 - INFO - Train Epoch 13: 80/245 Loss: 15.805782
+2022-07-14 22:19:31,104 - INFO - Train Epoch 13: 100/245 Loss: 16.588867
+2022-07-14 22:19:37,273 - INFO - Train Epoch 13: 120/245 Loss: 15.986232
+2022-07-14 22:19:43,499 - INFO - Train Epoch 13: 140/245 Loss: 18.055290
+2022-07-14 22:19:49,650 - INFO - Train Epoch 13: 160/245 Loss: 15.983276
+2022-07-14 22:19:55,841 - INFO - Train Epoch 13: 180/245 Loss: 17.656523
+2022-07-14 22:20:02,035 - INFO - Train Epoch 13: 200/245 Loss: 16.941853
+2022-07-14 22:20:08,176 - INFO - Train Epoch 13: 220/245 Loss: 16.501953
+2022-07-14 22:20:14,321 - INFO - Train Epoch 13: 240/245 Loss: 17.000160
+2022-07-14 22:20:15,553 - INFO - **********Train Epoch 13: averaged Loss: 16.652410, tf_ratio: 1.000000
+2022-07-14 22:20:24,524 - INFO - **********Val Epoch 13: average Loss: 16.903109
+2022-07-14 22:20:24,525 - INFO - **********Epoch 013:Training Time: 75.6259s/epoch, Inference Time: 8.9706s/epoch
+2022-07-14 22:20:24,525 - INFO - *********************************Current best model saved!
+2022-07-14 22:20:24,840 - INFO - Train Epoch 14: 0/245 Loss: 17.614733
+2022-07-14 22:20:30,998 - INFO - Train Epoch 14: 20/245 Loss: 15.517786
+2022-07-14 22:20:37,147 - INFO - Train Epoch 14: 40/245 Loss: 15.635444
+2022-07-14 22:20:43,286 - INFO - Train Epoch 14: 60/245 Loss: 17.641994
+2022-07-14 22:20:49,434 - INFO - Train Epoch 14: 80/245 Loss: 15.930604
+2022-07-14 22:20:55,584 - INFO - Train Epoch 14: 100/245 Loss: 16.686460
+2022-07-14 22:21:01,715 - INFO - Train Epoch 14: 120/245 Loss: 17.053352
+2022-07-14 22:21:07,861 - INFO - Train Epoch 14: 140/245 Loss: 16.448793
+2022-07-14 22:21:14,012 - INFO - Train Epoch 14: 160/245 Loss: 17.020054
+2022-07-14 22:21:20,151 - INFO - Train Epoch 14: 180/245 Loss: 16.223660
+2022-07-14 22:21:26,282 - INFO - Train Epoch 14: 200/245 Loss: 16.116602
+2022-07-14 22:21:32,414 - INFO - Train Epoch 14: 220/245 Loss: 15.290772
+2022-07-14 22:21:38,552 - INFO - Train Epoch 14: 240/245 Loss: 16.778379
+2022-07-14 22:21:39,774 - INFO - **********Train Epoch 14: averaged Loss: 16.458674, tf_ratio: 1.000000
+2022-07-14 22:21:48,682 - INFO - **********Val Epoch 14: average Loss: 16.690145
+2022-07-14 22:21:48,683 - INFO - **********Epoch 014:Training Time: 75.2453s/epoch, Inference Time: 8.9077s/epoch
+2022-07-14 22:21:48,683 - INFO - *********************************Current best model saved!
+2022-07-14 22:21:48,993 - INFO - Train Epoch 15: 0/245 Loss: 14.895326
+2022-07-14 22:21:55,127 - INFO - Train Epoch 15: 20/245 Loss: 17.591599
+2022-07-14 22:22:01,252 - INFO - Train Epoch 15: 40/245 Loss: 15.763803
+2022-07-14 22:22:07,370 - INFO - Train Epoch 15: 60/245 Loss: 15.000313
+2022-07-14 22:22:13,505 - INFO - Train Epoch 15: 80/245 Loss: 16.252773
+2022-07-14 22:22:19,652 - INFO - Train Epoch 15: 100/245 Loss: 17.269691
+2022-07-14 22:22:25,783 - INFO - Train Epoch 15: 120/245 Loss: 14.957643
+2022-07-14 22:22:31,916 - INFO - Train Epoch 15: 140/245 Loss: 15.883131
+2022-07-14 22:22:38,038 - INFO - Train Epoch 15: 160/245 Loss: 16.489283
+2022-07-14 22:22:44,161 - INFO - Train Epoch 15: 180/245 Loss: 16.344963
+2022-07-14 22:22:50,272 - INFO - Train Epoch 15: 200/245 Loss: 16.053354
+2022-07-14 22:22:56,412 - INFO - Train Epoch 15: 220/245 Loss: 15.430957
+2022-07-14 22:23:02,549 - INFO - Train Epoch 15: 240/245 Loss: 14.530538
+2022-07-14 22:23:03,790 - INFO - **********Train Epoch 15: averaged Loss: 16.395185, tf_ratio: 1.000000
+2022-07-14 22:23:12,696 - INFO - **********Val Epoch 15: average Loss: 16.499675
+2022-07-14 22:23:12,696 - INFO - **********Epoch 015:Training Time: 75.1035s/epoch, Inference Time: 8.9046s/epoch
+2022-07-14 22:23:12,696 - INFO - *********************************Current best model saved!
+2022-07-14 22:23:13,006 - INFO - Train Epoch 16: 0/245 Loss: 18.030613
+2022-07-14 22:23:19,136 - INFO - Train Epoch 16: 20/245 Loss: 15.928135
+2022-07-14 22:23:25,251 - INFO - Train Epoch 16: 40/245 Loss: 16.734419
+2022-07-14 22:23:31,351 - INFO - Train Epoch 16: 60/245 Loss: 17.412317
+2022-07-14 22:23:37,480 - INFO - Train Epoch 16: 80/245 Loss: 15.749158
+2022-07-14 22:23:43,617 - INFO - Train Epoch 16: 100/245 Loss: 15.512143
+2022-07-14 22:23:49,755 - INFO - Train Epoch 16: 120/245 Loss: 16.702448
+2022-07-14 22:23:55,889 - INFO - Train Epoch 16: 140/245 Loss: 17.073313
+2022-07-14 22:24:02,012 - INFO - Train Epoch 16: 160/245 Loss: 16.163950
+2022-07-14 22:24:08,127 - INFO - Train Epoch 16: 180/245 Loss: 16.814369
+2022-07-14 22:24:14,240 - INFO - Train Epoch 16: 200/245 Loss: 16.200953
+2022-07-14 22:24:20,368 - INFO - Train Epoch 16: 220/245 Loss: 16.190506
+2022-07-14 22:24:26,496 - INFO - Train Epoch 16: 240/245 Loss: 16.297838
+2022-07-14 22:24:27,722 - INFO - **********Train Epoch 16: averaged Loss: 16.340600, tf_ratio: 1.000000
+2022-07-14 22:24:36,630 - INFO - **********Val Epoch 16: average Loss: 16.301726
+2022-07-14 22:24:36,631 - INFO - **********Epoch 016:Training Time: 75.0223s/epoch, Inference Time: 8.9075s/epoch
+2022-07-14 22:24:36,631 - INFO - *********************************Current best model saved!
+2022-07-14 22:24:36,941 - INFO - Train Epoch 17: 0/245 Loss: 16.472826
+2022-07-14 22:24:43,053 - INFO - Train Epoch 17: 20/245 Loss: 15.641926
+2022-07-14 22:24:49,163 - INFO - Train Epoch 17: 40/245 Loss: 16.246325
+2022-07-14 22:24:55,304 - INFO - Train Epoch 17: 60/245 Loss: 17.708786
+2022-07-14 22:25:01,448 - INFO - Train Epoch 17: 80/245 Loss: 16.211637
+2022-07-14 22:25:07,569 - INFO - Train Epoch 17: 100/245 Loss: 16.523718
+2022-07-14 22:25:13,687 - INFO - Train Epoch 17: 120/245 Loss: 16.133690
+2022-07-14 22:25:19,788 - INFO - Train Epoch 17: 140/245 Loss: 15.173118
+2022-07-14 22:25:25,924 - INFO - Train Epoch 17: 160/245 Loss: 16.147631
+2022-07-14 22:25:32,061 - INFO - Train Epoch 17: 180/245 Loss: 14.919444
+2022-07-14 22:25:38,202 - INFO - Train Epoch 17: 200/245 Loss: 14.732576
+2022-07-14 22:25:44,324 - INFO - Train Epoch 17: 220/245 Loss: 16.265163
+2022-07-14 22:25:50,432 - INFO - Train Epoch 17: 240/245 Loss: 16.265409
+2022-07-14 22:25:51,650 - INFO - **********Train Epoch 17: averaged Loss: 16.055927, tf_ratio: 1.000000
+2022-07-14 22:26:00,565 - INFO - **********Val Epoch 17: average Loss: 15.972131
+2022-07-14 22:26:00,566 - INFO - **********Epoch 017:Training Time: 75.0156s/epoch, Inference Time: 8.9142s/epoch
+2022-07-14 22:26:00,566 - INFO - *********************************Current best model saved!
+2022-07-14 22:26:00,878 - INFO - Train Epoch 18: 0/245 Loss: 14.321263
+2022-07-14 22:26:07,000 - INFO - Train Epoch 18: 20/245 Loss: 15.462647
+2022-07-14 22:26:13,134 - INFO - Train Epoch 18: 40/245 Loss: 14.811740
+2022-07-14 22:26:19,269 - INFO - Train Epoch 18: 60/245 Loss: 16.495829
+2022-07-14 22:26:25,404 - INFO - Train Epoch 18: 80/245 Loss: 17.236317
+2022-07-14 22:26:31,518 - INFO - Train Epoch 18: 100/245 Loss: 15.810822
+2022-07-14 22:26:37,620 - INFO - Train Epoch 18: 120/245 Loss: 14.598857
+2022-07-14 22:26:43,754 - INFO - Train Epoch 18: 140/245 Loss: 15.138724
+2022-07-14 22:26:49,887 - INFO - Train Epoch 18: 160/245 Loss: 15.711693
+2022-07-14 22:26:56,019 - INFO - Train Epoch 18: 180/245 Loss: 16.129072
+2022-07-14 22:27:02,136 - INFO - Train Epoch 18: 200/245 Loss: 14.035102
+2022-07-14 22:27:08,233 - INFO - Train Epoch 18: 220/245 Loss: 15.974419
+2022-07-14 22:27:14,376 - INFO - Train Epoch 18: 240/245 Loss: 16.751066
+2022-07-14 22:27:15,616 - INFO - **********Train Epoch 18: averaged Loss: 15.858039, tf_ratio: 1.000000
+2022-07-14 22:27:24,513 - INFO - **********Val Epoch 18: average Loss: 15.834849
+2022-07-14 22:27:24,515 - INFO - **********Epoch 018:Training Time: 75.0467s/epoch, Inference Time: 8.8977s/epoch
+2022-07-14 22:27:24,515 - INFO - *********************************Current best model saved!
+2022-07-14 22:27:24,829 - INFO - Train Epoch 19: 0/245 Loss: 15.501124
+2022-07-14 22:27:30,953 - INFO - Train Epoch 19: 20/245 Loss: 16.163345
+2022-07-14 22:27:37,087 - INFO - Train Epoch 19: 40/245 Loss: 16.803053
+2022-07-14 22:27:43,229 - INFO - Train Epoch 19: 60/245 Loss: 16.248024
+2022-07-14 22:27:49,377 - INFO - Train Epoch 19: 80/245 Loss: 15.973426
+2022-07-14 22:27:55,521 - INFO - Train Epoch 19: 100/245 Loss: 15.786654
+2022-07-14 22:28:01,672 - INFO - Train Epoch 19: 120/245 Loss: 15.838255
+2022-07-14 22:28:07,820 - INFO - Train Epoch 19: 140/245 Loss: 14.913972
+2022-07-14 22:28:13,963 - INFO - Train Epoch 19: 160/245 Loss: 15.668999
+2022-07-14 22:28:20,117 - INFO - Train Epoch 19: 180/245 Loss: 15.054470
+2022-07-14 22:28:26,275 - INFO - Train Epoch 19: 200/245 Loss: 14.123820
+2022-07-14 22:28:32,414 - INFO - Train Epoch 19: 220/245 Loss: 14.636452
+2022-07-14 22:28:38,560 - INFO - Train Epoch 19: 240/245 Loss: 16.533600
+2022-07-14 22:28:39,788 - INFO - **********Train Epoch 19: averaged Loss: 15.785329, tf_ratio: 1.000000
+2022-07-14 22:28:48,757 - INFO - **********Val Epoch 19: average Loss: 16.394686
+2022-07-14 22:28:48,758 - INFO - **********Epoch 019:Training Time: 75.2691s/epoch, Inference Time: 8.9687s/epoch
+2022-07-14 22:28:49,066 - INFO - Train Epoch 20: 0/245 Loss: 16.063540
+2022-07-14 22:28:55,246 - INFO - Train Epoch 20: 20/245 Loss: 16.494204
+2022-07-14 22:29:01,398 - INFO - Train Epoch 20: 40/245 Loss: 15.499811
+2022-07-14 22:29:07,557 - INFO - Train Epoch 20: 60/245 Loss: 16.486666
+2022-07-14 22:29:13,697 - INFO - Train Epoch 20: 80/245 Loss: 15.953776
+2022-07-14 22:29:19,837 - INFO - Train Epoch 20: 100/245 Loss: 15.845791
+2022-07-14 22:29:25,994 - INFO - Train Epoch 20: 120/245 Loss: 15.718701
+2022-07-14 22:29:32,195 - INFO - Train Epoch 20: 140/245 Loss: 15.131459
+2022-07-14 22:29:38,376 - INFO - Train Epoch 20: 160/245 Loss: 16.638950
+2022-07-14 22:29:44,533 - INFO - Train Epoch 20: 180/245 Loss: 14.446353
+2022-07-14 22:29:50,701 - INFO - Train Epoch 20: 200/245 Loss: 15.785172
+2022-07-14 22:29:56,899 - INFO - Train Epoch 20: 220/245 Loss: 15.366758
+2022-07-14 22:30:03,057 - INFO - Train Epoch 20: 240/245 Loss: 15.672793
+2022-07-14 22:30:04,286 - INFO - **********Train Epoch 20: averaged Loss: 15.618355, tf_ratio: 1.000000
+2022-07-14 22:30:13,288 - INFO - **********Val Epoch 20: average Loss: 15.526123
+2022-07-14 22:30:13,288 - INFO - **********Epoch 020:Training Time: 75.5291s/epoch, Inference Time: 9.0009s/epoch
+2022-07-14 22:30:13,288 - INFO - *********************************Current best model saved!
+2022-07-14 22:30:13,604 - INFO - Train Epoch 21: 0/245 Loss: 14.881914
+2022-07-14 22:30:19,762 - INFO - Train Epoch 21: 20/245 Loss: 15.863293
+2022-07-14 22:30:25,900 - INFO - Train Epoch 21: 40/245 Loss: 15.783091
+2022-07-14 22:30:32,042 - INFO - Train Epoch 21: 60/245 Loss: 15.758797
+2022-07-14 22:30:38,236 - INFO - Train Epoch 21: 80/245 Loss: 15.469289
+2022-07-14 22:30:44,517 - INFO - Train Epoch 21: 100/245 Loss: 15.769028
+2022-07-14 22:30:50,777 - INFO - Train Epoch 21: 120/245 Loss: 15.566928
+2022-07-14 22:30:56,942 - INFO - Train Epoch 21: 140/245 Loss: 15.450045
+2022-07-14 22:31:03,203 - INFO - Train Epoch 21: 160/245 Loss: 16.049814
+2022-07-14 22:31:09,464 - INFO - Train Epoch 21: 180/245 Loss: 15.415683
+2022-07-14 22:31:15,694 - INFO - Train Epoch 21: 200/245 Loss: 14.813013
+2022-07-14 22:31:21,963 - INFO - Train Epoch 21: 220/245 Loss: 15.131105
+2022-07-14 22:31:28,221 - INFO - Train Epoch 21: 240/245 Loss: 14.372994
+2022-07-14 22:31:29,473 - INFO - **********Train Epoch 21: averaged Loss: 15.425971, tf_ratio: 1.000000
+2022-07-14 22:31:38,640 - INFO - **********Val Epoch 21: average Loss: 15.745055
+2022-07-14 22:31:38,641 - INFO - **********Epoch 021:Training Time: 76.1813s/epoch, Inference Time: 9.1666s/epoch
+2022-07-14 22:31:38,949 - INFO - Train Epoch 22: 0/245 Loss: 15.295715
+2022-07-14 22:31:45,170 - INFO - Train Epoch 22: 20/245 Loss: 15.921147
+2022-07-14 22:31:51,391 - INFO - Train Epoch 22: 40/245 Loss: 15.818201
+2022-07-14 22:31:57,560 - INFO - Train Epoch 22: 60/245 Loss: 17.409771
+2022-07-14 22:32:03,709 - INFO - Train Epoch 22: 80/245 Loss: 14.661010
+2022-07-14 22:32:09,949 - INFO - Train Epoch 22: 100/245 Loss: 15.168105
+2022-07-14 22:32:16,182 - INFO - Train Epoch 22: 120/245 Loss: 14.827079
+2022-07-14 22:32:22,334 - INFO - Train Epoch 22: 140/245 Loss: 13.820208
+2022-07-14 22:32:28,485 - INFO - Train Epoch 22: 160/245 Loss: 15.018222
+2022-07-14 22:32:34,638 - INFO - Train Epoch 22: 180/245 Loss: 16.148649
+2022-07-14 22:32:40,879 - INFO - Train Epoch 22: 200/245 Loss: 14.381311
+2022-07-14 22:32:47,124 - INFO - Train Epoch 22: 220/245 Loss: 14.663330
+2022-07-14 22:32:53,268 - INFO - Train Epoch 22: 240/245 Loss: 15.095138
+2022-07-14 22:32:54,490 - INFO - **********Train Epoch 22: averaged Loss: 15.453857, tf_ratio: 1.000000
+2022-07-14 22:33:03,461 - INFO - **********Val Epoch 22: average Loss: 15.696497
+2022-07-14 22:33:03,462 - INFO - **********Epoch 022:Training Time: 75.8505s/epoch, Inference Time: 8.9702s/epoch
+2022-07-14 22:33:03,768 - INFO - Train Epoch 23: 0/245 Loss: 14.877655
+2022-07-14 22:33:09,933 - INFO - Train Epoch 23: 20/245 Loss: 15.357079
+2022-07-14 22:33:16,073 - INFO - Train Epoch 23: 40/245 Loss: 15.492661
+2022-07-14 22:33:22,211 - INFO - Train Epoch 23: 60/245 Loss: 14.413217
+2022-07-14 22:33:28,334 - INFO - Train Epoch 23: 80/245 Loss: 16.341684
+2022-07-14 22:33:34,456 - INFO - Train Epoch 23: 100/245 Loss: 15.964593
+2022-07-14 22:33:40,562 - INFO - Train Epoch 23: 120/245 Loss: 17.021503
+2022-07-14 22:33:46,701 - INFO - Train Epoch 23: 140/245 Loss: 15.424263
+2022-07-14 22:33:52,839 - INFO - Train Epoch 23: 160/245 Loss: 15.780170
+2022-07-14 22:33:58,968 - INFO - Train Epoch 23: 180/245 Loss: 15.539783
+2022-07-14 22:34:05,094 - INFO - Train Epoch 23: 200/245 Loss: 14.364487
+2022-07-14 22:34:11,202 - INFO - Train Epoch 23: 220/245 Loss: 15.110452
+2022-07-14 22:34:17,321 - INFO - Train Epoch 23: 240/245 Loss: 14.908794
+2022-07-14 22:34:18,551 - INFO - **********Train Epoch 23: averaged Loss: 15.328266, tf_ratio: 1.000000
+2022-07-14 22:34:27,475 - INFO - **********Val Epoch 23: average Loss: 16.885716
+2022-07-14 22:34:27,475 - INFO - **********Epoch 023:Training Time: 75.0913s/epoch, Inference Time: 8.9224s/epoch
+2022-07-14 22:34:27,781 - INFO - Train Epoch 24: 0/245 Loss: 16.918856
+2022-07-14 22:34:33,901 - INFO - Train Epoch 24: 20/245 Loss: 15.691510
+2022-07-14 22:34:40,021 - INFO - Train Epoch 24: 40/245 Loss: 16.458614
+2022-07-14 22:34:46,139 - INFO - Train Epoch 24: 60/245 Loss: 14.984627
+2022-07-14 22:34:52,244 - INFO - Train Epoch 24: 80/245 Loss: 16.144094
+2022-07-14 22:34:58,372 - INFO - Train Epoch 24: 100/245 Loss: 15.998429
+2022-07-14 22:35:04,502 - INFO - Train Epoch 24: 120/245 Loss: 15.836596
+2022-07-14 22:35:10,622 - INFO - Train Epoch 24: 140/245 Loss: 14.361530
+2022-07-14 22:35:16,720 - INFO - Train Epoch 24: 160/245 Loss: 14.379631
+2022-07-14 22:35:22,850 - INFO - Train Epoch 24: 180/245 Loss: 14.571396
+2022-07-14 22:35:28,962 - INFO - Train Epoch 24: 200/245 Loss: 14.683505
+2022-07-14 22:35:35,062 - INFO - Train Epoch 24: 220/245 Loss: 14.989420
+2022-07-14 22:35:41,183 - INFO - Train Epoch 24: 240/245 Loss: 15.431334
+2022-07-14 22:35:42,412 - INFO - **********Train Epoch 24: averaged Loss: 15.219130, tf_ratio: 1.000000
+2022-07-14 22:35:51,310 - INFO - **********Val Epoch 24: average Loss: 15.492318
+2022-07-14 22:35:51,310 - INFO - **********Epoch 024:Training Time: 74.9378s/epoch, Inference Time: 8.8971s/epoch
+2022-07-14 22:35:51,310 - INFO - *********************************Current best model saved!
+2022-07-14 22:35:51,620 - INFO - Train Epoch 25: 0/245 Loss: 15.515829
+2022-07-14 22:35:57,725 - INFO - Train Epoch 25: 20/245 Loss: 15.757201
+2022-07-14 22:36:03,825 - INFO - Train Epoch 25: 40/245 Loss: 15.708623
+2022-07-14 22:36:09,944 - INFO - Train Epoch 25: 60/245 Loss: 15.001649
+2022-07-14 22:36:16,050 - INFO - Train Epoch 25: 80/245 Loss: 16.313766
+2022-07-14 22:36:22,152 - INFO - Train Epoch 25: 100/245 Loss: 16.320778
+2022-07-14 22:36:28,273 - INFO - Train Epoch 25: 120/245 Loss: 15.209117
+2022-07-14 22:36:34,379 - INFO - Train Epoch 25: 140/245 Loss: 14.804457
+2022-07-14 22:36:40,481 - INFO - Train Epoch 25: 160/245 Loss: 15.345245
+2022-07-14 22:36:46,607 - INFO - Train Epoch 25: 180/245 Loss: 15.489593
+2022-07-14 22:36:52,720 - INFO - Train Epoch 25: 200/245 Loss: 14.518293
+2022-07-14 22:37:02,454 - INFO - Train Epoch 25: 220/245 Loss: 15.004866
+2022-07-14 22:37:08,537 - INFO - Train Epoch 25: 240/245 Loss: 14.851146
+2022-07-14 22:37:09,755 - INFO - **********Train Epoch 25: averaged Loss: 15.033561, tf_ratio: 1.000000
+2022-07-14 22:37:18,614 - INFO - **********Val Epoch 25: average Loss: 15.526959
+2022-07-14 22:37:18,616 - INFO - **********Epoch 025:Training Time: 78.4414s/epoch, Inference Time: 8.8595s/epoch
+2022-07-14 22:37:18,921 - INFO - Train Epoch 26: 0/245 Loss: 14.288086
+2022-07-14 22:37:25,005 - INFO - Train Epoch 26: 20/245 Loss: 15.130505
+2022-07-14 22:37:31,091 - INFO - Train Epoch 26: 40/245 Loss: 15.176904
+2022-07-14 22:37:37,206 - INFO - Train Epoch 26: 60/245 Loss: 16.348995
+2022-07-14 22:37:43,318 - INFO - Train Epoch 26: 80/245 Loss: 15.123039
+2022-07-14 22:37:49,414 - INFO - Train Epoch 26: 100/245 Loss: 15.423806
+2022-07-14 22:37:55,535 - INFO - Train Epoch 26: 120/245 Loss: 15.482494
+2022-07-14 22:38:01,660 - INFO - Train Epoch 26: 140/245 Loss: 15.402613
+2022-07-14 22:38:07,769 - INFO - Train Epoch 26: 160/245 Loss: 16.789816
+2022-07-14 22:38:13,871 - INFO - Train Epoch 26: 180/245 Loss: 12.567516
+2022-07-14 22:38:20,002 - INFO - Train Epoch 26: 200/245 Loss: 16.028406
+2022-07-14 22:38:26,116 - INFO - Train Epoch 26: 220/245 Loss: 14.572107
+2022-07-14 22:38:32,219 - INFO - Train Epoch 26: 240/245 Loss: 14.389914
+2022-07-14 22:38:33,441 - INFO - **********Train Epoch 26: averaged Loss: 14.954383, tf_ratio: 1.000000
+2022-07-14 22:38:42,356 - INFO - **********Val Epoch 26: average Loss: 15.297481
+2022-07-14 22:38:42,356 - INFO - **********Epoch 026:Training Time: 74.8264s/epoch, Inference Time: 8.9133s/epoch
+2022-07-14 22:38:42,356 - INFO - *********************************Current best model saved!
+2022-07-14 22:38:42,666 - INFO - Train Epoch 27: 0/245 Loss: 14.739985
+2022-07-14 22:38:48,789 - INFO - Train Epoch 27: 20/245 Loss: 15.983603
+2022-07-14 22:38:54,902 - INFO - Train Epoch 27: 40/245 Loss: 14.866615
+2022-07-14 22:39:01,021 - INFO - Train Epoch 27: 60/245 Loss: 16.084282
+2022-07-14 22:39:07,122 - INFO - Train Epoch 27: 80/245 Loss: 14.446891
+2022-07-14 22:39:13,257 - INFO - Train Epoch 27: 100/245 Loss: 14.235116
+2022-07-14 22:39:19,377 - INFO - Train Epoch 27: 120/245 Loss: 14.610241
+2022-07-14 22:39:25,479 - INFO - Train Epoch 27: 140/245 Loss: 16.383718
+2022-07-14 22:39:31,605 - INFO - Train Epoch 27: 160/245 Loss: 14.492785
+2022-07-14 22:39:37,735 - INFO - Train Epoch 27: 180/245 Loss: 14.436285
+2022-07-14 22:39:43,851 - INFO - Train Epoch 27: 200/245 Loss: 15.059306
+2022-07-14 22:39:49,950 - INFO - Train Epoch 27: 220/245 Loss: 15.286993
+2022-07-14 22:39:56,073 - INFO - Train Epoch 27: 240/245 Loss: 14.407992
+2022-07-14 22:39:57,314 - INFO - **********Train Epoch 27: averaged Loss: 14.973212, tf_ratio: 1.000000
+2022-07-14 22:40:06,204 - INFO - **********Val Epoch 27: average Loss: 15.076146
+2022-07-14 22:40:06,204 - INFO - **********Epoch 027:Training Time: 74.9542s/epoch, Inference Time: 8.8886s/epoch
+2022-07-14 22:40:06,204 - INFO - *********************************Current best model saved!
+2022-07-14 22:40:06,514 - INFO - Train Epoch 28: 0/245 Loss: 14.434816
+2022-07-14 22:40:12,640 - INFO - Train Epoch 28: 20/245 Loss: 14.339079
+2022-07-14 22:40:18,744 - INFO - Train Epoch 28: 40/245 Loss: 15.195189
+2022-07-14 22:40:24,871 - INFO - Train Epoch 28: 60/245 Loss: 14.974002
+2022-07-14 22:40:31,000 - INFO - Train Epoch 28: 80/245 Loss: 13.600877
+2022-07-14 22:40:37,118 - INFO - Train Epoch 28: 100/245 Loss: 16.500414
+2022-07-14 22:40:43,232 - INFO - Train Epoch 28: 120/245 Loss: 15.868242
+2022-07-14 22:40:49,333 - INFO - Train Epoch 28: 140/245 Loss: 15.530610
+2022-07-14 22:40:55,470 - INFO - Train Epoch 28: 160/245 Loss: 14.411296
+2022-07-14 22:41:01,590 - INFO - Train Epoch 28: 180/245 Loss: 14.916435
+2022-07-14 22:41:07,700 - INFO - Train Epoch 28: 200/245 Loss: 15.155426
+2022-07-14 22:41:13,800 - INFO - Train Epoch 28: 220/245 Loss: 14.159108
+2022-07-14 22:41:19,928 - INFO - Train Epoch 28: 240/245 Loss: 15.055353
+2022-07-14 22:41:21,152 - INFO - **********Train Epoch 28: averaged Loss: 14.860627, tf_ratio: 1.000000
+2022-07-14 22:41:30,062 - INFO - **********Val Epoch 28: average Loss: 15.256384
+2022-07-14 22:41:30,062 - INFO - **********Epoch 028:Training Time: 74.9446s/epoch, Inference Time: 8.9087s/epoch
+2022-07-14 22:41:30,368 - INFO - Train Epoch 29: 0/245 Loss: 15.803917
+2022-07-14 22:41:36,485 - INFO - Train Epoch 29: 20/245 Loss: 15.439157
+2022-07-14 22:41:42,596 - INFO - Train Epoch 29: 40/245 Loss: 15.769995
+2022-07-14 22:41:48,723 - INFO - Train Epoch 29: 60/245 Loss: 14.716131
+2022-07-14 22:41:54,855 - INFO - Train Epoch 29: 80/245 Loss: 15.705255
+2022-07-14 22:42:00,969 - INFO - Train Epoch 29: 100/245 Loss: 14.585709
+2022-07-14 22:42:07,068 - INFO - Train Epoch 29: 120/245 Loss: 14.571391
+2022-07-14 22:42:13,200 - INFO - Train Epoch 29: 140/245 Loss: 14.580170
+2022-07-14 22:42:19,323 - INFO - Train Epoch 29: 160/245 Loss: 13.968006
+2022-07-14 22:42:25,452 - INFO - Train Epoch 29: 180/245 Loss: 14.701563
+2022-07-14 22:42:31,570 - INFO - Train Epoch 29: 200/245 Loss: 16.073708
+2022-07-14 22:42:37,688 - INFO - Train Epoch 29: 220/245 Loss: 14.905815
+2022-07-14 22:42:43,827 - INFO - Train Epoch 29: 240/245 Loss: 14.604302
+2022-07-14 22:42:45,056 - INFO - **********Train Epoch 29: averaged Loss: 14.811834, tf_ratio: 1.000000
+2022-07-14 22:42:54,002 - INFO - **********Val Epoch 29: average Loss: 15.157558
+2022-07-14 22:42:54,003 - INFO - **********Epoch 029:Training Time: 74.9947s/epoch, Inference Time: 8.9457s/epoch
+2022-07-14 22:42:54,308 - INFO - Train Epoch 30: 0/245 Loss: 14.452003
+2022-07-14 22:43:00,431 - INFO - Train Epoch 30: 20/245 Loss: 14.828047
+2022-07-14 22:43:06,571 - INFO - Train Epoch 30: 40/245 Loss: 15.123118
+2022-07-14 22:43:12,717 - INFO - Train Epoch 30: 60/245 Loss: 15.928823
+2022-07-14 22:43:18,868 - INFO - Train Epoch 30: 80/245 Loss: 14.832108
+2022-07-14 22:43:25,008 - INFO - Train Epoch 30: 100/245 Loss: 15.314054
+2022-07-14 22:43:31,165 - INFO - Train Epoch 30: 120/245 Loss: 15.455282
+2022-07-14 22:43:37,289 - INFO - Train Epoch 30: 140/245 Loss: 14.824261
+2022-07-14 22:43:43,451 - INFO - Train Epoch 30: 160/245 Loss: 14.490033
+2022-07-14 22:43:49,593 - INFO - Train Epoch 30: 180/245 Loss: 14.183351
+2022-07-14 22:43:55,745 - INFO - Train Epoch 30: 200/245 Loss: 14.513476
+2022-07-14 22:44:01,936 - INFO - Train Epoch 30: 220/245 Loss: 13.993734
+2022-07-14 22:44:08,105 - INFO - Train Epoch 30: 240/245 Loss: 15.992708
+2022-07-14 22:44:09,344 - INFO - **********Train Epoch 30: averaged Loss: 14.731576, tf_ratio: 1.000000
+2022-07-14 22:44:18,306 - INFO - **********Val Epoch 30: average Loss: 15.392537
+2022-07-14 22:44:18,306 - INFO - **********Epoch 030:Training Time: 75.3431s/epoch, Inference Time: 8.9604s/epoch
+2022-07-14 22:44:18,614 - INFO - Train Epoch 31: 0/245 Loss: 15.152410
+2022-07-14 22:44:24,786 - INFO - Train Epoch 31: 20/245 Loss: 14.821906
+2022-07-14 22:44:30,944 - INFO - Train Epoch 31: 40/245 Loss: 13.913312
+2022-07-14 22:44:37,094 - INFO - Train Epoch 31: 60/245 Loss: 13.988030
+2022-07-14 22:44:43,239 - INFO - Train Epoch 31: 80/245 Loss: 15.835552
+2022-07-14 22:44:49,413 - INFO - Train Epoch 31: 100/245 Loss: 14.958340
+2022-07-14 22:44:55,639 - INFO - Train Epoch 31: 120/245 Loss: 14.684642
+2022-07-14 22:45:01,792 - INFO - Train Epoch 31: 140/245 Loss: 14.575300
+2022-07-14 22:45:07,941 - INFO - Train Epoch 31: 160/245 Loss: 13.959721
+2022-07-14 22:45:14,160 - INFO - Train Epoch 31: 180/245 Loss: 14.167270
+2022-07-14 22:45:20,449 - INFO - Train Epoch 31: 200/245 Loss: 14.016028
+2022-07-14 22:45:26,689 - INFO - Train Epoch 31: 220/245 Loss: 14.986952
+2022-07-14 22:45:32,932 - INFO - Train Epoch 31: 240/245 Loss: 13.449619
+2022-07-14 22:45:34,172 - INFO - **********Train Epoch 31: averaged Loss: 14.665435, tf_ratio: 1.000000
+2022-07-14 22:45:43,335 - INFO - **********Val Epoch 31: average Loss: 14.991751
+2022-07-14 22:45:43,335 - INFO - **********Epoch 031:Training Time: 75.8670s/epoch, Inference Time: 9.1619s/epoch
+2022-07-14 22:45:43,336 - INFO - *********************************Current best model saved!
+2022-07-14 22:45:43,653 - INFO - Train Epoch 32: 0/245 Loss: 13.441127
+2022-07-14 22:45:49,819 - INFO - Train Epoch 32: 20/245 Loss: 14.352455
+2022-07-14 22:45:55,972 - INFO - Train Epoch 32: 40/245 Loss: 14.214186
+2022-07-14 22:46:02,217 - INFO - Train Epoch 32: 60/245 Loss: 14.700071
+2022-07-14 22:46:08,484 - INFO - Train Epoch 32: 80/245 Loss: 14.883601
+2022-07-14 22:46:14,755 - INFO - Train Epoch 32: 100/245 Loss: 15.280490
+2022-07-14 22:46:20,988 - INFO - Train Epoch 32: 120/245 Loss: 15.671446
+2022-07-14 22:46:27,204 - INFO - Train Epoch 32: 140/245 Loss: 14.417652
+2022-07-14 22:46:33,419 - INFO - Train Epoch 32: 160/245 Loss: 15.327318
+2022-07-14 22:46:39,615 - INFO - Train Epoch 32: 180/245 Loss: 15.136901
+2022-07-14 22:46:45,842 - INFO - Train Epoch 32: 200/245 Loss: 14.831419
+2022-07-14 22:46:51,995 - INFO - Train Epoch 32: 220/245 Loss: 13.840178
+2022-07-14 22:46:58,211 - INFO - Train Epoch 32: 240/245 Loss: 14.619535
+2022-07-14 22:46:59,452 - INFO - **********Train Epoch 32: averaged Loss: 14.700376, tf_ratio: 1.000000
+2022-07-14 22:47:08,570 - INFO - **********Val Epoch 32: average Loss: 14.991145
+2022-07-14 22:47:08,571 - INFO - **********Epoch 032:Training Time: 76.1126s/epoch, Inference Time: 9.1169s/epoch
+2022-07-14 22:47:08,571 - INFO - *********************************Current best model saved!
+2022-07-14 22:47:08,886 - INFO - Train Epoch 33: 0/245 Loss: 14.708900
+2022-07-14 22:47:15,075 - INFO - Train Epoch 33: 20/245 Loss: 15.022985
+2022-07-14 22:47:21,269 - INFO - Train Epoch 33: 40/245 Loss: 14.583815
+2022-07-14 22:47:27,427 - INFO - Train Epoch 33: 60/245 Loss: 14.310743
+2022-07-14 22:47:33,640 - INFO - Train Epoch 33: 80/245 Loss: 13.481782
+2022-07-14 22:47:39,820 - INFO - Train Epoch 33: 100/245 Loss: 14.786772
+2022-07-14 22:47:46,037 - INFO - Train Epoch 33: 120/245 Loss: 15.256805
+2022-07-14 22:47:52,191 - INFO - Train Epoch 33: 140/245 Loss: 13.117248
+2022-07-14 22:47:58,341 - INFO - Train Epoch 33: 160/245 Loss: 14.040253
+2022-07-14 22:48:04,493 - INFO - Train Epoch 33: 180/245 Loss: 14.897549
+2022-07-14 22:48:10,685 - INFO - Train Epoch 33: 200/245 Loss: 14.314681
+2022-07-14 22:48:16,864 - INFO - Train Epoch 33: 220/245 Loss: 14.036411
+2022-07-14 22:48:23,015 - INFO - Train Epoch 33: 240/245 Loss: 14.550928
+2022-07-14 22:48:24,246 - INFO - **********Train Epoch 33: averaged Loss: 14.537994, tf_ratio: 1.000000
+2022-07-14 22:48:33,375 - INFO - **********Val Epoch 33: average Loss: 15.056934
+2022-07-14 22:48:33,375 - INFO - **********Epoch 033:Training Time: 75.6712s/epoch, Inference Time: 9.1278s/epoch
+2022-07-14 22:48:33,684 - INFO - Train Epoch 34: 0/245 Loss: 14.669675
+2022-07-14 22:48:39,876 - INFO - Train Epoch 34: 20/245 Loss: 14.114174
+2022-07-14 22:48:46,050 - INFO - Train Epoch 34: 40/245 Loss: 13.020229
+2022-07-14 22:48:52,204 - INFO - Train Epoch 34: 60/245 Loss: 14.660071
+2022-07-14 22:48:58,360 - INFO - Train Epoch 34: 80/245 Loss: 13.579749
+2022-07-14 22:49:04,538 - INFO - Train Epoch 34: 100/245 Loss: 13.555750
+2022-07-14 22:49:10,729 - INFO - Train Epoch 34: 120/245 Loss: 14.889225
+2022-07-14 22:49:16,882 - INFO - Train Epoch 34: 140/245 Loss: 14.900176
+2022-07-14 22:49:23,032 - INFO - Train Epoch 34: 160/245 Loss: 13.531775
+2022-07-14 22:49:29,212 - INFO - Train Epoch 34: 180/245 Loss: 13.335059
+2022-07-14 22:49:35,412 - INFO - Train Epoch 34: 200/245 Loss: 14.674474
+2022-07-14 22:49:41,565 - INFO - Train Epoch 34: 220/245 Loss: 15.146743
+2022-07-14 22:49:47,715 - INFO - Train Epoch 34: 240/245 Loss: 13.219581
+2022-07-14 22:49:48,947 - INFO - **********Train Epoch 34: averaged Loss: 14.458233, tf_ratio: 1.000000
+2022-07-14 22:49:58,033 - INFO - **********Val Epoch 34: average Loss: 14.754945
+2022-07-14 22:49:58,034 - INFO - **********Epoch 034:Training Time: 75.5729s/epoch, Inference Time: 9.0854s/epoch
+2022-07-14 22:49:58,034 - INFO - *********************************Current best model saved!
+2022-07-14 22:49:58,351 - INFO - Train Epoch 35: 0/245 Loss: 15.129501
+2022-07-14 22:50:04,507 - INFO - Train Epoch 35: 20/245 Loss: 13.985877
+2022-07-14 22:50:10,658 - INFO - Train Epoch 35: 40/245 Loss: 14.185876
+2022-07-14 22:50:16,825 - INFO - Train Epoch 35: 60/245 Loss: 15.055406
+2022-07-14 22:50:23,014 - INFO - Train Epoch 35: 80/245 Loss: 14.538593
+2022-07-14 22:50:29,176 - INFO - Train Epoch 35: 100/245 Loss: 13.559632
+2022-07-14 22:50:35,329 - INFO - Train Epoch 35: 120/245 Loss: 15.056980
+2022-07-14 22:50:41,482 - INFO - Train Epoch 35: 140/245 Loss: 15.404679
+2022-07-14 22:50:47,645 - INFO - Train Epoch 35: 160/245 Loss: 14.467532
+2022-07-14 22:50:53,825 - INFO - Train Epoch 35: 180/245 Loss: 14.810345
+2022-07-14 22:51:00,003 - INFO - Train Epoch 35: 200/245 Loss: 13.536733
+2022-07-14 22:51:06,154 - INFO - Train Epoch 35: 220/245 Loss: 14.247632
+2022-07-14 22:51:12,301 - INFO - Train Epoch 35: 240/245 Loss: 15.076893
+2022-07-14 22:51:13,535 - INFO - **********Train Epoch 35: averaged Loss: 14.414382, tf_ratio: 1.000000
+2022-07-14 22:51:22,610 - INFO - **********Val Epoch 35: average Loss: 14.950253
+2022-07-14 22:51:22,611 - INFO - **********Epoch 035:Training Time: 75.4976s/epoch, Inference Time: 9.0735s/epoch
+2022-07-14 22:51:22,919 - INFO - Train Epoch 36: 0/245 Loss: 14.437914
+2022-07-14 22:51:29,080 - INFO - Train Epoch 36: 20/245 Loss: 13.486919
+2022-07-14 22:51:35,232 - INFO - Train Epoch 36: 40/245 Loss: 14.798060
+2022-07-14 22:51:41,380 - INFO - Train Epoch 36: 60/245 Loss: 14.320271
+2022-07-14 22:51:47,534 - INFO - Train Epoch 36: 80/245 Loss: 14.474024
+2022-07-14 22:51:53,699 - INFO - Train Epoch 36: 100/245 Loss: 14.321022
+2022-07-14 22:51:59,877 - INFO - Train Epoch 36: 120/245 Loss: 14.488076
+2022-07-14 22:52:06,049 - INFO - Train Epoch 36: 140/245 Loss: 14.716973
+2022-07-14 22:52:12,197 - INFO - Train Epoch 36: 160/245 Loss: 14.414935
+2022-07-14 22:52:18,348 - INFO - Train Epoch 36: 180/245 Loss: 15.064011
+2022-07-14 22:52:24,498 - INFO - Train Epoch 36: 200/245 Loss: 14.735828
+2022-07-14 22:52:30,645 - INFO - Train Epoch 36: 220/245 Loss: 14.486867
+2022-07-14 22:52:41,515 - INFO - Train Epoch 36: 240/245 Loss: 14.145282
+2022-07-14 22:52:42,745 - INFO - **********Train Epoch 36: averaged Loss: 14.371579, tf_ratio: 1.000000
+2022-07-14 22:52:51,785 - INFO - **********Val Epoch 36: average Loss: 14.811960
+2022-07-14 22:52:51,785 - INFO - **********Epoch 036:Training Time: 80.1358s/epoch, Inference Time: 9.0387s/epoch
+2022-07-14 22:52:52,093 - INFO - Train Epoch 37: 0/245 Loss: 13.579481
+2022-07-14 22:52:58,239 - INFO - Train Epoch 37: 20/245 Loss: 15.313703
+2022-07-14 22:53:04,387 - INFO - Train Epoch 37: 40/245 Loss: 13.833806
+2022-07-14 22:53:10,534 - INFO - Train Epoch 37: 60/245 Loss: 15.299883
+2022-07-14 22:53:16,681 - INFO - Train Epoch 37: 80/245 Loss: 14.302338
+2022-07-14 22:53:22,835 - INFO - Train Epoch 37: 100/245 Loss: 13.308842
+2022-07-14 22:53:29,003 - INFO - Train Epoch 37: 120/245 Loss: 15.009564
+2022-07-14 22:53:35,154 - INFO - Train Epoch 37: 140/245 Loss: 15.326689
+2022-07-14 22:53:41,303 - INFO - Train Epoch 37: 160/245 Loss: 14.160533
+2022-07-14 22:53:47,466 - INFO - Train Epoch 37: 180/245 Loss: 14.717396
+2022-07-14 22:53:53,664 - INFO - Train Epoch 37: 200/245 Loss: 13.488666
+2022-07-14 22:53:59,832 - INFO - Train Epoch 37: 220/245 Loss: 14.587640
+2022-07-14 22:54:05,983 - INFO - Train Epoch 37: 240/245 Loss: 13.380146
+2022-07-14 22:54:07,214 - INFO - **********Train Epoch 37: averaged Loss: 14.375987, tf_ratio: 1.000000
+2022-07-14 22:54:16,314 - INFO - **********Val Epoch 37: average Loss: 14.961182
+2022-07-14 22:54:16,314 - INFO - **********Epoch 037:Training Time: 75.4297s/epoch, Inference Time: 9.0990s/epoch
+2022-07-14 22:54:16,626 - INFO - Train Epoch 38: 0/245 Loss: 13.470484
+2022-07-14 22:54:22,779 - INFO - Train Epoch 38: 20/245 Loss: 14.811651
+2022-07-14 22:54:28,932 - INFO - Train Epoch 38: 40/245 Loss: 13.972333
+2022-07-14 22:54:35,129 - INFO - Train Epoch 38: 60/245 Loss: 14.728519
+2022-07-14 22:54:41,301 - INFO - Train Epoch 38: 80/245 Loss: 14.501856
+2022-07-14 22:54:47,451 - INFO - Train Epoch 38: 100/245 Loss: 14.194656
+2022-07-14 22:54:53,600 - INFO - Train Epoch 38: 120/245 Loss: 14.290081
+2022-07-14 22:54:59,747 - INFO - Train Epoch 38: 140/245 Loss: 14.403797
+2022-07-14 22:55:05,895 - INFO - Train Epoch 38: 160/245 Loss: 15.180077
+2022-07-14 22:55:12,042 - INFO - Train Epoch 38: 180/245 Loss: 14.154479
+2022-07-14 22:55:18,232 - INFO - Train Epoch 38: 200/245 Loss: 14.178789
+2022-07-14 22:55:24,424 - INFO - Train Epoch 38: 220/245 Loss: 14.425256
+2022-07-14 22:55:30,579 - INFO - Train Epoch 38: 240/245 Loss: 14.925239
+2022-07-14 22:55:31,810 - INFO - **********Train Epoch 38: averaged Loss: 14.408309, tf_ratio: 1.000000
+2022-07-14 22:55:40,908 - INFO - **********Val Epoch 38: average Loss: 15.076407
+2022-07-14 22:55:40,908 - INFO - **********Epoch 038:Training Time: 75.4974s/epoch, Inference Time: 9.0964s/epoch
+2022-07-14 22:55:41,219 - INFO - Train Epoch 39: 0/245 Loss: 14.730407
+2022-07-14 22:55:47,367 - INFO - Train Epoch 39: 20/245 Loss: 14.261496
+2022-07-14 22:55:53,527 - INFO - Train Epoch 39: 40/245 Loss: 14.695101
+2022-07-14 22:55:59,732 - INFO - Train Epoch 39: 60/245 Loss: 14.292632
+2022-07-14 22:56:05,892 - INFO - Train Epoch 39: 80/245 Loss: 14.914019
+2022-07-14 22:56:12,042 - INFO - Train Epoch 39: 100/245 Loss: 13.834024
+2022-07-14 22:56:18,189 - INFO - Train Epoch 39: 120/245 Loss: 14.216588
+2022-07-14 22:56:24,338 - INFO - Train Epoch 39: 140/245 Loss: 12.570740
+2022-07-14 22:56:35,123 - INFO - Train Epoch 39: 160/245 Loss: 13.633960
+2022-07-14 22:56:41,271 - INFO - Train Epoch 39: 180/245 Loss: 14.995705
+2022-07-14 22:56:47,419 - INFO - Train Epoch 39: 200/245 Loss: 13.423075
+2022-07-14 22:56:53,592 - INFO - Train Epoch 39: 220/245 Loss: 14.393662
+2022-07-14 22:56:59,756 - INFO - Train Epoch 39: 240/245 Loss: 13.546197
+2022-07-14 22:57:00,987 - INFO - **********Train Epoch 39: averaged Loss: 14.256474, tf_ratio: 1.000000
+2022-07-14 22:57:10,096 - INFO - **********Val Epoch 39: average Loss: 14.742346
+2022-07-14 22:57:10,096 - INFO - **********Epoch 039:Training Time: 80.0804s/epoch, Inference Time: 9.1075s/epoch
+2022-07-14 22:57:10,096 - INFO - *********************************Current best model saved!
+2022-07-14 22:57:10,418 - INFO - Train Epoch 40: 0/245 Loss: 14.513083
+2022-07-14 22:57:16,635 - INFO - Train Epoch 40: 20/245 Loss: 14.037012
+2022-07-14 22:57:22,806 - INFO - Train Epoch 40: 40/245 Loss: 13.636415
+2022-07-14 22:57:28,959 - INFO - Train Epoch 40: 60/245 Loss: 14.562551
+2022-07-14 22:57:35,189 - INFO - Train Epoch 40: 80/245 Loss: 14.956784
+2022-07-14 22:57:41,441 - INFO - Train Epoch 40: 100/245 Loss: 16.165594
+2022-07-14 22:57:47,674 - INFO - Train Epoch 40: 120/245 Loss: 14.510199
+2022-07-14 22:57:53,894 - INFO - Train Epoch 40: 140/245 Loss: 13.242969
+2022-07-14 22:58:00,095 - INFO - Train Epoch 40: 160/245 Loss: 14.450530
+2022-07-14 22:58:06,318 - INFO - Train Epoch 40: 180/245 Loss: 13.866796
+2022-07-14 22:58:12,475 - INFO - Train Epoch 40: 200/245 Loss: 14.979321
+2022-07-14 22:58:18,628 - INFO - Train Epoch 40: 220/245 Loss: 14.634524
+2022-07-14 22:58:24,901 - INFO - Train Epoch 40: 240/245 Loss: 14.807673
+2022-07-14 22:58:26,158 - INFO - **********Train Epoch 40: averaged Loss: 14.258585, tf_ratio: 1.000000
+2022-07-14 22:58:35,331 - INFO - **********Val Epoch 40: average Loss: 14.748048
+2022-07-14 22:58:35,332 - INFO - **********Epoch 040:Training Time: 76.0574s/epoch, Inference Time: 9.1725s/epoch
+2022-07-14 22:58:35,646 - INFO - Train Epoch 41: 0/245 Loss: 13.269299
+2022-07-14 22:58:41,862 - INFO - Train Epoch 41: 20/245 Loss: 14.693098
+2022-07-14 22:58:48,011 - INFO - Train Epoch 41: 40/245 Loss: 14.424615
+2022-07-14 22:58:54,160 - INFO - Train Epoch 41: 60/245 Loss: 13.609916
+2022-07-14 22:59:00,411 - INFO - Train Epoch 41: 80/245 Loss: 13.882137
+2022-07-14 22:59:06,717 - INFO - Train Epoch 41: 100/245 Loss: 13.790551
+2022-07-14 22:59:12,950 - INFO - Train Epoch 41: 120/245 Loss: 14.647506
+2022-07-14 22:59:19,141 - INFO - Train Epoch 41: 140/245 Loss: 13.756693
+2022-07-14 22:59:25,291 - INFO - Train Epoch 41: 160/245 Loss: 13.787671
+2022-07-14 22:59:31,445 - INFO - Train Epoch 41: 180/245 Loss: 14.402644
+2022-07-14 22:59:37,776 - INFO - Train Epoch 41: 200/245 Loss: 14.986446
+2022-07-14 22:59:44,031 - INFO - Train Epoch 41: 220/245 Loss: 13.493717
+2022-07-14 22:59:50,270 - INFO - Train Epoch 41: 240/245 Loss: 14.621223
+2022-07-14 22:59:51,518 - INFO - **********Train Epoch 41: averaged Loss: 14.239876, tf_ratio: 1.000000
+2022-07-14 23:00:00,677 - INFO - **********Val Epoch 41: average Loss: 15.051742
+2022-07-14 23:00:00,678 - INFO - **********Epoch 041:Training Time: 76.1880s/epoch, Inference Time: 9.1578s/epoch
+2022-07-14 23:00:00,988 - INFO - Train Epoch 42: 0/245 Loss: 15.027159
+2022-07-14 23:00:07,174 - INFO - Train Epoch 42: 20/245 Loss: 12.515219
+2022-07-14 23:00:13,327 - INFO - Train Epoch 42: 40/245 Loss: 15.901833
+2022-07-14 23:00:19,571 - INFO - Train Epoch 42: 60/245 Loss: 13.824510
+2022-07-14 23:00:25,815 - INFO - Train Epoch 42: 80/245 Loss: 12.581511
+2022-07-14 23:00:32,010 - INFO - Train Epoch 42: 100/245 Loss: 13.453763
+2022-07-14 23:00:38,212 - INFO - Train Epoch 42: 120/245 Loss: 13.735049
+2022-07-14 23:00:44,441 - INFO - Train Epoch 42: 140/245 Loss: 13.961053
+2022-07-14 23:00:50,590 - INFO - Train Epoch 42: 160/245 Loss: 14.131266
+2022-07-14 23:00:56,738 - INFO - Train Epoch 42: 180/245 Loss: 13.304046
+2022-07-14 23:01:02,888 - INFO - Train Epoch 42: 200/245 Loss: 13.658406
+2022-07-14 23:01:09,119 - INFO - Train Epoch 42: 220/245 Loss: 13.613128
+2022-07-14 23:01:15,336 - INFO - Train Epoch 42: 240/245 Loss: 13.490222
+2022-07-14 23:01:16,580 - INFO - **********Train Epoch 42: averaged Loss: 14.179358, tf_ratio: 1.000000
+2022-07-14 23:01:25,671 - INFO - **********Val Epoch 42: average Loss: 15.024829
+2022-07-14 23:01:25,672 - INFO - **********Epoch 042:Training Time: 75.9042s/epoch, Inference Time: 9.0899s/epoch
+2022-07-14 23:01:25,982 - INFO - Train Epoch 43: 0/245 Loss: 15.290785
+2022-07-14 23:01:32,158 - INFO - Train Epoch 43: 20/245 Loss: 13.828460
+2022-07-14 23:01:38,320 - INFO - Train Epoch 43: 40/245 Loss: 13.568192
+2022-07-14 23:01:44,473 - INFO - Train Epoch 43: 60/245 Loss: 14.496818
+2022-07-14 23:01:50,678 - INFO - Train Epoch 43: 80/245 Loss: 14.898641
+2022-07-14 23:01:56,848 - INFO - Train Epoch 43: 100/245 Loss: 14.698603
+2022-07-14 23:02:02,996 - INFO - Train Epoch 43: 120/245 Loss: 15.391218
+2022-07-14 23:02:09,145 - INFO - Train Epoch 43: 140/245 Loss: 14.363217
+2022-07-14 23:02:15,351 - INFO - Train Epoch 43: 160/245 Loss: 14.881087
+2022-07-14 23:02:21,523 - INFO - Train Epoch 43: 180/245 Loss: 14.791260
+2022-07-14 23:02:27,674 - INFO - Train Epoch 43: 200/245 Loss: 13.058488
+2022-07-14 23:02:33,823 - INFO - Train Epoch 43: 220/245 Loss: 14.485386
+2022-07-14 23:02:39,985 - INFO - Train Epoch 43: 240/245 Loss: 15.525948
+2022-07-14 23:02:41,229 - INFO - **********Train Epoch 43: averaged Loss: 14.230935, tf_ratio: 1.000000
+2022-07-14 23:02:50,329 - INFO - **********Val Epoch 43: average Loss: 14.628466
+2022-07-14 23:02:50,329 - INFO - **********Epoch 043:Training Time: 75.5584s/epoch, Inference Time: 9.0987s/epoch
+2022-07-14 23:02:50,329 - INFO - *********************************Current best model saved!
+2022-07-14 23:02:50,643 - INFO - Train Epoch 44: 0/245 Loss: 14.666320
+2022-07-14 23:02:56,819 - INFO - Train Epoch 44: 20/245 Loss: 13.847912
+2022-07-14 23:03:02,988 - INFO - Train Epoch 44: 40/245 Loss: 13.621430
+2022-07-14 23:03:09,141 - INFO - Train Epoch 44: 60/245 Loss: 14.930986
+2022-07-14 23:03:15,290 - INFO - Train Epoch 44: 80/245 Loss: 14.194271
+2022-07-14 23:03:21,437 - INFO - Train Epoch 44: 100/245 Loss: 13.986936
+2022-07-14 23:03:27,589 - INFO - Train Epoch 44: 120/245 Loss: 14.314794
+2022-07-14 23:03:33,760 - INFO - Train Epoch 44: 140/245 Loss: 14.551786
+2022-07-14 23:03:39,947 - INFO - Train Epoch 44: 160/245 Loss: 13.191188
+2022-07-14 23:03:46,105 - INFO - Train Epoch 44: 180/245 Loss: 14.270814
+2022-07-14 23:03:52,260 - INFO - Train Epoch 44: 200/245 Loss: 15.689603
+2022-07-14 23:03:58,415 - INFO - Train Epoch 44: 220/245 Loss: 13.787511
+2022-07-14 23:04:04,592 - INFO - Train Epoch 44: 240/245 Loss: 14.269895
+2022-07-14 23:04:05,831 - INFO - **********Train Epoch 44: averaged Loss: 14.043023, tf_ratio: 1.000000
+2022-07-14 23:04:14,898 - INFO - **********Val Epoch 44: average Loss: 14.545312
+2022-07-14 23:04:14,898 - INFO - **********Epoch 044:Training Time: 75.4969s/epoch, Inference Time: 9.0664s/epoch
+2022-07-14 23:04:14,898 - INFO - *********************************Current best model saved!
+2022-07-14 23:04:15,214 - INFO - Train Epoch 45: 0/245 Loss: 13.392943
+2022-07-14 23:04:21,378 - INFO - Train Epoch 45: 20/245 Loss: 14.238820
+2022-07-14 23:04:27,547 - INFO - Train Epoch 45: 40/245 Loss: 13.793857
+2022-07-14 23:04:33,693 - INFO - Train Epoch 45: 60/245 Loss: 14.930661
+2022-07-14 23:04:39,793 - INFO - Train Epoch 45: 80/245 Loss: 13.257974
+2022-07-14 23:04:45,898 - INFO - Train Epoch 45: 100/245 Loss: 13.996649
+2022-07-14 23:04:52,011 - INFO - Train Epoch 45: 120/245 Loss: 13.699154
+2022-07-14 23:04:58,098 - INFO - Train Epoch 45: 140/245 Loss: 14.924399
+2022-07-14 23:05:04,203 - INFO - Train Epoch 45: 160/245 Loss: 14.607480
+2022-07-14 23:05:10,295 - INFO - Train Epoch 45: 180/245 Loss: 14.131317
+2022-07-14 23:05:16,393 - INFO - Train Epoch 45: 200/245 Loss: 13.136672
+2022-07-14 23:05:22,488 - INFO - Train Epoch 45: 220/245 Loss: 14.482760
+2022-07-14 23:05:28,587 - INFO - Train Epoch 45: 240/245 Loss: 14.418211
+2022-07-14 23:05:29,809 - INFO - **********Train Epoch 45: averaged Loss: 14.101013, tf_ratio: 1.000000
+2022-07-14 23:05:38,662 - INFO - **********Val Epoch 45: average Loss: 14.677965
+2022-07-14 23:05:38,662 - INFO - **********Epoch 045:Training Time: 74.9070s/epoch, Inference Time: 8.8515s/epoch
+2022-07-14 23:05:38,968 - INFO - Train Epoch 46: 0/245 Loss: 14.032120
+2022-07-14 23:05:45,061 - INFO - Train Epoch 46: 20/245 Loss: 14.874879
+2022-07-14 23:05:51,161 - INFO - Train Epoch 46: 40/245 Loss: 15.034948
+2022-07-14 23:05:57,270 - INFO - Train Epoch 46: 60/245 Loss: 13.072394
+2022-07-14 23:06:03,366 - INFO - Train Epoch 46: 80/245 Loss: 14.840977
+2022-07-14 23:06:09,456 - INFO - Train Epoch 46: 100/245 Loss: 13.723077
+2022-07-14 23:06:15,555 - INFO - Train Epoch 46: 120/245 Loss: 14.199696
+2022-07-14 23:06:21,645 - INFO - Train Epoch 46: 140/245 Loss: 14.221338
+2022-07-14 23:06:27,741 - INFO - Train Epoch 46: 160/245 Loss: 14.336151
+2022-07-14 23:06:33,830 - INFO - Train Epoch 46: 180/245 Loss: 14.028713
+2022-07-14 23:06:39,938 - INFO - Train Epoch 46: 200/245 Loss: 15.181737
+2022-07-14 23:06:46,023 - INFO - Train Epoch 46: 220/245 Loss: 14.374794
+2022-07-14 23:06:52,140 - INFO - Train Epoch 46: 240/245 Loss: 15.186670
+2022-07-14 23:06:53,361 - INFO - **********Train Epoch 46: averaged Loss: 14.122008, tf_ratio: 1.000000
+2022-07-14 23:07:02,263 - INFO - **********Val Epoch 46: average Loss: 14.867252
+2022-07-14 23:07:02,264 - INFO - **********Epoch 046:Training Time: 74.7002s/epoch, Inference Time: 8.9010s/epoch
+2022-07-14 23:07:02,569 - INFO - Train Epoch 47: 0/245 Loss: 14.434149
+2022-07-14 23:07:08,647 - INFO - Train Epoch 47: 20/245 Loss: 14.071159
+2022-07-14 23:07:14,752 - INFO - Train Epoch 47: 40/245 Loss: 14.428796
+2022-07-14 23:07:20,840 - INFO - Train Epoch 47: 60/245 Loss: 14.516291
+2022-07-14 23:07:26,946 - INFO - Train Epoch 47: 80/245 Loss: 14.757722
+2022-07-14 23:07:33,030 - INFO - Train Epoch 47: 100/245 Loss: 13.029275
+2022-07-14 23:07:39,145 - INFO - Train Epoch 47: 120/245 Loss: 14.186701
+2022-07-14 23:07:45,239 - INFO - Train Epoch 47: 140/245 Loss: 14.681255
+2022-07-14 23:07:51,348 - INFO - Train Epoch 47: 160/245 Loss: 13.023332
+2022-07-14 23:07:57,437 - INFO - Train Epoch 47: 180/245 Loss: 13.931426
+2022-07-14 23:08:03,539 - INFO - Train Epoch 47: 200/245 Loss: 14.257360
+2022-07-14 23:08:09,662 - INFO - Train Epoch 47: 220/245 Loss: 12.590329
+2022-07-14 23:08:15,761 - INFO - Train Epoch 47: 240/245 Loss: 14.054369
+2022-07-14 23:08:16,977 - INFO - **********Train Epoch 47: averaged Loss: 14.082502, tf_ratio: 1.000000
+2022-07-14 23:08:25,823 - INFO - **********Val Epoch 47: average Loss: 14.847112
+2022-07-14 23:08:25,823 - INFO - **********Epoch 047:Training Time: 74.7143s/epoch, Inference Time: 8.8451s/epoch
+2022-07-14 23:08:26,128 - INFO - Train Epoch 48: 0/245 Loss: 14.557361
+2022-07-14 23:08:32,225 - INFO - Train Epoch 48: 20/245 Loss: 13.159001
+2022-07-14 23:08:38,343 - INFO - Train Epoch 48: 40/245 Loss: 14.416201
+2022-07-14 23:08:44,459 - INFO - Train Epoch 48: 60/245 Loss: 13.507662
+2022-07-14 23:08:50,547 - INFO - Train Epoch 48: 80/245 Loss: 13.748201
+2022-07-14 23:08:56,666 - INFO - Train Epoch 48: 100/245 Loss: 15.249120
+2022-07-14 23:09:02,761 - INFO - Train Epoch 48: 120/245 Loss: 13.434410
+2022-07-14 23:09:08,867 - INFO - Train Epoch 48: 140/245 Loss: 13.853466
+2022-07-14 23:09:14,985 - INFO - Train Epoch 48: 160/245 Loss: 15.022019
+2022-07-14 23:09:21,076 - INFO - Train Epoch 48: 180/245 Loss: 13.687506
+2022-07-14 23:09:27,187 - INFO - Train Epoch 48: 200/245 Loss: 14.264332
+2022-07-14 23:09:33,284 - INFO - Train Epoch 48: 220/245 Loss: 14.092213
+2022-07-14 23:09:39,383 - INFO - Train Epoch 48: 240/245 Loss: 13.198133
+2022-07-14 23:09:40,603 - INFO - **********Train Epoch 48: averaged Loss: 13.973434, tf_ratio: 1.000000
+2022-07-14 23:09:49,484 - INFO - **********Val Epoch 48: average Loss: 14.447497
+2022-07-14 23:09:49,484 - INFO - **********Epoch 048:Training Time: 74.7803s/epoch, Inference Time: 8.8806s/epoch
+2022-07-14 23:09:49,485 - INFO - *********************************Current best model saved!
+2022-07-14 23:09:49,795 - INFO - Train Epoch 49: 0/245 Loss: 13.155456
+2022-07-14 23:09:55,885 - INFO - Train Epoch 49: 20/245 Loss: 13.818588
+2022-07-14 23:10:02,018 - INFO - Train Epoch 49: 40/245 Loss: 14.734501
+2022-07-14 23:10:08,124 - INFO - Train Epoch 49: 60/245 Loss: 13.231021
+2022-07-14 23:10:14,217 - INFO - Train Epoch 49: 80/245 Loss: 14.124695
+2022-07-14 23:10:20,341 - INFO - Train Epoch 49: 100/245 Loss: 14.011210
+2022-07-14 23:10:26,444 - INFO - Train Epoch 49: 120/245 Loss: 14.758201
+2022-07-14 23:10:32,540 - INFO - Train Epoch 49: 140/245 Loss: 13.777197
+2022-07-14 23:10:38,672 - INFO - Train Epoch 49: 160/245 Loss: 14.106596
+2022-07-14 23:10:44,788 - INFO - Train Epoch 49: 180/245 Loss: 14.060047
+2022-07-14 23:10:50,877 - INFO - Train Epoch 49: 200/245 Loss: 13.802433
+2022-07-14 23:10:57,006 - INFO - Train Epoch 49: 220/245 Loss: 13.250237
+2022-07-14 23:11:03,111 - INFO - Train Epoch 49: 240/245 Loss: 14.785955
+2022-07-14 23:11:04,331 - INFO - **********Train Epoch 49: averaged Loss: 13.975560, tf_ratio: 1.000000
+2022-07-14 23:11:13,208 - INFO - **********Val Epoch 49: average Loss: 14.564468
+2022-07-14 23:11:13,208 - INFO - **********Epoch 049:Training Time: 74.8423s/epoch, Inference Time: 8.8760s/epoch
+2022-07-14 23:11:13,515 - INFO - Train Epoch 50: 0/245 Loss: 13.661839
+2022-07-14 23:11:19,635 - INFO - Train Epoch 50: 20/245 Loss: 13.877305
+2022-07-14 23:11:25,753 - INFO - Train Epoch 50: 40/245 Loss: 14.207255
+2022-07-14 23:11:31,860 - INFO - Train Epoch 50: 60/245 Loss: 13.530743
+2022-07-14 23:11:37,993 - INFO - Train Epoch 50: 80/245 Loss: 13.121365
+2022-07-14 23:11:44,116 - INFO - Train Epoch 50: 100/245 Loss: 14.609763
+2022-07-14 23:11:50,244 - INFO - Train Epoch 50: 120/245 Loss: 14.818055
+2022-07-14 23:11:56,374 - INFO - Train Epoch 50: 140/245 Loss: 13.582705
+2022-07-14 23:12:02,506 - INFO - Train Epoch 50: 160/245 Loss: 13.511621
+2022-07-14 23:12:08,637 - INFO - Train Epoch 50: 180/245 Loss: 13.919621
+2022-07-14 23:12:14,765 - INFO - Train Epoch 50: 200/245 Loss: 13.982879
+2022-07-14 23:12:20,905 - INFO - Train Epoch 50: 220/245 Loss: 14.069468
+2022-07-14 23:12:27,039 - INFO - Train Epoch 50: 240/245 Loss: 13.376417
+2022-07-14 23:12:28,273 - INFO - **********Train Epoch 50: averaged Loss: 13.917539, tf_ratio: 1.000000
+2022-07-14 23:12:37,218 - INFO - **********Val Epoch 50: average Loss: 14.602077
+2022-07-14 23:12:37,218 - INFO - **********Epoch 050:Training Time: 75.0660s/epoch, Inference Time: 8.9441s/epoch
+2022-07-14 23:12:37,528 - INFO - Train Epoch 51: 0/245 Loss: 13.105160
+2022-07-14 23:12:43,677 - INFO - Train Epoch 51: 20/245 Loss: 14.558802
+2022-07-14 23:12:49,827 - INFO - Train Epoch 51: 40/245 Loss: 14.251771
+2022-07-14 23:12:55,995 - INFO - Train Epoch 51: 60/245 Loss: 14.746767
+2022-07-14 23:13:02,161 - INFO - Train Epoch 51: 80/245 Loss: 13.583352
+2022-07-14 23:13:08,325 - INFO - Train Epoch 51: 100/245 Loss: 13.733356
+2022-07-14 23:13:14,465 - INFO - Train Epoch 51: 120/245 Loss: 15.598759
+2022-07-14 23:13:20,610 - INFO - Train Epoch 51: 140/245 Loss: 12.096798
+2022-07-14 23:13:26,758 - INFO - Train Epoch 51: 160/245 Loss: 14.832199
+2022-07-14 23:13:32,904 - INFO - Train Epoch 51: 180/245 Loss: 14.222525
+2022-07-14 23:13:39,042 - INFO - Train Epoch 51: 200/245 Loss: 14.832178
+2022-07-14 23:13:45,182 - INFO - Train Epoch 51: 220/245 Loss: 13.274748
+2022-07-14 23:13:51,344 - INFO - Train Epoch 51: 240/245 Loss: 14.035258
+2022-07-14 23:13:52,569 - INFO - **********Train Epoch 51: averaged Loss: 13.967165, tf_ratio: 1.000000
+2022-07-14 23:14:01,566 - INFO - **********Val Epoch 51: average Loss: 14.510213
+2022-07-14 23:14:01,566 - INFO - **********Epoch 051:Training Time: 75.3519s/epoch, Inference Time: 8.9959s/epoch
+2022-07-14 23:14:01,877 - INFO - Train Epoch 52: 0/245 Loss: 15.180233
+2022-07-14 23:14:08,042 - INFO - Train Epoch 52: 20/245 Loss: 13.941506
+2022-07-14 23:14:14,266 - INFO - Train Epoch 52: 40/245 Loss: 14.615248
+2022-07-14 23:14:20,420 - INFO - Train Epoch 52: 60/245 Loss: 14.422366
+2022-07-14 23:14:27,176 - INFO - Train Epoch 52: 80/245 Loss: 13.721641
+2022-07-14 23:14:33,324 - INFO - Train Epoch 52: 100/245 Loss: 13.940424
+2022-07-14 23:14:39,478 - INFO - Train Epoch 52: 120/245 Loss: 13.269941
+2022-07-14 23:14:45,608 - INFO - Train Epoch 52: 140/245 Loss: 13.338769
+2022-07-14 23:14:51,764 - INFO - Train Epoch 52: 160/245 Loss: 12.326695
+2022-07-14 23:14:57,973 - INFO - Train Epoch 52: 180/245 Loss: 13.861683
+2022-07-14 23:15:04,155 - INFO - Train Epoch 52: 200/245 Loss: 14.180063
+2022-07-14 23:15:10,293 - INFO - Train Epoch 52: 220/245 Loss: 13.147621
+2022-07-14 23:15:16,430 - INFO - Train Epoch 52: 240/245 Loss: 13.624560
+2022-07-14 23:15:17,665 - INFO - **********Train Epoch 52: averaged Loss: 13.841772, tf_ratio: 1.000000
+2022-07-14 23:15:26,670 - INFO - **********Val Epoch 52: average Loss: 14.679677
+2022-07-14 23:15:26,670 - INFO - **********Epoch 052:Training Time: 76.1002s/epoch, Inference Time: 9.0034s/epoch
+2022-07-14 23:15:26,978 - INFO - Train Epoch 53: 0/245 Loss: 14.941320
+2022-07-14 23:15:33,135 - INFO - Train Epoch 53: 20/245 Loss: 13.726562
+2022-07-14 23:15:39,266 - INFO - Train Epoch 53: 40/245 Loss: 14.163053
+2022-07-14 23:15:45,412 - INFO - Train Epoch 53: 60/245 Loss: 14.527386
+2022-07-14 23:15:51,549 - INFO - Train Epoch 53: 80/245 Loss: 14.496998
+2022-07-14 23:15:57,690 - INFO - Train Epoch 53: 100/245 Loss: 14.441859
+2022-07-14 23:16:03,831 - INFO - Train Epoch 53: 120/245 Loss: 13.297668
+2022-07-14 23:16:09,967 - INFO - Train Epoch 53: 140/245 Loss: 14.177228
+2022-07-14 23:16:16,091 - INFO - Train Epoch 53: 160/245 Loss: 15.141310
+2022-07-14 23:16:22,216 - INFO - Train Epoch 53: 180/245 Loss: 13.578181
+2022-07-14 23:16:28,321 - INFO - Train Epoch 53: 200/245 Loss: 12.844180
+2022-07-14 23:16:34,453 - INFO - Train Epoch 53: 220/245 Loss: 14.265840
+2022-07-14 23:16:40,583 - INFO - Train Epoch 53: 240/245 Loss: 13.508702
+2022-07-14 23:16:41,811 - INFO - **********Train Epoch 53: averaged Loss: 13.865142, tf_ratio: 1.000000
+2022-07-14 23:16:50,713 - INFO - **********Val Epoch 53: average Loss: 14.676741
+2022-07-14 23:16:50,714 - INFO - **********Epoch 053:Training Time: 75.1423s/epoch, Inference Time: 8.9013s/epoch
+2022-07-14 23:16:51,019 - INFO - Train Epoch 54: 0/245 Loss: 13.896696
+2022-07-14 23:16:57,140 - INFO - Train Epoch 54: 20/245 Loss: 13.426623
+2022-07-14 23:17:03,241 - INFO - Train Epoch 54: 40/245 Loss: 14.852025
+2022-07-14 23:17:09,376 - INFO - Train Epoch 54: 60/245 Loss: 14.873638
+2022-07-14 23:17:15,510 - INFO - Train Epoch 54: 80/245 Loss: 14.381645
+2022-07-14 23:17:21,629 - INFO - Train Epoch 54: 100/245 Loss: 12.543374
+2022-07-14 23:17:27,746 - INFO - Train Epoch 54: 120/245 Loss: 13.574739
+2022-07-14 23:17:33,850 - INFO - Train Epoch 54: 140/245 Loss: 13.125968
+2022-07-14 23:17:39,978 - INFO - Train Epoch 54: 160/245 Loss: 13.002363
+2022-07-14 23:17:46,111 - INFO - Train Epoch 54: 180/245 Loss: 14.071315
+2022-07-14 23:17:52,225 - INFO - Train Epoch 54: 200/245 Loss: 13.994428
+2022-07-14 23:17:58,327 - INFO - Train Epoch 54: 220/245 Loss: 12.912877
+2022-07-14 23:18:04,458 - INFO - Train Epoch 54: 240/245 Loss: 13.024940
+2022-07-14 23:18:05,691 - INFO - **********Train Epoch 54: averaged Loss: 13.841676, tf_ratio: 1.000000
+2022-07-14 23:18:14,588 - INFO - **********Val Epoch 54: average Loss: 14.505113
+2022-07-14 23:18:14,590 - INFO - **********Epoch 054:Training Time: 74.9787s/epoch, Inference Time: 8.8972s/epoch
+2022-07-14 23:18:14,895 - INFO - Train Epoch 55: 0/245 Loss: 13.402211
+2022-07-14 23:18:21,005 - INFO - Train Epoch 55: 20/245 Loss: 13.689744
+2022-07-14 23:18:27,105 - INFO - Train Epoch 55: 40/245 Loss: 13.663959
+2022-07-14 23:18:33,239 - INFO - Train Epoch 55: 60/245 Loss: 13.430471
+2022-07-14 23:18:39,362 - INFO - Train Epoch 55: 80/245 Loss: 14.029902
+2022-07-14 23:18:45,480 - INFO - Train Epoch 55: 100/245 Loss: 13.206401
+2022-07-14 23:18:51,586 - INFO - Train Epoch 55: 120/245 Loss: 14.001590
+2022-07-14 23:18:57,711 - INFO - Train Epoch 55: 140/245 Loss: 13.343055
+2022-07-14 23:19:03,826 - INFO - Train Epoch 55: 160/245 Loss: 14.602770
+2022-07-14 23:19:09,921 - INFO - Train Epoch 55: 180/245 Loss: 14.223291
+2022-07-14 23:19:16,048 - INFO - Train Epoch 55: 200/245 Loss: 12.770921
+2022-07-14 23:19:22,168 - INFO - Train Epoch 55: 220/245 Loss: 12.992370
+2022-07-14 23:19:28,279 - INFO - Train Epoch 55: 240/245 Loss: 13.772285
+2022-07-14 23:19:29,498 - INFO - **********Train Epoch 55: averaged Loss: 13.837403, tf_ratio: 1.000000
+2022-07-14 23:19:38,405 - INFO - **********Val Epoch 55: average Loss: 14.614256
+2022-07-14 23:19:38,406 - INFO - **********Epoch 055:Training Time: 74.9101s/epoch, Inference Time: 8.9066s/epoch
+2022-07-14 23:19:38,711 - INFO - Train Epoch 56: 0/245 Loss: 15.095250
+2022-07-14 23:19:44,817 - INFO - Train Epoch 56: 20/245 Loss: 13.927100
+2022-07-14 23:19:50,944 - INFO - Train Epoch 56: 40/245 Loss: 13.289556
+2022-07-14 23:19:57,054 - INFO - Train Epoch 56: 60/245 Loss: 13.406878
+2022-07-14 23:20:03,168 - INFO - Train Epoch 56: 80/245 Loss: 12.846158
+2022-07-14 23:20:09,292 - INFO - Train Epoch 56: 100/245 Loss: 14.266508
+2022-07-14 23:20:15,400 - INFO - Train Epoch 56: 120/245 Loss: 13.623705
+2022-07-14 23:20:21,492 - INFO - Train Epoch 56: 140/245 Loss: 13.745992
+2022-07-14 23:20:27,624 - INFO - Train Epoch 56: 160/245 Loss: 13.326243
+2022-07-14 23:20:33,737 - INFO - Train Epoch 56: 180/245 Loss: 12.806087
+2022-07-14 23:20:39,826 - INFO - Train Epoch 56: 200/245 Loss: 12.462522
+2022-07-14 23:20:45,963 - INFO - Train Epoch 56: 220/245 Loss: 13.521858
+2022-07-14 23:20:52,076 - INFO - Train Epoch 56: 240/245 Loss: 13.579089
+2022-07-14 23:20:53,297 - INFO - **********Train Epoch 56: averaged Loss: 13.803320, tf_ratio: 1.000000
+2022-07-14 23:21:02,202 - INFO - **********Val Epoch 56: average Loss: 14.431636
+2022-07-14 23:21:02,202 - INFO - **********Epoch 056:Training Time: 74.8915s/epoch, Inference Time: 8.9039s/epoch
+2022-07-14 23:21:02,202 - INFO - *********************************Current best model saved!
+2022-07-14 23:21:02,512 - INFO - Train Epoch 57: 0/245 Loss: 14.544560
+2022-07-14 23:21:08,612 - INFO - Train Epoch 57: 20/245 Loss: 14.085243
+2022-07-14 23:21:14,731 - INFO - Train Epoch 57: 40/245 Loss: 12.980686
+2022-07-14 23:21:20,852 - INFO - Train Epoch 57: 60/245 Loss: 13.825823
+2022-07-14 23:21:26,960 - INFO - Train Epoch 57: 80/245 Loss: 14.065859
+2022-07-14 23:21:33,068 - INFO - Train Epoch 57: 100/245 Loss: 13.719063
+2022-07-14 23:21:39,197 - INFO - Train Epoch 57: 120/245 Loss: 13.966550
+2022-07-14 23:21:45,310 - INFO - Train Epoch 57: 140/245 Loss: 13.611300
+2022-07-14 23:21:51,413 - INFO - Train Epoch 57: 160/245 Loss: 13.316549
+2022-07-14 23:21:57,546 - INFO - Train Epoch 57: 180/245 Loss: 14.111942
+2022-07-14 23:22:03,658 - INFO - Train Epoch 57: 200/245 Loss: 13.903187
+2022-07-14 23:22:09,757 - INFO - Train Epoch 57: 220/245 Loss: 14.148386
+2022-07-14 23:22:15,884 - INFO - Train Epoch 57: 240/245 Loss: 13.044520
+2022-07-14 23:22:17,104 - INFO - **********Train Epoch 57: averaged Loss: 13.752489, tf_ratio: 1.000000
+2022-07-14 23:22:26,004 - INFO - **********Val Epoch 57: average Loss: 14.461031
+2022-07-14 23:22:26,004 - INFO - **********Epoch 057:Training Time: 74.8983s/epoch, Inference Time: 8.8985s/epoch
+2022-07-14 23:22:26,309 - INFO - Train Epoch 58: 0/245 Loss: 14.402530
+2022-07-14 23:22:32,422 - INFO - Train Epoch 58: 20/245 Loss: 13.949646
+2022-07-14 23:22:38,519 - INFO - Train Epoch 58: 40/245 Loss: 13.642702
+2022-07-14 23:22:44,647 - INFO - Train Epoch 58: 60/245 Loss: 13.300111
+2022-07-14 23:22:50,760 - INFO - Train Epoch 58: 80/245 Loss: 13.400791
+2022-07-14 23:22:56,858 - INFO - Train Epoch 58: 100/245 Loss: 13.887941
+2022-07-14 23:23:02,982 - INFO - Train Epoch 58: 120/245 Loss: 14.048381
+2022-07-14 23:23:09,103 - INFO - Train Epoch 58: 140/245 Loss: 12.021751
+2022-07-14 23:23:15,213 - INFO - Train Epoch 58: 160/245 Loss: 13.354776
+2022-07-14 23:23:21,316 - INFO - Train Epoch 58: 180/245 Loss: 14.046558
+2022-07-14 23:23:27,447 - INFO - Train Epoch 58: 200/245 Loss: 13.636509
+2022-07-14 23:23:33,561 - INFO - Train Epoch 58: 220/245 Loss: 13.901915
+2022-07-14 23:23:39,668 - INFO - Train Epoch 58: 240/245 Loss: 13.060884
+2022-07-14 23:23:40,895 - INFO - **********Train Epoch 58: averaged Loss: 13.777395, tf_ratio: 1.000000
+2022-07-14 23:23:49,799 - INFO - **********Val Epoch 58: average Loss: 14.511085
+2022-07-14 23:23:49,799 - INFO - **********Epoch 058:Training Time: 74.8921s/epoch, Inference Time: 8.9031s/epoch
+2022-07-14 23:23:50,107 - INFO - Train Epoch 59: 0/245 Loss: 13.143129
+2022-07-14 23:23:56,225 - INFO - Train Epoch 59: 20/245 Loss: 13.824891
+2022-07-14 23:24:02,345 - INFO - Train Epoch 59: 40/245 Loss: 14.302025
+2022-07-14 23:24:08,448 - INFO - Train Epoch 59: 60/245 Loss: 13.482914
+2022-07-14 23:24:14,562 - INFO - Train Epoch 59: 80/245 Loss: 13.350313
+2022-07-14 23:24:20,708 - INFO - Train Epoch 59: 100/245 Loss: 13.637279
+2022-07-14 23:24:26,827 - INFO - Train Epoch 59: 120/245 Loss: 14.405148
+2022-07-14 23:24:32,938 - INFO - Train Epoch 59: 140/245 Loss: 14.590882
+2022-07-14 23:24:39,041 - INFO - Train Epoch 59: 160/245 Loss: 14.577005
+2022-07-14 23:24:45,180 - INFO - Train Epoch 59: 180/245 Loss: 12.493677
+2022-07-14 23:24:51,286 - INFO - Train Epoch 59: 200/245 Loss: 12.501484
+2022-07-14 23:24:57,387 - INFO - Train Epoch 59: 220/245 Loss: 13.275574
+2022-07-14 23:25:03,519 - INFO - Train Epoch 59: 240/245 Loss: 13.829275
+2022-07-14 23:25:04,744 - INFO - **********Train Epoch 59: averaged Loss: 13.788786, tf_ratio: 1.000000
+2022-07-14 23:25:13,652 - INFO - **********Val Epoch 59: average Loss: 14.540254
+2022-07-14 23:25:13,653 - INFO - **********Epoch 059:Training Time: 74.9457s/epoch, Inference Time: 8.9077s/epoch
+2022-07-14 23:25:13,958 - INFO - Train Epoch 60: 0/245 Loss: 13.909108
+2022-07-14 23:25:20,082 - INFO - Train Epoch 60: 20/245 Loss: 12.971065
+2022-07-14 23:25:26,189 - INFO - Train Epoch 60: 40/245 Loss: 13.592466
+2022-07-14 23:25:32,303 - INFO - Train Epoch 60: 60/245 Loss: 13.821613
+2022-07-14 23:25:38,434 - INFO - Train Epoch 60: 80/245 Loss: 14.498841
+2022-07-14 23:25:44,562 - INFO - Train Epoch 60: 100/245 Loss: 14.019723
+2022-07-14 23:25:50,665 - INFO - Train Epoch 60: 120/245 Loss: 13.348853
+2022-07-14 23:25:56,771 - INFO - Train Epoch 60: 140/245 Loss: 13.339988
+2022-07-14 23:26:02,905 - INFO - Train Epoch 60: 160/245 Loss: 13.408099
+2022-07-14 23:26:09,043 - INFO - Train Epoch 60: 180/245 Loss: 14.429071
+2022-07-14 23:26:15,152 - INFO - Train Epoch 60: 200/245 Loss: 12.449160
+2022-07-14 23:26:21,252 - INFO - Train Epoch 60: 220/245 Loss: 14.555409
+2022-07-14 23:26:27,394 - INFO - Train Epoch 60: 240/245 Loss: 13.765628
+2022-07-14 23:26:28,616 - INFO - **********Train Epoch 60: averaged Loss: 13.811728, tf_ratio: 1.000000
+2022-07-14 23:26:37,553 - INFO - **********Val Epoch 60: average Loss: 14.352349
+2022-07-14 23:26:37,553 - INFO - **********Epoch 060:Training Time: 74.9646s/epoch, Inference Time: 8.9357s/epoch
+2022-07-14 23:26:37,553 - INFO - *********************************Current best model saved!
+2022-07-14 23:26:37,865 - INFO - Train Epoch 61: 0/245 Loss: 13.400059
+2022-07-14 23:26:43,988 - INFO - Train Epoch 61: 20/245 Loss: 14.341451
+2022-07-14 23:26:50,130 - INFO - Train Epoch 61: 40/245 Loss: 13.387759
+2022-07-14 23:26:56,276 - INFO - Train Epoch 61: 60/245 Loss: 14.495372
+2022-07-14 23:27:02,422 - INFO - Train Epoch 61: 80/245 Loss: 14.004115
+2022-07-14 23:27:08,580 - INFO - Train Epoch 61: 100/245 Loss: 14.038274
+2022-07-14 23:27:14,721 - INFO - Train Epoch 61: 120/245 Loss: 13.027304
+2022-07-14 23:27:20,859 - INFO - Train Epoch 61: 140/245 Loss: 13.348863
+2022-07-14 23:27:27,011 - INFO - Train Epoch 61: 160/245 Loss: 13.682691
+2022-07-14 23:27:33,162 - INFO - Train Epoch 61: 180/245 Loss: 13.984553
+2022-07-14 23:27:39,309 - INFO - Train Epoch 61: 200/245 Loss: 13.960490
+2022-07-14 23:27:45,454 - INFO - Train Epoch 61: 220/245 Loss: 13.787436
+2022-07-14 23:27:51,590 - INFO - Train Epoch 61: 240/245 Loss: 13.154798
+2022-07-14 23:27:52,814 - INFO - **********Train Epoch 61: averaged Loss: 13.668707, tf_ratio: 1.000000
+2022-07-14 23:28:01,802 - INFO - **********Val Epoch 61: average Loss: 14.555914
+2022-07-14 23:28:01,803 - INFO - **********Epoch 061:Training Time: 75.2578s/epoch, Inference Time: 8.9867s/epoch
+2022-07-14 23:28:02,114 - INFO - Train Epoch 62: 0/245 Loss: 13.766720
+2022-07-14 23:28:08,274 - INFO - Train Epoch 62: 20/245 Loss: 14.889072
+2022-07-14 23:28:14,410 - INFO - Train Epoch 62: 40/245 Loss: 14.188044
+2022-07-14 23:28:20,566 - INFO - Train Epoch 62: 60/245 Loss: 13.814094
+2022-07-14 23:28:26,703 - INFO - Train Epoch 62: 80/245 Loss: 13.412685
+2022-07-14 23:28:32,861 - INFO - Train Epoch 62: 100/245 Loss: 13.691456
+2022-07-14 23:28:38,997 - INFO - Train Epoch 62: 120/245 Loss: 14.751985
+2022-07-14 23:28:45,144 - INFO - Train Epoch 62: 140/245 Loss: 13.893583
+2022-07-14 23:28:51,290 - INFO - Train Epoch 62: 160/245 Loss: 13.614004
+2022-07-14 23:28:57,442 - INFO - Train Epoch 62: 180/245 Loss: 13.315079
+2022-07-14 23:29:03,588 - INFO - Train Epoch 62: 200/245 Loss: 13.388983
+2022-07-14 23:29:09,782 - INFO - Train Epoch 62: 220/245 Loss: 13.824164
+2022-07-14 23:29:15,971 - INFO - Train Epoch 62: 240/245 Loss: 14.144722
+2022-07-14 23:29:17,205 - INFO - **********Train Epoch 62: averaged Loss: 13.747674, tf_ratio: 1.000000
+2022-07-14 23:29:26,176 - INFO - **********Val Epoch 62: average Loss: 14.416054
+2022-07-14 23:29:26,176 - INFO - **********Epoch 062:Training Time: 75.4035s/epoch, Inference Time: 8.9697s/epoch
+2022-07-14 23:29:26,484 - INFO - Train Epoch 63: 0/245 Loss: 13.410309
+2022-07-14 23:29:32,657 - INFO - Train Epoch 63: 20/245 Loss: 13.395867
+2022-07-14 23:29:38,803 - INFO - Train Epoch 63: 40/245 Loss: 14.200067
+2022-07-14 23:29:44,944 - INFO - Train Epoch 63: 60/245 Loss: 13.945188
+2022-07-14 23:29:51,103 - INFO - Train Epoch 63: 80/245 Loss: 14.113664
+2022-07-14 23:29:57,245 - INFO - Train Epoch 63: 100/245 Loss: 13.913155
+2022-07-14 23:30:03,389 - INFO - Train Epoch 63: 120/245 Loss: 14.177667
+2022-07-14 23:30:09,523 - INFO - Train Epoch 63: 140/245 Loss: 13.472253
+2022-07-14 23:30:15,735 - INFO - Train Epoch 63: 160/245 Loss: 13.772528
+2022-07-14 23:30:21,909 - INFO - Train Epoch 63: 180/245 Loss: 13.117811
+2022-07-14 23:30:28,063 - INFO - Train Epoch 63: 200/245 Loss: 13.632405
+2022-07-14 23:30:34,201 - INFO - Train Epoch 63: 220/245 Loss: 13.044780
+2022-07-14 23:30:40,346 - INFO - Train Epoch 63: 240/245 Loss: 13.447097
+2022-07-14 23:30:41,579 - INFO - **********Train Epoch 63: averaged Loss: 13.693158, tf_ratio: 1.000000
+2022-07-14 23:30:50,518 - INFO - **********Val Epoch 63: average Loss: 14.411861
+2022-07-14 23:30:50,518 - INFO - **********Epoch 063:Training Time: 75.4040s/epoch, Inference Time: 8.9377s/epoch
+2022-07-14 23:30:50,825 - INFO - Train Epoch 64: 0/245 Loss: 13.318887
+2022-07-14 23:30:56,953 - INFO - Train Epoch 64: 20/245 Loss: 11.697706
+2022-07-14 23:31:03,075 - INFO - Train Epoch 64: 40/245 Loss: 13.535711
+2022-07-14 23:31:09,226 - INFO - Train Epoch 64: 60/245 Loss: 13.059138
+2022-07-14 23:31:15,365 - INFO - Train Epoch 64: 80/245 Loss: 13.813907
+2022-07-14 23:31:21,496 - INFO - Train Epoch 64: 100/245 Loss: 13.451825
+2022-07-14 23:31:27,640 - INFO - Train Epoch 64: 120/245 Loss: 14.388373
+2022-07-14 23:31:33,780 - INFO - Train Epoch 64: 140/245 Loss: 14.533237
+2022-07-14 23:31:39,908 - INFO - Train Epoch 64: 160/245 Loss: 13.320111
+2022-07-14 23:31:46,031 - INFO - Train Epoch 64: 180/245 Loss: 14.637182
+2022-07-14 23:31:52,128 - INFO - Train Epoch 64: 200/245 Loss: 13.646413
+2022-07-14 23:31:58,270 - INFO - Train Epoch 64: 220/245 Loss: 13.315039
+2022-07-14 23:32:04,397 - INFO - Train Epoch 64: 240/245 Loss: 14.097608
+2022-07-14 23:32:05,621 - INFO - **********Train Epoch 64: averaged Loss: 13.752628, tf_ratio: 1.000000
+2022-07-14 23:32:14,524 - INFO - **********Val Epoch 64: average Loss: 14.366593
+2022-07-14 23:32:14,524 - INFO - **********Epoch 064:Training Time: 75.1035s/epoch, Inference Time: 8.9021s/epoch
+2022-07-14 23:32:14,830 - INFO - Train Epoch 65: 0/245 Loss: 12.439250
+2022-07-14 23:32:20,943 - INFO - Train Epoch 65: 20/245 Loss: 12.768126
+2022-07-14 23:32:27,046 - INFO - Train Epoch 65: 40/245 Loss: 13.896665
+2022-07-14 23:32:33,177 - INFO - Train Epoch 65: 60/245 Loss: 13.304770
+2022-07-14 23:32:39,298 - INFO - Train Epoch 65: 80/245 Loss: 13.178253
+2022-07-14 23:32:45,405 - INFO - Train Epoch 65: 100/245 Loss: 13.436473
+2022-07-14 23:32:51,513 - INFO - Train Epoch 65: 120/245 Loss: 13.184528
+2022-07-14 23:32:57,654 - INFO - Train Epoch 65: 140/245 Loss: 14.931829
+2022-07-14 23:33:03,762 - INFO - Train Epoch 65: 160/245 Loss: 13.936991
+2022-07-14 23:33:09,857 - INFO - Train Epoch 65: 180/245 Loss: 13.088614
+2022-07-14 23:33:15,983 - INFO - Train Epoch 65: 200/245 Loss: 13.081735
+2022-07-14 23:33:22,115 - INFO - Train Epoch 65: 220/245 Loss: 14.371373
+2022-07-14 23:33:28,221 - INFO - Train Epoch 65: 240/245 Loss: 14.007423
+2022-07-14 23:33:29,438 - INFO - **********Train Epoch 65: averaged Loss: 13.601270, tf_ratio: 1.000000
+2022-07-14 23:33:38,320 - INFO - **********Val Epoch 65: average Loss: 14.776850
+2022-07-14 23:33:38,321 - INFO - **********Epoch 065:Training Time: 74.9147s/epoch, Inference Time: 8.8817s/epoch
+2022-07-14 23:33:38,625 - INFO - Train Epoch 66: 0/245 Loss: 14.735036
+2022-07-14 23:33:44,736 - INFO - Train Epoch 66: 20/245 Loss: 14.680890
+2022-07-14 23:33:50,835 - INFO - Train Epoch 66: 40/245 Loss: 13.911708
+2022-07-14 23:33:56,954 - INFO - Train Epoch 66: 60/245 Loss: 14.651281
+2022-07-14 23:34:03,075 - INFO - Train Epoch 66: 80/245 Loss: 13.819079
+2022-07-14 23:34:09,179 - INFO - Train Epoch 66: 100/245 Loss: 13.097635
+2022-07-14 23:34:15,287 - INFO - Train Epoch 66: 120/245 Loss: 13.529423
+2022-07-14 23:34:21,395 - INFO - Train Epoch 66: 140/245 Loss: 13.531364
+2022-07-14 23:34:27,492 - INFO - Train Epoch 66: 160/245 Loss: 12.833455
+2022-07-14 23:34:33,605 - INFO - Train Epoch 66: 180/245 Loss: 13.200711
+2022-07-14 23:34:39,718 - INFO - Train Epoch 66: 200/245 Loss: 13.956431
+2022-07-14 23:34:45,813 - INFO - Train Epoch 66: 220/245 Loss: 13.096062
+2022-07-14 23:34:51,933 - INFO - Train Epoch 66: 240/245 Loss: 13.958286
+2022-07-14 23:34:53,160 - INFO - **********Train Epoch 66: averaged Loss: 13.656427, tf_ratio: 1.000000
+2022-07-14 23:35:02,046 - INFO - **********Val Epoch 66: average Loss: 14.389578
+2022-07-14 23:35:02,046 - INFO - **********Epoch 066:Training Time: 74.8406s/epoch, Inference Time: 8.8847s/epoch
+2022-07-14 23:35:02,351 - INFO - Train Epoch 67: 0/245 Loss: 13.250233
+2022-07-14 23:35:08,441 - INFO - Train Epoch 67: 20/245 Loss: 13.255125
+2022-07-14 23:35:14,564 - INFO - Train Epoch 67: 40/245 Loss: 13.799256
+2022-07-14 23:35:20,667 - INFO - Train Epoch 67: 60/245 Loss: 14.301749
+2022-07-14 23:35:26,769 - INFO - Train Epoch 67: 80/245 Loss: 13.569221
+2022-07-14 23:35:32,895 - INFO - Train Epoch 67: 100/245 Loss: 13.252833
+2022-07-14 23:35:39,004 - INFO - Train Epoch 67: 120/245 Loss: 13.096882
+2022-07-14 23:35:45,100 - INFO - Train Epoch 67: 140/245 Loss: 13.101531
+2022-07-14 23:35:51,234 - INFO - Train Epoch 67: 160/245 Loss: 12.596653
+2022-07-14 23:35:57,342 - INFO - Train Epoch 67: 180/245 Loss: 12.653996
+2022-07-14 23:36:03,436 - INFO - Train Epoch 67: 200/245 Loss: 13.651920
+2022-07-14 23:36:09,561 - INFO - Train Epoch 67: 220/245 Loss: 13.390060
+2022-07-14 23:36:15,676 - INFO - Train Epoch 67: 240/245 Loss: 13.735424
+2022-07-14 23:36:16,899 - INFO - **********Train Epoch 67: averaged Loss: 13.644939, tf_ratio: 1.000000
+2022-07-14 23:36:25,772 - INFO - **********Val Epoch 67: average Loss: 14.317790
+2022-07-14 23:36:25,773 - INFO - **********Epoch 067:Training Time: 74.8536s/epoch, Inference Time: 8.8729s/epoch
+2022-07-14 23:36:25,773 - INFO - *********************************Current best model saved!
+2022-07-14 23:36:26,083 - INFO - Train Epoch 68: 0/245 Loss: 13.670246
+2022-07-14 23:36:32,189 - INFO - Train Epoch 68: 20/245 Loss: 13.637312
+2022-07-14 23:36:38,297 - INFO - Train Epoch 68: 40/245 Loss: 14.289480
+2022-07-14 23:36:44,391 - INFO - Train Epoch 68: 60/245 Loss: 13.010130
+2022-07-14 23:36:50,503 - INFO - Train Epoch 68: 80/245 Loss: 14.456285
+2022-07-14 23:36:56,601 - INFO - Train Epoch 68: 100/245 Loss: 13.257405
+2022-07-14 23:37:02,710 - INFO - Train Epoch 68: 120/245 Loss: 13.499059
+2022-07-14 23:37:08,820 - INFO - Train Epoch 68: 140/245 Loss: 14.551705
+2022-07-14 23:37:14,908 - INFO - Train Epoch 68: 160/245 Loss: 14.231257
+2022-07-14 23:37:21,027 - INFO - Train Epoch 68: 180/245 Loss: 13.978311
+2022-07-14 23:37:27,131 - INFO - Train Epoch 68: 200/245 Loss: 14.114487
+2022-07-14 23:37:33,229 - INFO - Train Epoch 68: 220/245 Loss: 13.182488
+2022-07-14 23:37:39,341 - INFO - Train Epoch 68: 240/245 Loss: 13.360770
+2022-07-14 23:37:40,563 - INFO - **********Train Epoch 68: averaged Loss: 13.671843, tf_ratio: 1.000000
+2022-07-14 23:37:49,450 - INFO - **********Val Epoch 68: average Loss: 14.278132
+2022-07-14 23:37:49,450 - INFO - **********Epoch 068:Training Time: 74.7864s/epoch, Inference Time: 8.8863s/epoch
+2022-07-14 23:37:49,451 - INFO - *********************************Current best model saved!
+2022-07-14 23:37:49,762 - INFO - Train Epoch 69: 0/245 Loss: 14.729958
+2022-07-14 23:37:55,860 - INFO - Train Epoch 69: 20/245 Loss: 13.675013
+2022-07-14 23:38:01,982 - INFO - Train Epoch 69: 40/245 Loss: 14.108705
+2022-07-14 23:38:08,078 - INFO - Train Epoch 69: 60/245 Loss: 13.261359
+2022-07-14 23:38:14,191 - INFO - Train Epoch 69: 80/245 Loss: 13.489087
+2022-07-14 23:38:20,304 - INFO - Train Epoch 69: 100/245 Loss: 12.847327
+2022-07-14 23:38:26,395 - INFO - Train Epoch 69: 120/245 Loss: 13.620766
+2022-07-14 23:38:32,519 - INFO - Train Epoch 69: 140/245 Loss: 12.566558
+2022-07-14 23:38:38,631 - INFO - Train Epoch 69: 160/245 Loss: 13.932532
+2022-07-14 23:38:44,728 - INFO - Train Epoch 69: 180/245 Loss: 14.160371
+2022-07-14 23:38:50,837 - INFO - Train Epoch 69: 200/245 Loss: 13.408998
+2022-07-14 23:38:56,934 - INFO - Train Epoch 69: 220/245 Loss: 12.262790
+2022-07-14 23:39:03,043 - INFO - Train Epoch 69: 240/245 Loss: 13.561425
+2022-07-14 23:39:04,275 - INFO - **********Train Epoch 69: averaged Loss: 13.537094, tf_ratio: 1.000000
+2022-07-14 23:39:13,148 - INFO - **********Val Epoch 69: average Loss: 14.340255
+2022-07-14 23:39:13,148 - INFO - **********Epoch 069:Training Time: 74.8212s/epoch, Inference Time: 8.8717s/epoch
+2022-07-14 23:39:13,453 - INFO - Train Epoch 70: 0/245 Loss: 13.160057
+2022-07-14 23:39:19,549 - INFO - Train Epoch 70: 20/245 Loss: 13.588504
+2022-07-14 23:39:25,669 - INFO - Train Epoch 70: 40/245 Loss: 13.595854
+2022-07-14 23:39:31,788 - INFO - Train Epoch 70: 60/245 Loss: 13.281902
+2022-07-14 23:39:37,881 - INFO - Train Epoch 70: 80/245 Loss: 14.436247
+2022-07-14 23:39:43,994 - INFO - Train Epoch 70: 100/245 Loss: 13.575126
+2022-07-14 23:39:50,105 - INFO - Train Epoch 70: 120/245 Loss: 13.783783
+2022-07-14 23:39:56,203 - INFO - Train Epoch 70: 140/245 Loss: 13.852512
+2022-07-14 23:40:02,326 - INFO - Train Epoch 70: 160/245 Loss: 14.234036
+2022-07-14 23:40:08,435 - INFO - Train Epoch 70: 180/245 Loss: 13.514097
+2022-07-14 23:40:14,528 - INFO - Train Epoch 70: 200/245 Loss: 12.961408
+2022-07-14 23:40:20,659 - INFO - Train Epoch 70: 220/245 Loss: 13.441434
+2022-07-14 23:40:26,779 - INFO - Train Epoch 70: 240/245 Loss: 13.856908
+2022-07-14 23:40:28,002 - INFO - **********Train Epoch 70: averaged Loss: 13.608118, tf_ratio: 1.000000
+2022-07-14 23:40:36,900 - INFO - **********Val Epoch 70: average Loss: 14.496208
+2022-07-14 23:40:36,901 - INFO - **********Epoch 070:Training Time: 74.8550s/epoch, Inference Time: 8.8975s/epoch
+2022-07-14 23:40:37,208 - INFO - Train Epoch 71: 0/245 Loss: 12.821939
+2022-07-14 23:40:43,313 - INFO - Train Epoch 71: 20/245 Loss: 13.074119
+2022-07-14 23:40:49,452 - INFO - Train Epoch 71: 40/245 Loss: 13.850621
+2022-07-14 23:40:55,593 - INFO - Train Epoch 71: 60/245 Loss: 13.663066
+2022-07-14 23:41:01,739 - INFO - Train Epoch 71: 80/245 Loss: 13.481770
+2022-07-14 23:41:07,884 - INFO - Train Epoch 71: 100/245 Loss: 13.835692
+2022-07-14 23:41:14,034 - INFO - Train Epoch 71: 120/245 Loss: 13.753166
+2022-07-14 23:41:20,167 - INFO - Train Epoch 71: 140/245 Loss: 13.433945
+2022-07-14 23:41:26,314 - INFO - Train Epoch 71: 160/245 Loss: 13.981575
+2022-07-14 23:41:32,456 - INFO - Train Epoch 71: 180/245 Loss: 13.199979
+2022-07-14 23:41:38,608 - INFO - Train Epoch 71: 200/245 Loss: 13.453827
+2022-07-14 23:41:44,754 - INFO - Train Epoch 71: 220/245 Loss: 13.962428
+2022-07-14 23:41:50,908 - INFO - Train Epoch 71: 240/245 Loss: 12.751163
+2022-07-14 23:41:52,134 - INFO - **********Train Epoch 71: averaged Loss: 13.539309, tf_ratio: 1.000000
+2022-07-14 23:42:01,086 - INFO - **********Val Epoch 71: average Loss: 14.352108
+2022-07-14 23:42:01,087 - INFO - **********Epoch 071:Training Time: 75.2343s/epoch, Inference Time: 8.9521s/epoch
+2022-07-14 23:42:01,394 - INFO - Train Epoch 72: 0/245 Loss: 14.554497
+2022-07-14 23:42:07,534 - INFO - Train Epoch 72: 20/245 Loss: 14.120540
+2022-07-14 23:42:13,695 - INFO - Train Epoch 72: 40/245 Loss: 12.930421
+2022-07-14 23:42:19,853 - INFO - Train Epoch 72: 60/245 Loss: 13.178531
+2022-07-14 23:42:26,022 - INFO - Train Epoch 72: 80/245 Loss: 13.202872
+2022-07-14 23:42:32,176 - INFO - Train Epoch 72: 100/245 Loss: 13.096116
+2022-07-14 23:42:38,328 - INFO - Train Epoch 72: 120/245 Loss: 14.114049
+2022-07-14 23:42:44,474 - INFO - Train Epoch 72: 140/245 Loss: 14.011607
+2022-07-14 23:42:50,617 - INFO - Train Epoch 72: 160/245 Loss: 14.663876
+2022-07-14 23:42:56,757 - INFO - Train Epoch 72: 180/245 Loss: 14.013106
+2022-07-14 23:43:02,907 - INFO - Train Epoch 72: 200/245 Loss: 13.801080
+2022-07-14 23:43:09,056 - INFO - Train Epoch 72: 220/245 Loss: 13.623542
+2022-07-14 23:43:15,199 - INFO - Train Epoch 72: 240/245 Loss: 13.956095
+2022-07-14 23:43:16,443 - INFO - **********Train Epoch 72: averaged Loss: 13.598324, tf_ratio: 1.000000
+2022-07-14 23:43:25,454 - INFO - **********Val Epoch 72: average Loss: 14.670047
+2022-07-14 23:43:25,454 - INFO - **********Epoch 072:Training Time: 75.3574s/epoch, Inference Time: 9.0090s/epoch
+2022-07-14 23:43:25,764 - INFO - Train Epoch 73: 0/245 Loss: 13.577238
+2022-07-14 23:43:31,952 - INFO - Train Epoch 73: 20/245 Loss: 12.780586
+2022-07-14 23:43:38,128 - INFO - Train Epoch 73: 40/245 Loss: 13.871428
+2022-07-14 23:43:44,286 - INFO - Train Epoch 73: 60/245 Loss: 13.121250
+2022-07-14 23:43:50,434 - INFO - Train Epoch 73: 80/245 Loss: 13.593615
+2022-07-14 23:43:56,607 - INFO - Train Epoch 73: 100/245 Loss: 13.765043
+2022-07-14 23:44:02,818 - INFO - Train Epoch 73: 120/245 Loss: 12.687184
+2022-07-14 23:44:08,971 - INFO - Train Epoch 73: 140/245 Loss: 13.118090
+2022-07-14 23:44:15,111 - INFO - Train Epoch 73: 160/245 Loss: 13.719639
+2022-07-14 23:44:21,240 - INFO - Train Epoch 73: 180/245 Loss: 13.895885
+2022-07-14 23:44:27,394 - INFO - Train Epoch 73: 200/245 Loss: 12.994761
+2022-07-14 23:44:33,542 - INFO - Train Epoch 73: 220/245 Loss: 12.837605
+2022-07-14 23:44:39,678 - INFO - Train Epoch 73: 240/245 Loss: 13.960634
+2022-07-14 23:44:40,910 - INFO - **********Train Epoch 73: averaged Loss: 13.617898, tf_ratio: 1.000000
+2022-07-14 23:44:49,906 - INFO - **********Val Epoch 73: average Loss: 14.350419
+2022-07-14 23:44:49,907 - INFO - **********Epoch 073:Training Time: 75.4573s/epoch, Inference Time: 8.9952s/epoch
+2022-07-14 23:44:50,220 - INFO - Train Epoch 74: 0/245 Loss: 13.611221
+2022-07-14 23:44:56,367 - INFO - Train Epoch 74: 20/245 Loss: 14.663705
+2022-07-14 23:45:02,510 - INFO - Train Epoch 74: 40/245 Loss: 13.561267
+2022-07-14 23:45:08,648 - INFO - Train Epoch 74: 60/245 Loss: 12.970994
+2022-07-14 23:45:14,796 - INFO - Train Epoch 74: 80/245 Loss: 13.067569
+2022-07-14 23:45:20,941 - INFO - Train Epoch 74: 100/245 Loss: 13.940726
+2022-07-14 23:45:27,084 - INFO - Train Epoch 74: 120/245 Loss: 13.711174
+2022-07-14 23:45:33,219 - INFO - Train Epoch 74: 140/245 Loss: 12.907762
+2022-07-14 23:45:39,372 - INFO - Train Epoch 74: 160/245 Loss: 14.490016
+2022-07-14 23:45:45,509 - INFO - Train Epoch 74: 180/245 Loss: 14.542268
+2022-07-14 23:45:51,657 - INFO - Train Epoch 74: 200/245 Loss: 13.171341
+2022-07-14 23:45:57,790 - INFO - Train Epoch 74: 220/245 Loss: 14.651433
+2022-07-14 23:46:03,922 - INFO - Train Epoch 74: 240/245 Loss: 13.550430
+2022-07-14 23:46:05,150 - INFO - **********Train Epoch 74: averaged Loss: 13.554287, tf_ratio: 1.000000
+2022-07-14 23:46:14,060 - INFO - **********Val Epoch 74: average Loss: 14.343347
+2022-07-14 23:46:14,061 - INFO - **********Epoch 074:Training Time: 75.2450s/epoch, Inference Time: 8.9086s/epoch
+2022-07-14 23:46:14,368 - INFO - Train Epoch 75: 0/245 Loss: 13.804534
+2022-07-14 23:46:20,486 - INFO - Train Epoch 75: 20/245 Loss: 13.465461
+2022-07-14 23:46:26,600 - INFO - Train Epoch 75: 40/245 Loss: 14.138106
+2022-07-14 23:46:32,727 - INFO - Train Epoch 75: 60/245 Loss: 13.773815
+2022-07-14 23:46:38,860 - INFO - Train Epoch 75: 80/245 Loss: 13.249749
+2022-07-14 23:46:44,997 - INFO - Train Epoch 75: 100/245 Loss: 14.073881
+2022-07-14 23:46:51,117 - INFO - Train Epoch 75: 120/245 Loss: 13.494896
+2022-07-14 23:46:57,233 - INFO - Train Epoch 75: 140/245 Loss: 14.007587
+2022-07-14 23:47:03,345 - INFO - Train Epoch 75: 160/245 Loss: 12.991155
+2022-07-14 23:47:09,469 - INFO - Train Epoch 75: 180/245 Loss: 13.538569
+2022-07-14 23:47:15,587 - INFO - Train Epoch 75: 200/245 Loss: 14.016788
+2022-07-14 23:47:21,695 - INFO - Train Epoch 75: 220/245 Loss: 13.934532
+2022-07-14 23:47:27,816 - INFO - Train Epoch 75: 240/245 Loss: 14.249063
+2022-07-14 23:47:29,041 - INFO - **********Train Epoch 75: averaged Loss: 13.579187, tf_ratio: 1.000000
+2022-07-14 23:47:37,926 - INFO - **********Val Epoch 75: average Loss: 14.603015
+2022-07-14 23:47:37,926 - INFO - **********Epoch 075:Training Time: 74.9815s/epoch, Inference Time: 8.8841s/epoch
+2022-07-14 23:47:38,231 - INFO - Train Epoch 76: 0/245 Loss: 13.756486
+2022-07-14 23:47:44,338 - INFO - Train Epoch 76: 20/245 Loss: 13.295697
+2022-07-14 23:47:50,451 - INFO - Train Epoch 76: 40/245 Loss: 13.284047
+2022-07-14 23:47:56,567 - INFO - Train Epoch 76: 60/245 Loss: 13.214297
+2022-07-14 23:48:02,674 - INFO - Train Epoch 76: 80/245 Loss: 13.374334
+2022-07-14 23:48:08,782 - INFO - Train Epoch 76: 100/245 Loss: 14.399097
+2022-07-14 23:48:14,910 - INFO - Train Epoch 76: 120/245 Loss: 13.000275
+2022-07-14 23:48:21,031 - INFO - Train Epoch 76: 140/245 Loss: 13.713766
+2022-07-14 23:48:27,127 - INFO - Train Epoch 76: 160/245 Loss: 13.183888
+2022-07-14 23:48:33,243 - INFO - Train Epoch 76: 180/245 Loss: 12.861004
+2022-07-14 23:48:39,364 - INFO - Train Epoch 76: 200/245 Loss: 13.069374
+2022-07-14 23:48:45,460 - INFO - Train Epoch 76: 220/245 Loss: 13.842283
+2022-07-14 23:48:51,577 - INFO - Train Epoch 76: 240/245 Loss: 13.235757
+2022-07-14 23:48:52,805 - INFO - **********Train Epoch 76: averaged Loss: 13.489654, tf_ratio: 1.000000
+2022-07-14 23:49:01,678 - INFO - **********Val Epoch 76: average Loss: 14.318937
+2022-07-14 23:49:01,678 - INFO - **********Epoch 076:Training Time: 74.8794s/epoch, Inference Time: 8.8726s/epoch
+2022-07-14 23:49:01,983 - INFO - Train Epoch 77: 0/245 Loss: 13.762630
+2022-07-14 23:49:08,077 - INFO - Train Epoch 77: 20/245 Loss: 13.501907
+2022-07-14 23:49:14,196 - INFO - Train Epoch 77: 40/245 Loss: 13.261035
+2022-07-14 23:49:20,298 - INFO - Train Epoch 77: 60/245 Loss: 13.426651
+2022-07-14 23:49:26,399 - INFO - Train Epoch 77: 80/245 Loss: 13.172032
+2022-07-14 23:49:32,517 - INFO - Train Epoch 77: 100/245 Loss: 12.464990
+2022-07-14 23:49:38,624 - INFO - Train Epoch 77: 120/245 Loss: 13.158770
+2022-07-14 23:49:44,729 - INFO - Train Epoch 77: 140/245 Loss: 14.780875
+2022-07-14 23:49:50,853 - INFO - Train Epoch 77: 160/245 Loss: 12.130314
+2022-07-14 23:49:56,947 - INFO - Train Epoch 77: 180/245 Loss: 14.132826
+2022-07-14 23:50:03,055 - INFO - Train Epoch 77: 200/245 Loss: 14.492682
+2022-07-14 23:50:09,171 - INFO - Train Epoch 77: 220/245 Loss: 14.387288
+2022-07-14 23:50:15,271 - INFO - Train Epoch 77: 240/245 Loss: 12.937889
+2022-07-14 23:50:16,490 - INFO - **********Train Epoch 77: averaged Loss: 13.532555, tf_ratio: 1.000000
+2022-07-14 23:50:25,371 - INFO - **********Val Epoch 77: average Loss: 14.300261
+2022-07-14 23:50:25,371 - INFO - **********Epoch 077:Training Time: 74.8130s/epoch, Inference Time: 8.8798s/epoch
+2022-07-14 23:50:25,676 - INFO - Train Epoch 78: 0/245 Loss: 13.224097
+2022-07-14 23:50:31,787 - INFO - Train Epoch 78: 20/245 Loss: 13.847631
+2022-07-14 23:50:37,887 - INFO - Train Epoch 78: 40/245 Loss: 13.238836
+2022-07-14 23:50:44,001 - INFO - Train Epoch 78: 60/245 Loss: 14.652944
+2022-07-14 23:50:50,094 - INFO - Train Epoch 78: 80/245 Loss: 14.056773
+2022-07-14 23:50:56,196 - INFO - Train Epoch 78: 100/245 Loss: 14.653852
+2022-07-14 23:51:02,306 - INFO - Train Epoch 78: 120/245 Loss: 12.720929
+2022-07-14 23:51:08,405 - INFO - Train Epoch 78: 140/245 Loss: 14.057555
+2022-07-14 23:51:14,523 - INFO - Train Epoch 78: 160/245 Loss: 12.442880
+2022-07-14 23:51:20,625 - INFO - Train Epoch 78: 180/245 Loss: 14.128493
+2022-07-14 23:51:26,728 - INFO - Train Epoch 78: 200/245 Loss: 13.786875
+2022-07-14 23:51:32,844 - INFO - Train Epoch 78: 220/245 Loss: 13.755762
+2022-07-14 23:51:38,945 - INFO - Train Epoch 78: 240/245 Loss: 14.433527
+2022-07-14 23:51:40,167 - INFO - **********Train Epoch 78: averaged Loss: 13.619590, tf_ratio: 1.000000
+2022-07-14 23:51:49,035 - INFO - **********Val Epoch 78: average Loss: 14.508554
+2022-07-14 23:51:49,035 - INFO - **********Epoch 078:Training Time: 74.7966s/epoch, Inference Time: 8.8674s/epoch
+2022-07-14 23:51:49,340 - INFO - Train Epoch 79: 0/245 Loss: 13.963939
+2022-07-14 23:51:55,448 - INFO - Train Epoch 79: 20/245 Loss: 12.527534
+2022-07-14 23:52:01,557 - INFO - Train Epoch 79: 40/245 Loss: 13.490916
+2022-07-14 23:52:07,664 - INFO - Train Epoch 79: 60/245 Loss: 14.280399
+2022-07-14 23:52:13,753 - INFO - Train Epoch 79: 80/245 Loss: 13.602030
+2022-07-14 23:52:19,874 - INFO - Train Epoch 79: 100/245 Loss: 13.939462
+2022-07-14 23:52:25,989 - INFO - Train Epoch 79: 120/245 Loss: 13.284037
+2022-07-14 23:52:32,089 - INFO - Train Epoch 79: 140/245 Loss: 13.257779
+2022-07-14 23:52:38,206 - INFO - Train Epoch 79: 160/245 Loss: 13.538565
+2022-07-14 23:52:44,323 - INFO - Train Epoch 79: 180/245 Loss: 13.084181
+2022-07-14 23:52:50,422 - INFO - Train Epoch 79: 200/245 Loss: 12.900325
+2022-07-14 23:52:56,539 - INFO - Train Epoch 79: 220/245 Loss: 14.492340
+2022-07-14 23:53:02,661 - INFO - Train Epoch 79: 240/245 Loss: 13.534566
+2022-07-14 23:53:03,887 - INFO - **********Train Epoch 79: averaged Loss: 13.478826, tf_ratio: 1.000000
+2022-07-14 23:53:12,763 - INFO - **********Val Epoch 79: average Loss: 14.270842
+2022-07-14 23:53:12,764 - INFO - **********Epoch 079:Training Time: 74.8532s/epoch, Inference Time: 8.8751s/epoch
+2022-07-14 23:53:12,764 - INFO - *********************************Current best model saved!
+2022-07-14 23:53:13,074 - INFO - Train Epoch 80: 0/245 Loss: 12.619671
+2022-07-14 23:53:19,171 - INFO - Train Epoch 80: 20/245 Loss: 13.530458
+2022-07-14 23:53:25,317 - INFO - Train Epoch 80: 40/245 Loss: 13.604869
+2022-07-14 23:53:31,461 - INFO - Train Epoch 80: 60/245 Loss: 14.153751
+2022-07-14 23:53:37,593 - INFO - Train Epoch 80: 80/245 Loss: 13.944902
+2022-07-14 23:53:43,731 - INFO - Train Epoch 80: 100/245 Loss: 13.337837
+2022-07-14 23:53:49,854 - INFO - Train Epoch 80: 120/245 Loss: 14.282461
+2022-07-14 23:53:55,978 - INFO - Train Epoch 80: 140/245 Loss: 13.398449
+2022-07-14 23:54:02,096 - INFO - Train Epoch 80: 160/245 Loss: 14.157031
+2022-07-14 23:54:08,239 - INFO - Train Epoch 80: 180/245 Loss: 13.535769
+2022-07-14 23:54:14,393 - INFO - Train Epoch 80: 200/245 Loss: 14.122885
+2022-07-14 23:54:20,523 - INFO - Train Epoch 80: 220/245 Loss: 13.543103
+2022-07-14 23:54:26,676 - INFO - Train Epoch 80: 240/245 Loss: 13.473631
+2022-07-14 23:54:27,906 - INFO - **********Train Epoch 80: averaged Loss: 13.480060, tf_ratio: 1.000000
+2022-07-14 23:54:36,843 - INFO - **********Val Epoch 80: average Loss: 14.264312
+2022-07-14 23:54:36,843 - INFO - **********Epoch 080:Training Time: 75.1384s/epoch, Inference Time: 8.9358s/epoch
+2022-07-14 23:54:36,843 - INFO - *********************************Current best model saved!
+2022-07-14 23:54:37,155 - INFO - Train Epoch 81: 0/245 Loss: 14.063657
+2022-07-14 23:54:43,306 - INFO - Train Epoch 81: 20/245 Loss: 13.864925
+2022-07-14 23:54:49,465 - INFO - Train Epoch 81: 40/245 Loss: 12.707658
+2022-07-14 23:54:55,625 - INFO - Train Epoch 81: 60/245 Loss: 12.750064
+2022-07-14 23:55:01,790 - INFO - Train Epoch 81: 80/245 Loss: 12.706520
+2022-07-14 23:55:07,939 - INFO - Train Epoch 81: 100/245 Loss: 13.145159
+2022-07-14 23:55:14,085 - INFO - Train Epoch 81: 120/245 Loss: 13.098861
+2022-07-14 23:55:20,232 - INFO - Train Epoch 81: 140/245 Loss: 14.004602
+2022-07-14 23:55:26,381 - INFO - Train Epoch 81: 160/245 Loss: 14.141445
+2022-07-14 23:55:32,529 - INFO - Train Epoch 81: 180/245 Loss: 13.864758
+2022-07-14 23:55:38,669 - INFO - Train Epoch 81: 200/245 Loss: 13.228138
+2022-07-14 23:55:44,821 - INFO - Train Epoch 81: 220/245 Loss: 11.902226
+2022-07-14 23:55:50,964 - INFO - Train Epoch 81: 240/245 Loss: 13.789475
+2022-07-14 23:55:52,202 - INFO - **********Train Epoch 81: averaged Loss: 13.447318, tf_ratio: 1.000000
+2022-07-14 23:56:01,202 - INFO - **********Val Epoch 81: average Loss: 14.516389
+2022-07-14 23:56:01,202 - INFO - **********Epoch 081:Training Time: 75.3551s/epoch, Inference Time: 8.9990s/epoch
+2022-07-14 23:56:01,516 - INFO - Train Epoch 82: 0/245 Loss: 13.116138
+2022-07-14 23:56:07,660 - INFO - Train Epoch 82: 20/245 Loss: 13.115012
+2022-07-14 23:56:13,803 - INFO - Train Epoch 82: 40/245 Loss: 12.981848
+2022-07-14 23:56:19,953 - INFO - Train Epoch 82: 60/245 Loss: 14.709006
+2022-07-14 23:56:26,097 - INFO - Train Epoch 82: 80/245 Loss: 13.674347
+2022-07-14 23:56:32,233 - INFO - Train Epoch 82: 100/245 Loss: 13.352956
+2022-07-14 23:56:38,387 - INFO - Train Epoch 82: 120/245 Loss: 13.680564
+2022-07-14 23:56:44,553 - INFO - Train Epoch 82: 140/245 Loss: 14.000372
+2022-07-14 23:56:50,767 - INFO - Train Epoch 82: 160/245 Loss: 12.609870
+2022-07-14 23:56:56,910 - INFO - Train Epoch 82: 180/245 Loss: 12.903899
+2022-07-14 23:57:03,055 - INFO - Train Epoch 82: 200/245 Loss: 13.133315
+2022-07-14 23:57:09,206 - INFO - Train Epoch 82: 220/245 Loss: 14.050112
+2022-07-14 23:57:15,332 - INFO - Train Epoch 82: 240/245 Loss: 13.622190
+2022-07-14 23:57:16,559 - INFO - **********Train Epoch 82: averaged Loss: 13.506791, tf_ratio: 1.000000
+2022-07-14 23:57:25,573 - INFO - **********Val Epoch 82: average Loss: 14.257673
+2022-07-14 23:57:25,573 - INFO - **********Epoch 082:Training Time: 75.3574s/epoch, Inference Time: 9.0137s/epoch
+2022-07-14 23:57:25,574 - INFO - *********************************Current best model saved!
+2022-07-14 23:57:25,886 - INFO - Train Epoch 83: 0/245 Loss: 14.119261
+2022-07-14 23:57:32,035 - INFO - Train Epoch 83: 20/245 Loss: 13.145064
+2022-07-14 23:57:38,185 - INFO - Train Epoch 83: 40/245 Loss: 13.439201
+2022-07-14 23:57:44,324 - INFO - Train Epoch 83: 60/245 Loss: 14.333694
+2022-07-14 23:57:57,199 - INFO - Train Epoch 83: 80/245 Loss: 12.629870
+2022-07-14 23:58:03,303 - INFO - Train Epoch 83: 100/245 Loss: 12.344039
+2022-07-14 23:58:09,389 - INFO - Train Epoch 83: 120/245 Loss: 12.578968
+2022-07-14 23:58:15,472 - INFO - Train Epoch 83: 140/245 Loss: 14.422142
+2022-07-14 23:58:21,561 - INFO - Train Epoch 83: 160/245 Loss: 12.715905
+2022-07-14 23:58:33,286 - INFO - Train Epoch 83: 180/245 Loss: 12.182425
+2022-07-14 23:58:39,373 - INFO - Train Epoch 83: 200/245 Loss: 12.629314
+2022-07-14 23:58:45,457 - INFO - Train Epoch 83: 220/245 Loss: 12.843626
+2022-07-14 23:58:51,540 - INFO - Train Epoch 83: 240/245 Loss: 13.979261
+2022-07-14 23:58:52,759 - INFO - **********Train Epoch 83: averaged Loss: 13.503188, tf_ratio: 1.000000
+2022-07-14 23:59:01,649 - INFO - **********Val Epoch 83: average Loss: 14.178220
+2022-07-14 23:59:01,650 - INFO - **********Epoch 083:Training Time: 87.1818s/epoch, Inference Time: 8.8894s/epoch
+2022-07-14 23:59:01,650 - INFO - *********************************Current best model saved!
+2022-07-14 23:59:01,960 - INFO - Train Epoch 84: 0/245 Loss: 14.047507
+2022-07-14 23:59:08,081 - INFO - Train Epoch 84: 20/245 Loss: 13.953492
+2022-07-14 23:59:14,218 - INFO - Train Epoch 84: 40/245 Loss: 12.939934
+2022-07-14 23:59:20,359 - INFO - Train Epoch 84: 60/245 Loss: 13.959365
+2022-07-14 23:59:26,496 - INFO - Train Epoch 84: 80/245 Loss: 13.383561
+2022-07-14 23:59:32,621 - INFO - Train Epoch 84: 100/245 Loss: 13.966126
+2022-07-14 23:59:38,751 - INFO - Train Epoch 84: 120/245 Loss: 13.746962
+2022-07-14 23:59:44,853 - INFO - Train Epoch 84: 140/245 Loss: 13.157001
+2022-07-14 23:59:50,986 - INFO - Train Epoch 84: 160/245 Loss: 13.632997
+2022-07-14 23:59:57,136 - INFO - Train Epoch 84: 180/245 Loss: 14.203041
+2022-07-15 00:00:03,267 - INFO - Train Epoch 84: 200/245 Loss: 13.291286
+2022-07-15 00:00:09,403 - INFO - Train Epoch 84: 220/245 Loss: 12.696144
+2022-07-15 00:00:15,530 - INFO - Train Epoch 84: 240/245 Loss: 13.014883
+2022-07-15 00:00:16,754 - INFO - **********Train Epoch 84: averaged Loss: 13.498424, tf_ratio: 1.000000
+2022-07-15 00:00:25,662 - INFO - **********Val Epoch 84: average Loss: 14.169255
+2022-07-15 00:00:25,662 - INFO - **********Epoch 084:Training Time: 75.1011s/epoch, Inference Time: 8.9066s/epoch
+2022-07-15 00:00:25,663 - INFO - *********************************Current best model saved!
+2022-07-15 00:00:25,972 - INFO - Train Epoch 85: 0/245 Loss: 14.346271
+2022-07-15 00:00:32,078 - INFO - Train Epoch 85: 20/245 Loss: 12.840135
+2022-07-15 00:00:38,191 - INFO - Train Epoch 85: 40/245 Loss: 13.166626
+2022-07-15 00:00:44,333 - INFO - Train Epoch 85: 60/245 Loss: 13.608592
+2022-07-15 00:00:50,461 - INFO - Train Epoch 85: 80/245 Loss: 13.165131
+2022-07-15 00:00:56,567 - INFO - Train Epoch 85: 100/245 Loss: 13.170917
+2022-07-15 00:01:02,671 - INFO - Train Epoch 85: 120/245 Loss: 13.600993
+2022-07-15 00:01:08,819 - INFO - Train Epoch 85: 140/245 Loss: 13.591770
+2022-07-15 00:01:14,936 - INFO - Train Epoch 85: 160/245 Loss: 13.045670
+2022-07-15 00:01:21,037 - INFO - Train Epoch 85: 180/245 Loss: 13.894374
+2022-07-15 00:01:27,144 - INFO - Train Epoch 85: 200/245 Loss: 13.381705
+2022-07-15 00:01:33,272 - INFO - Train Epoch 85: 220/245 Loss: 14.004010
+2022-07-15 00:01:39,395 - INFO - Train Epoch 85: 240/245 Loss: 13.791836
+2022-07-15 00:01:40,614 - INFO - **********Train Epoch 85: averaged Loss: 13.463169, tf_ratio: 1.000000
+2022-07-15 00:01:49,495 - INFO - **********Val Epoch 85: average Loss: 14.394870
+2022-07-15 00:01:49,496 - INFO - **********Epoch 085:Training Time: 74.9479s/epoch, Inference Time: 8.8801s/epoch
+2022-07-15 00:01:49,801 - INFO - Train Epoch 86: 0/245 Loss: 13.738246
+2022-07-15 00:01:55,907 - INFO - Train Epoch 86: 20/245 Loss: 13.737880
+2022-07-15 00:02:02,013 - INFO - Train Epoch 86: 40/245 Loss: 12.562100
+2022-07-15 00:02:08,109 - INFO - Train Epoch 86: 60/245 Loss: 13.578194
+2022-07-15 00:02:14,231 - INFO - Train Epoch 86: 80/245 Loss: 13.216656
+2022-07-15 00:02:20,334 - INFO - Train Epoch 86: 100/245 Loss: 13.613004
+2022-07-15 00:02:26,439 - INFO - Train Epoch 86: 120/245 Loss: 12.763329
+2022-07-15 00:02:32,552 - INFO - Train Epoch 86: 140/245 Loss: 12.652005
+2022-07-15 00:02:38,650 - INFO - Train Epoch 86: 160/245 Loss: 13.092262
+2022-07-15 00:02:44,762 - INFO - Train Epoch 86: 180/245 Loss: 12.849733
+2022-07-15 00:02:50,874 - INFO - Train Epoch 86: 200/245 Loss: 13.421439
+2022-07-15 00:02:56,968 - INFO - Train Epoch 86: 220/245 Loss: 13.136388
+2022-07-15 00:03:03,082 - INFO - Train Epoch 86: 240/245 Loss: 13.256252
+2022-07-15 00:03:04,312 - INFO - **********Train Epoch 86: averaged Loss: 13.363135, tf_ratio: 1.000000
+2022-07-15 00:03:13,196 - INFO - **********Val Epoch 86: average Loss: 14.373117
+2022-07-15 00:03:13,196 - INFO - **********Epoch 086:Training Time: 74.8173s/epoch, Inference Time: 8.8830s/epoch
+2022-07-15 00:03:13,501 - INFO - Train Epoch 87: 0/245 Loss: 12.732253
+2022-07-15 00:03:19,594 - INFO - Train Epoch 87: 20/245 Loss: 13.451869
+2022-07-15 00:03:25,711 - INFO - Train Epoch 87: 40/245 Loss: 13.741390
+2022-07-15 00:03:31,811 - INFO - Train Epoch 87: 60/245 Loss: 13.525550
+2022-07-15 00:03:37,912 - INFO - Train Epoch 87: 80/245 Loss: 13.828948
+2022-07-15 00:03:44,014 - INFO - Train Epoch 87: 100/245 Loss: 13.349775
+2022-07-15 00:03:50,113 - INFO - Train Epoch 87: 120/245 Loss: 13.531102
+2022-07-15 00:03:56,236 - INFO - Train Epoch 87: 140/245 Loss: 13.227377
+2022-07-15 00:04:02,343 - INFO - Train Epoch 87: 160/245 Loss: 12.650708
+2022-07-15 00:04:08,439 - INFO - Train Epoch 87: 180/245 Loss: 13.665335
+2022-07-15 00:04:14,560 - INFO - Train Epoch 87: 200/245 Loss: 14.491259
+2022-07-15 00:04:20,665 - INFO - Train Epoch 87: 220/245 Loss: 12.774911
+2022-07-15 00:04:26,767 - INFO - Train Epoch 87: 240/245 Loss: 13.438398
+2022-07-15 00:04:27,988 - INFO - **********Train Epoch 87: averaged Loss: 13.498249, tf_ratio: 1.000000
+2022-07-15 00:04:36,884 - INFO - **********Val Epoch 87: average Loss: 14.481572
+2022-07-15 00:04:36,884 - INFO - **********Epoch 087:Training Time: 74.7930s/epoch, Inference Time: 8.8951s/epoch
+2022-07-15 00:04:37,189 - INFO - Train Epoch 88: 0/245 Loss: 13.177492
+2022-07-15 00:04:43,280 - INFO - Train Epoch 88: 20/245 Loss: 13.921251
+2022-07-15 00:04:49,382 - INFO - Train Epoch 88: 40/245 Loss: 13.450768
+2022-07-15 00:04:55,495 - INFO - Train Epoch 88: 60/245 Loss: 13.818728
+2022-07-15 00:05:01,591 - INFO - Train Epoch 88: 80/245 Loss: 13.758260
+2022-07-15 00:05:07,705 - INFO - Train Epoch 88: 100/245 Loss: 13.081154
+2022-07-15 00:05:13,794 - INFO - Train Epoch 88: 120/245 Loss: 12.131014
+2022-07-15 00:05:19,897 - INFO - Train Epoch 88: 140/245 Loss: 13.638708
+2022-07-15 00:05:25,992 - INFO - Train Epoch 88: 160/245 Loss: 14.294118
+2022-07-15 00:05:32,094 - INFO - Train Epoch 88: 180/245 Loss: 13.198861
+2022-07-15 00:05:38,193 - INFO - Train Epoch 88: 200/245 Loss: 13.877127
+2022-07-15 00:05:44,290 - INFO - Train Epoch 88: 220/245 Loss: 14.008802
+2022-07-15 00:05:50,389 - INFO - Train Epoch 88: 240/245 Loss: 14.011007
+2022-07-15 00:05:51,608 - INFO - **********Train Epoch 88: averaged Loss: 13.489124, tf_ratio: 1.000000
+2022-07-15 00:06:00,489 - INFO - **********Val Epoch 88: average Loss: 14.311656
+2022-07-15 00:06:00,489 - INFO - **********Epoch 088:Training Time: 74.7252s/epoch, Inference Time: 8.8798s/epoch
+2022-07-15 00:06:00,795 - INFO - Train Epoch 89: 0/245 Loss: 13.419877
+2022-07-15 00:06:06,898 - INFO - Train Epoch 89: 20/245 Loss: 13.843178
+2022-07-15 00:06:12,990 - INFO - Train Epoch 89: 40/245 Loss: 12.013584
+2022-07-15 00:06:19,095 - INFO - Train Epoch 89: 60/245 Loss: 11.912079
+2022-07-15 00:06:25,203 - INFO - Train Epoch 89: 80/245 Loss: 14.675817
+2022-07-15 00:06:31,295 - INFO - Train Epoch 89: 100/245 Loss: 13.364779
+2022-07-15 00:06:37,411 - INFO - Train Epoch 89: 120/245 Loss: 13.356858
+2022-07-15 00:06:43,501 - INFO - Train Epoch 89: 140/245 Loss: 13.191073
+2022-07-15 00:06:49,610 - INFO - Train Epoch 89: 160/245 Loss: 13.444749
+2022-07-15 00:06:55,703 - INFO - Train Epoch 89: 180/245 Loss: 13.042718
+2022-07-15 00:07:01,792 - INFO - Train Epoch 89: 200/245 Loss: 12.900558
+2022-07-15 00:07:07,884 - INFO - Train Epoch 89: 220/245 Loss: 13.524788
+2022-07-15 00:07:13,987 - INFO - Train Epoch 89: 240/245 Loss: 13.457151
+2022-07-15 00:07:15,208 - INFO - **********Train Epoch 89: averaged Loss: 13.373526, tf_ratio: 1.000000
+2022-07-15 00:07:24,074 - INFO - **********Val Epoch 89: average Loss: 14.280293
+2022-07-15 00:07:24,075 - INFO - **********Epoch 089:Training Time: 74.7194s/epoch, Inference Time: 8.8656s/epoch
+2022-07-15 00:07:24,380 - INFO - Train Epoch 90: 0/245 Loss: 12.971464
+2022-07-15 00:07:30,474 - INFO - Train Epoch 90: 20/245 Loss: 13.458168
+2022-07-15 00:07:36,562 - INFO - Train Epoch 90: 40/245 Loss: 13.573021
+2022-07-15 00:07:42,660 - INFO - Train Epoch 90: 60/245 Loss: 13.165894
+2022-07-15 00:07:48,753 - INFO - Train Epoch 90: 80/245 Loss: 12.891265
+2022-07-15 00:07:54,850 - INFO - Train Epoch 90: 100/245 Loss: 13.442373
+2022-07-15 00:08:00,941 - INFO - Train Epoch 90: 120/245 Loss: 12.870343
+2022-07-15 00:08:07,039 - INFO - Train Epoch 90: 140/245 Loss: 13.404782
+2022-07-15 00:08:13,136 - INFO - Train Epoch 90: 160/245 Loss: 13.118013
+2022-07-15 00:08:19,228 - INFO - Train Epoch 90: 180/245 Loss: 12.824329
+2022-07-15 00:08:25,347 - INFO - Train Epoch 90: 200/245 Loss: 13.345504
+2022-07-15 00:08:31,435 - INFO - Train Epoch 90: 220/245 Loss: 14.032712
+2022-07-15 00:08:37,540 - INFO - Train Epoch 90: 240/245 Loss: 14.203177
+2022-07-15 00:08:38,761 - INFO - **********Train Epoch 90: averaged Loss: 13.393985, tf_ratio: 1.000000
+2022-07-15 00:08:47,633 - INFO - **********Val Epoch 90: average Loss: 14.321116
+2022-07-15 00:08:47,633 - INFO - **********Epoch 090:Training Time: 74.6872s/epoch, Inference Time: 8.8716s/epoch
+2022-07-15 00:08:47,939 - INFO - Train Epoch 91: 0/245 Loss: 12.948779
+2022-07-15 00:08:54,040 - INFO - Train Epoch 91: 20/245 Loss: 13.436166
+2022-07-15 00:09:00,141 - INFO - Train Epoch 91: 40/245 Loss: 12.944609
+2022-07-15 00:09:06,239 - INFO - Train Epoch 91: 60/245 Loss: 13.133165
+2022-07-15 00:09:12,338 - INFO - Train Epoch 91: 80/245 Loss: 13.378558
+2022-07-15 00:09:18,429 - INFO - Train Epoch 91: 100/245 Loss: 13.340450
+2022-07-15 00:09:24,528 - INFO - Train Epoch 91: 120/245 Loss: 12.909991
+2022-07-15 00:09:30,619 - INFO - Train Epoch 91: 140/245 Loss: 14.320780
+2022-07-15 00:09:36,719 - INFO - Train Epoch 91: 160/245 Loss: 13.209665
+2022-07-15 00:09:42,813 - INFO - Train Epoch 91: 180/245 Loss: 13.039949
+2022-07-15 00:09:48,920 - INFO - Train Epoch 91: 200/245 Loss: 13.156828
+2022-07-15 00:09:55,011 - INFO - Train Epoch 91: 220/245 Loss: 13.727414
+2022-07-15 00:10:01,108 - INFO - Train Epoch 91: 240/245 Loss: 13.881698
+2022-07-15 00:10:02,327 - INFO - **********Train Epoch 91: averaged Loss: 13.402631, tf_ratio: 1.000000
+2022-07-15 00:10:11,193 - INFO - **********Val Epoch 91: average Loss: 14.188992
+2022-07-15 00:10:11,193 - INFO - **********Epoch 091:Training Time: 74.6949s/epoch, Inference Time: 8.8646s/epoch
+2022-07-15 00:10:11,501 - INFO - Train Epoch 92: 0/245 Loss: 13.578216
+2022-07-15 00:10:17,600 - INFO - Train Epoch 92: 20/245 Loss: 13.342531
+2022-07-15 00:10:23,696 - INFO - Train Epoch 92: 40/245 Loss: 13.464997
+2022-07-15 00:10:29,794 - INFO - Train Epoch 92: 60/245 Loss: 13.291676
+2022-07-15 00:10:35,892 - INFO - Train Epoch 92: 80/245 Loss: 13.249880
+2022-07-15 00:10:41,985 - INFO - Train Epoch 92: 100/245 Loss: 12.646538
+2022-07-15 00:10:48,080 - INFO - Train Epoch 92: 120/245 Loss: 13.365320
+2022-07-15 00:10:54,170 - INFO - Train Epoch 92: 140/245 Loss: 13.532462
+2022-07-15 00:11:00,270 - INFO - Train Epoch 92: 160/245 Loss: 13.450086
+2022-07-15 00:11:06,359 - INFO - Train Epoch 92: 180/245 Loss: 12.549514
+2022-07-15 00:11:12,467 - INFO - Train Epoch 92: 200/245 Loss: 14.547114
+2022-07-15 00:11:18,557 - INFO - Train Epoch 92: 220/245 Loss: 12.574988
+2022-07-15 00:11:24,658 - INFO - Train Epoch 92: 240/245 Loss: 13.936457
+2022-07-15 00:11:25,877 - INFO - **********Train Epoch 92: averaged Loss: 13.370196, tf_ratio: 1.000000
+2022-07-15 00:11:34,740 - INFO - **********Val Epoch 92: average Loss: 14.145570
+2022-07-15 00:11:34,741 - INFO - **********Epoch 092:Training Time: 74.6857s/epoch, Inference Time: 8.8621s/epoch
+2022-07-15 00:11:34,741 - INFO - *********************************Current best model saved!
+2022-07-15 00:11:35,052 - INFO - Train Epoch 93: 0/245 Loss: 14.047112
+2022-07-15 00:11:41,151 - INFO - Train Epoch 93: 20/245 Loss: 14.311411
+2022-07-15 00:11:47,241 - INFO - Train Epoch 93: 40/245 Loss: 13.926557
+2022-07-15 00:11:53,341 - INFO - Train Epoch 93: 60/245 Loss: 12.976768
+2022-07-15 00:11:59,438 - INFO - Train Epoch 93: 80/245 Loss: 13.802484
+2022-07-15 00:12:05,539 - INFO - Train Epoch 93: 100/245 Loss: 12.981933
+2022-07-15 00:12:11,623 - INFO - Train Epoch 93: 120/245 Loss: 13.079432
+2022-07-15 00:12:17,709 - INFO - Train Epoch 93: 140/245 Loss: 13.200288
+2022-07-15 00:12:23,798 - INFO - Train Epoch 93: 160/245 Loss: 12.588713
+2022-07-15 00:12:29,903 - INFO - Train Epoch 93: 180/245 Loss: 14.131454
+2022-07-15 00:12:35,993 - INFO - Train Epoch 93: 200/245 Loss: 13.029655
+2022-07-15 00:12:42,093 - INFO - Train Epoch 93: 220/245 Loss: 13.834483
+2022-07-15 00:12:48,182 - INFO - Train Epoch 93: 240/245 Loss: 13.036566
+2022-07-15 00:12:49,402 - INFO - **********Train Epoch 93: averaged Loss: 13.342263, tf_ratio: 1.000000
+2022-07-15 00:12:58,260 - INFO - **********Val Epoch 93: average Loss: 14.219296
+2022-07-15 00:12:58,261 - INFO - **********Epoch 093:Training Time: 74.6570s/epoch, Inference Time: 8.8577s/epoch
+2022-07-15 00:12:58,566 - INFO - Train Epoch 94: 0/245 Loss: 13.735590
+2022-07-15 00:13:04,654 - INFO - Train Epoch 94: 20/245 Loss: 13.861071
+2022-07-15 00:13:10,760 - INFO - Train Epoch 94: 40/245 Loss: 13.433559
+2022-07-15 00:13:16,849 - INFO - Train Epoch 94: 60/245 Loss: 13.232989
+2022-07-15 00:13:22,953 - INFO - Train Epoch 94: 80/245 Loss: 13.252549
+2022-07-15 00:13:29,045 - INFO - Train Epoch 94: 100/245 Loss: 13.755944
+2022-07-15 00:13:35,149 - INFO - Train Epoch 94: 120/245 Loss: 13.601485
+2022-07-15 00:13:41,245 - INFO - Train Epoch 94: 140/245 Loss: 13.196517
+2022-07-15 00:13:47,334 - INFO - Train Epoch 94: 160/245 Loss: 14.196506
+2022-07-15 00:13:53,427 - INFO - Train Epoch 94: 180/245 Loss: 13.224295
+2022-07-15 00:13:59,522 - INFO - Train Epoch 94: 200/245 Loss: 13.442295
+2022-07-15 00:14:05,620 - INFO - Train Epoch 94: 220/245 Loss: 13.072797
+2022-07-15 00:14:11,715 - INFO - Train Epoch 94: 240/245 Loss: 12.369343
+2022-07-15 00:14:12,962 - INFO - **********Train Epoch 94: averaged Loss: 13.412908, tf_ratio: 1.000000
+2022-07-15 00:14:21,827 - INFO - **********Val Epoch 94: average Loss: 14.303512
+2022-07-15 00:14:21,828 - INFO - **********Epoch 094:Training Time: 74.7024s/epoch, Inference Time: 8.8645s/epoch
+2022-07-15 00:14:22,133 - INFO - Train Epoch 95: 0/245 Loss: 12.282996
+2022-07-15 00:14:28,226 - INFO - Train Epoch 95: 20/245 Loss: 13.575990
+2022-07-15 00:14:34,332 - INFO - Train Epoch 95: 40/245 Loss: 12.516459
+2022-07-15 00:14:40,437 - INFO - Train Epoch 95: 60/245 Loss: 14.219879
+2022-07-15 00:14:46,536 - INFO - Train Epoch 95: 80/245 Loss: 13.294055
+2022-07-15 00:14:52,649 - INFO - Train Epoch 95: 100/245 Loss: 13.304263
+2022-07-15 00:14:58,740 - INFO - Train Epoch 95: 120/245 Loss: 13.657050
+2022-07-15 00:15:04,846 - INFO - Train Epoch 95: 140/245 Loss: 14.250051
+2022-07-15 00:15:10,947 - INFO - Train Epoch 95: 160/245 Loss: 13.927591
+2022-07-15 00:15:17,043 - INFO - Train Epoch 95: 180/245 Loss: 13.416482
+2022-07-15 00:15:23,151 - INFO - Train Epoch 95: 200/245 Loss: 13.337567
+2022-07-15 00:15:29,247 - INFO - Train Epoch 95: 220/245 Loss: 13.542712
+2022-07-15 00:15:35,358 - INFO - Train Epoch 95: 240/245 Loss: 13.825474
+2022-07-15 00:15:36,580 - INFO - **********Train Epoch 95: averaged Loss: 13.408815, tf_ratio: 1.000000
+2022-07-15 00:15:45,459 - INFO - **********Val Epoch 95: average Loss: 14.136396
+2022-07-15 00:15:45,460 - INFO - **********Epoch 095:Training Time: 74.7535s/epoch, Inference Time: 8.8785s/epoch
+2022-07-15 00:15:45,460 - INFO - *********************************Current best model saved!
+2022-07-15 00:15:45,770 - INFO - Train Epoch 96: 0/245 Loss: 13.023477
+2022-07-15 00:15:51,865 - INFO - Train Epoch 96: 20/245 Loss: 13.317221
+2022-07-15 00:15:57,976 - INFO - Train Epoch 96: 40/245 Loss: 13.889629
+2022-07-15 00:16:04,072 - INFO - Train Epoch 96: 60/245 Loss: 13.181705
+2022-07-15 00:16:10,179 - INFO - Train Epoch 96: 80/245 Loss: 13.685433
+2022-07-15 00:16:16,285 - INFO - Train Epoch 96: 100/245 Loss: 13.543931
+2022-07-15 00:16:22,387 - INFO - Train Epoch 96: 120/245 Loss: 13.416048
+2022-07-15 00:16:28,483 - INFO - Train Epoch 96: 140/245 Loss: 13.541258
+2022-07-15 00:16:34,574 - INFO - Train Epoch 96: 160/245 Loss: 13.672610
+2022-07-15 00:16:40,681 - INFO - Train Epoch 96: 180/245 Loss: 13.230493
+2022-07-15 00:16:46,782 - INFO - Train Epoch 96: 200/245 Loss: 14.100479
+2022-07-15 00:16:52,882 - INFO - Train Epoch 96: 220/245 Loss: 12.945274
+2022-07-15 00:16:58,981 - INFO - Train Epoch 96: 240/245 Loss: 13.307968
+2022-07-15 00:17:00,200 - INFO - **********Train Epoch 96: averaged Loss: 13.390912, tf_ratio: 1.000000
+2022-07-15 00:17:09,074 - INFO - **********Val Epoch 96: average Loss: 14.285663
+2022-07-15 00:17:09,075 - INFO - **********Epoch 096:Training Time: 74.7372s/epoch, Inference Time: 8.8726s/epoch
+2022-07-15 00:17:09,380 - INFO - Train Epoch 97: 0/245 Loss: 13.464442
+2022-07-15 00:17:15,491 - INFO - Train Epoch 97: 20/245 Loss: 14.024761
+2022-07-15 00:17:21,582 - INFO - Train Epoch 97: 40/245 Loss: 13.480342
+2022-07-15 00:17:27,688 - INFO - Train Epoch 97: 60/245 Loss: 15.030555
+2022-07-15 00:17:33,783 - INFO - Train Epoch 97: 80/245 Loss: 12.461794
+2022-07-15 00:17:39,895 - INFO - Train Epoch 97: 100/245 Loss: 13.392710
+2022-07-15 00:17:45,985 - INFO - Train Epoch 97: 120/245 Loss: 15.077453
+2022-07-15 00:17:52,077 - INFO - Train Epoch 97: 140/245 Loss: 13.360795
+2022-07-15 00:17:58,168 - INFO - Train Epoch 97: 160/245 Loss: 12.858021
+2022-07-15 00:18:04,265 - INFO - Train Epoch 97: 180/245 Loss: 13.252135
+2022-07-15 00:18:10,359 - INFO - Train Epoch 97: 200/245 Loss: 13.790817
+2022-07-15 00:18:16,455 - INFO - Train Epoch 97: 220/245 Loss: 14.018968
+2022-07-15 00:18:22,555 - INFO - Train Epoch 97: 240/245 Loss: 13.400924
+2022-07-15 00:18:23,774 - INFO - **********Train Epoch 97: averaged Loss: 13.384114, tf_ratio: 1.000000
+2022-07-15 00:18:32,634 - INFO - **********Val Epoch 97: average Loss: 14.242249
+2022-07-15 00:18:32,634 - INFO - **********Epoch 097:Training Time: 74.7001s/epoch, Inference Time: 8.8595s/epoch
+2022-07-15 00:18:32,939 - INFO - Train Epoch 98: 0/245 Loss: 14.182606
+2022-07-15 00:18:39,040 - INFO - Train Epoch 98: 20/245 Loss: 13.990427
+2022-07-15 00:18:45,144 - INFO - Train Epoch 98: 40/245 Loss: 13.212315
+2022-07-15 00:18:51,241 - INFO - Train Epoch 98: 60/245 Loss: 14.348476
+2022-07-15 00:18:57,330 - INFO - Train Epoch 98: 80/245 Loss: 14.261216
+2022-07-15 00:19:03,437 - INFO - Train Epoch 98: 100/245 Loss: 13.219141
+2022-07-15 00:19:09,528 - INFO - Train Epoch 98: 120/245 Loss: 13.098922
+2022-07-15 00:19:15,634 - INFO - Train Epoch 98: 140/245 Loss: 14.453469
+2022-07-15 00:19:21,713 - INFO - Train Epoch 98: 160/245 Loss: 13.635242
+2022-07-15 00:19:27,810 - INFO - Train Epoch 98: 180/245 Loss: 13.939005
+2022-07-15 00:19:33,893 - INFO - Train Epoch 98: 200/245 Loss: 13.147356
+2022-07-15 00:19:39,993 - INFO - Train Epoch 98: 220/245 Loss: 13.964862
+2022-07-15 00:19:46,080 - INFO - Train Epoch 98: 240/245 Loss: 13.442823
+2022-07-15 00:19:47,305 - INFO - **********Train Epoch 98: averaged Loss: 13.331348, tf_ratio: 1.000000
+2022-07-15 00:19:56,178 - INFO - **********Val Epoch 98: average Loss: 14.224644
+2022-07-15 00:19:56,178 - INFO - **********Epoch 098:Training Time: 74.6719s/epoch, Inference Time: 8.8714s/epoch
+2022-07-15 00:19:56,483 - INFO - Train Epoch 99: 0/245 Loss: 12.921382
+2022-07-15 00:20:02,568 - INFO - Train Epoch 99: 20/245 Loss: 14.433467
+2022-07-15 00:20:08,667 - INFO - Train Epoch 99: 40/245 Loss: 13.172025
+2022-07-15 00:20:14,757 - INFO - Train Epoch 99: 60/245 Loss: 13.088783
+2022-07-15 00:20:20,869 - INFO - Train Epoch 99: 80/245 Loss: 12.648971
+2022-07-15 00:20:26,960 - INFO - Train Epoch 99: 100/245 Loss: 12.895041
+2022-07-15 00:20:33,064 - INFO - Train Epoch 99: 120/245 Loss: 12.668106
+2022-07-15 00:20:39,153 - INFO - Train Epoch 99: 140/245 Loss: 12.589902
+2022-07-15 00:20:45,246 - INFO - Train Epoch 99: 160/245 Loss: 13.195145
+2022-07-15 00:20:51,336 - INFO - Train Epoch 99: 180/245 Loss: 13.551012
+2022-07-15 00:20:57,436 - INFO - Train Epoch 99: 200/245 Loss: 14.463611
+2022-07-15 00:21:03,534 - INFO - Train Epoch 99: 220/245 Loss: 13.294898
+2022-07-15 00:21:09,632 - INFO - Train Epoch 99: 240/245 Loss: 13.042560
+2022-07-15 00:21:10,859 - INFO - **********Train Epoch 99: averaged Loss: 13.343935, tf_ratio: 1.000000
+2022-07-15 00:21:19,739 - INFO - **********Val Epoch 99: average Loss: 14.207365
+2022-07-15 00:21:19,741 - INFO - **********Epoch 099:Training Time: 74.6820s/epoch, Inference Time: 8.8806s/epoch
+2022-07-15 00:21:20,046 - INFO - Train Epoch 100: 0/245 Loss: 13.577261
+2022-07-15 00:21:26,136 - INFO - Train Epoch 100: 20/245 Loss: 13.723778
+2022-07-15 00:21:32,236 - INFO - Train Epoch 100: 40/245 Loss: 12.499462
+2022-07-15 00:21:38,324 - INFO - Train Epoch 100: 60/245 Loss: 12.605483
+2022-07-15 00:21:44,427 - INFO - Train Epoch 100: 80/245 Loss: 12.484585
+2022-07-15 00:21:50,518 - INFO - Train Epoch 100: 100/245 Loss: 13.150098
+2022-07-15 00:21:56,636 - INFO - Train Epoch 100: 120/245 Loss: 13.133722
+2022-07-15 00:22:02,738 - INFO - Train Epoch 100: 140/245 Loss: 12.921465
+2022-07-15 00:22:08,833 - INFO - Train Epoch 100: 160/245 Loss: 13.209642
+2022-07-15 00:22:14,945 - INFO - Train Epoch 100: 180/245 Loss: 12.532596
+2022-07-15 00:22:21,034 - INFO - Train Epoch 100: 200/245 Loss: 13.257287
+2022-07-15 00:22:27,144 - INFO - Train Epoch 100: 220/245 Loss: 14.635332
+2022-07-15 00:22:33,236 - INFO - Train Epoch 100: 240/245 Loss: 14.557659
+2022-07-15 00:22:34,456 - INFO - **********Train Epoch 100: averaged Loss: 13.309878, tf_ratio: 1.000000
+2022-07-15 00:22:43,341 - INFO - **********Val Epoch 100: average Loss: 14.236756
+2022-07-15 00:22:43,341 - INFO - **********Epoch 100:Training Time: 74.7162s/epoch, Inference Time: 8.8842s/epoch
+2022-07-15 00:22:43,647 - INFO - Train Epoch 101: 0/245 Loss: 13.183724
+2022-07-15 00:22:49,753 - INFO - Train Epoch 101: 20/245 Loss: 12.335664
+2022-07-15 00:22:55,846 - INFO - Train Epoch 101: 40/245 Loss: 12.707109
+2022-07-15 00:23:01,947 - INFO - Train Epoch 101: 60/245 Loss: 12.009876
+2022-07-15 00:23:08,038 - INFO - Train Epoch 101: 80/245 Loss: 13.239249
+2022-07-15 00:23:14,148 - INFO - Train Epoch 101: 100/245 Loss: 13.432984
+2022-07-15 00:23:20,243 - INFO - Train Epoch 101: 120/245 Loss: 13.018950
+2022-07-15 00:23:26,334 - INFO - Train Epoch 101: 140/245 Loss: 12.874763
+2022-07-15 00:23:32,426 - INFO - Train Epoch 101: 160/245 Loss: 13.452188
+2022-07-15 00:23:38,524 - INFO - Train Epoch 101: 180/245 Loss: 13.168920
+2022-07-15 00:23:44,610 - INFO - Train Epoch 101: 200/245 Loss: 13.454812
+2022-07-15 00:23:50,705 - INFO - Train Epoch 101: 220/245 Loss: 12.989964
+2022-07-15 00:23:56,788 - INFO - Train Epoch 101: 240/245 Loss: 12.397689
+2022-07-15 00:23:58,006 - INFO - **********Train Epoch 101: averaged Loss: 13.339181, tf_ratio: 1.000000
+2022-07-15 00:24:06,872 - INFO - **********Val Epoch 101: average Loss: 14.572951
+2022-07-15 00:24:06,872 - INFO - **********Epoch 101:Training Time: 74.6657s/epoch, Inference Time: 8.8651s/epoch
+2022-07-15 00:24:07,177 - INFO - Train Epoch 102: 0/245 Loss: 13.761295
+2022-07-15 00:24:13,253 - INFO - Train Epoch 102: 20/245 Loss: 13.546570
+2022-07-15 00:24:19,329 - INFO - Train Epoch 102: 40/245 Loss: 11.662281
+2022-07-15 00:24:25,405 - INFO - Train Epoch 102: 60/245 Loss: 13.121037
+2022-07-15 00:24:31,481 - INFO - Train Epoch 102: 80/245 Loss: 13.097558
+2022-07-15 00:24:37,560 - INFO - Train Epoch 102: 100/245 Loss: 13.315948
+2022-07-15 00:24:47,689 - INFO - Train Epoch 102: 120/245 Loss: 12.990499
+2022-07-15 00:24:53,760 - INFO - Train Epoch 102: 140/245 Loss: 13.017161
+2022-07-15 00:24:59,833 - INFO - Train Epoch 102: 160/245 Loss: 13.901680
+2022-07-15 00:25:05,905 - INFO - Train Epoch 102: 180/245 Loss: 12.696619
+2022-07-15 00:25:11,979 - INFO - Train Epoch 102: 200/245 Loss: 13.697140
+2022-07-15 00:25:18,054 - INFO - Train Epoch 102: 220/245 Loss: 12.873003
+2022-07-15 00:25:24,128 - INFO - Train Epoch 102: 240/245 Loss: 13.217174
+2022-07-15 00:25:25,344 - INFO - **********Train Epoch 102: averaged Loss: 13.328630, tf_ratio: 1.000000
+2022-07-15 00:25:34,196 - INFO - **********Val Epoch 102: average Loss: 14.398341
+2022-07-15 00:25:34,196 - INFO - **********Epoch 102:Training Time: 78.4733s/epoch, Inference Time: 8.8503s/epoch
+2022-07-15 00:25:34,501 - INFO - Train Epoch 103: 0/245 Loss: 13.982777
+2022-07-15 00:25:40,573 - INFO - Train Epoch 103: 20/245 Loss: 12.165347
+2022-07-15 00:25:46,653 - INFO - Train Epoch 103: 40/245 Loss: 14.253710
+2022-07-15 00:25:52,735 - INFO - Train Epoch 103: 60/245 Loss: 12.965619
+2022-07-15 00:25:58,816 - INFO - Train Epoch 103: 80/245 Loss: 12.811472
+2022-07-15 00:26:04,894 - INFO - Train Epoch 103: 100/245 Loss: 14.202191
+2022-07-15 00:26:10,971 - INFO - Train Epoch 103: 120/245 Loss: 13.554217
+2022-07-15 00:26:17,048 - INFO - Train Epoch 103: 140/245 Loss: 13.782797
+2022-07-15 00:26:23,124 - INFO - Train Epoch 103: 160/245 Loss: 13.149301
+2022-07-15 00:26:29,199 - INFO - Train Epoch 103: 180/245 Loss: 12.767071
+2022-07-15 00:26:35,276 - INFO - Train Epoch 103: 200/245 Loss: 12.678753
+2022-07-15 00:26:41,352 - INFO - Train Epoch 103: 220/245 Loss: 13.502966
+2022-07-15 00:26:47,427 - INFO - Train Epoch 103: 240/245 Loss: 13.402360
+2022-07-15 00:26:48,643 - INFO - **********Train Epoch 103: averaged Loss: 13.376020, tf_ratio: 1.000000
+2022-07-15 00:26:57,500 - INFO - **********Val Epoch 103: average Loss: 14.091883
+2022-07-15 00:26:57,500 - INFO - **********Epoch 103:Training Time: 74.4490s/epoch, Inference Time: 8.8554s/epoch
+2022-07-15 00:26:57,500 - INFO - *********************************Current best model saved!
+2022-07-15 00:26:57,810 - INFO - Train Epoch 104: 0/245 Loss: 13.107166
+2022-07-15 00:27:03,887 - INFO - Train Epoch 104: 20/245 Loss: 13.975030
+2022-07-15 00:27:09,961 - INFO - Train Epoch 104: 40/245 Loss: 12.246309
+2022-07-15 00:27:16,037 - INFO - Train Epoch 104: 60/245 Loss: 12.661568
+2022-07-15 00:27:22,113 - INFO - Train Epoch 104: 80/245 Loss: 13.119046
+2022-07-15 00:27:28,192 - INFO - Train Epoch 104: 100/245 Loss: 12.860973
+2022-07-15 00:27:34,270 - INFO - Train Epoch 104: 120/245 Loss: 13.704633
+2022-07-15 00:27:40,347 - INFO - Train Epoch 104: 140/245 Loss: 13.101266
+2022-07-15 00:27:46,427 - INFO - Train Epoch 104: 160/245 Loss: 13.862915
+2022-07-15 00:27:52,503 - INFO - Train Epoch 104: 180/245 Loss: 13.934174
+2022-07-15 00:27:58,580 - INFO - Train Epoch 104: 200/245 Loss: 13.880630
+2022-07-15 00:28:04,659 - INFO - Train Epoch 104: 220/245 Loss: 13.890509
+2022-07-15 00:28:10,738 - INFO - Train Epoch 104: 240/245 Loss: 13.703366
+2022-07-15 00:28:11,956 - INFO - **********Train Epoch 104: averaged Loss: 13.333624, tf_ratio: 1.000000
+2022-07-15 00:28:20,812 - INFO - **********Val Epoch 104: average Loss: 14.400667
+2022-07-15 00:28:20,813 - INFO - **********Epoch 104:Training Time: 74.4524s/epoch, Inference Time: 8.8557s/epoch
+2022-07-15 00:28:21,119 - INFO - Train Epoch 105: 0/245 Loss: 13.957493
+2022-07-15 00:28:27,200 - INFO - Train Epoch 105: 20/245 Loss: 12.773720
+2022-07-15 00:28:33,284 - INFO - Train Epoch 105: 40/245 Loss: 13.559881
+2022-07-15 00:28:39,370 - INFO - Train Epoch 105: 60/245 Loss: 13.419416
+2022-07-15 00:28:45,455 - INFO - Train Epoch 105: 80/245 Loss: 12.933685
+2022-07-15 00:28:51,536 - INFO - Train Epoch 105: 100/245 Loss: 14.075085
+2022-07-15 00:28:57,617 - INFO - Train Epoch 105: 120/245 Loss: 13.195789
+2022-07-15 00:29:03,697 - INFO - Train Epoch 105: 140/245 Loss: 13.309463
+2022-07-15 00:29:09,779 - INFO - Train Epoch 105: 160/245 Loss: 13.287631
+2022-07-15 00:29:15,859 - INFO - Train Epoch 105: 180/245 Loss: 13.756284
+2022-07-15 00:29:21,939 - INFO - Train Epoch 105: 200/245 Loss: 13.286959
+2022-07-15 00:29:28,019 - INFO - Train Epoch 105: 220/245 Loss: 13.215024
+2022-07-15 00:29:34,099 - INFO - Train Epoch 105: 240/245 Loss: 13.380207
+2022-07-15 00:29:35,316 - INFO - **********Train Epoch 105: averaged Loss: 13.309028, tf_ratio: 1.000000
+2022-07-15 00:29:44,179 - INFO - **********Val Epoch 105: average Loss: 14.246392
+2022-07-15 00:29:44,179 - INFO - **********Epoch 105:Training Time: 74.5040s/epoch, Inference Time: 8.8617s/epoch
+2022-07-15 00:29:44,484 - INFO - Train Epoch 106: 0/245 Loss: 13.907115
+2022-07-15 00:29:50,563 - INFO - Train Epoch 106: 20/245 Loss: 12.601125
+2022-07-15 00:29:56,641 - INFO - Train Epoch 106: 40/245 Loss: 13.759621
+2022-07-15 00:30:02,722 - INFO - Train Epoch 106: 60/245 Loss: 12.641676
+2022-07-15 00:30:08,802 - INFO - Train Epoch 106: 80/245 Loss: 12.429049
+2022-07-15 00:30:14,881 - INFO - Train Epoch 106: 100/245 Loss: 14.026855
+2022-07-15 00:30:20,960 - INFO - Train Epoch 106: 120/245 Loss: 12.441996
+2022-07-15 00:30:27,038 - INFO - Train Epoch 106: 140/245 Loss: 12.371224
+2022-07-15 00:30:33,117 - INFO - Train Epoch 106: 160/245 Loss: 13.696650
+2022-07-15 00:30:39,196 - INFO - Train Epoch 106: 180/245 Loss: 13.530558
+2022-07-15 00:30:45,277 - INFO - Train Epoch 106: 200/245 Loss: 13.555275
+2022-07-15 00:30:51,359 - INFO - Train Epoch 106: 220/245 Loss: 13.148197
+2022-07-15 00:30:57,438 - INFO - Train Epoch 106: 240/245 Loss: 12.573366
+2022-07-15 00:30:58,656 - INFO - **********Train Epoch 106: averaged Loss: 13.335760, tf_ratio: 1.000000
+2022-07-15 00:31:07,515 - INFO - **********Val Epoch 106: average Loss: 14.273856
+2022-07-15 00:31:07,515 - INFO - **********Epoch 106:Training Time: 74.4775s/epoch, Inference Time: 8.8584s/epoch
+2022-07-15 00:31:07,820 - INFO - Train Epoch 107: 0/245 Loss: 13.016720
+2022-07-15 00:31:13,898 - INFO - Train Epoch 107: 20/245 Loss: 14.312866
+2022-07-15 00:31:19,979 - INFO - Train Epoch 107: 40/245 Loss: 13.966139
+2022-07-15 00:31:26,055 - INFO - Train Epoch 107: 60/245 Loss: 12.725493
+2022-07-15 00:31:32,135 - INFO - Train Epoch 107: 80/245 Loss: 12.174056
+2022-07-15 00:31:38,214 - INFO - Train Epoch 107: 100/245 Loss: 13.796825
+2022-07-15 00:31:44,295 - INFO - Train Epoch 107: 120/245 Loss: 13.859250
+2022-07-15 00:31:50,372 - INFO - Train Epoch 107: 140/245 Loss: 13.239938
+2022-07-15 00:31:56,450 - INFO - Train Epoch 107: 160/245 Loss: 13.484115
+2022-07-15 00:32:02,527 - INFO - Train Epoch 107: 180/245 Loss: 13.836774
+2022-07-15 00:32:08,605 - INFO - Train Epoch 107: 200/245 Loss: 12.868493
+2022-07-15 00:32:14,685 - INFO - Train Epoch 107: 220/245 Loss: 13.116349
+2022-07-15 00:32:20,764 - INFO - Train Epoch 107: 240/245 Loss: 13.503983
+2022-07-15 00:32:21,982 - INFO - **********Train Epoch 107: averaged Loss: 13.298933, tf_ratio: 1.000000
+2022-07-15 00:32:30,843 - INFO - **********Val Epoch 107: average Loss: 14.291858
+2022-07-15 00:32:30,843 - INFO - **********Epoch 107:Training Time: 74.4678s/epoch, Inference Time: 8.8601s/epoch
+2022-07-15 00:32:31,148 - INFO - Train Epoch 108: 0/245 Loss: 13.413176
+2022-07-15 00:32:37,226 - INFO - Train Epoch 108: 20/245 Loss: 13.843179
+2022-07-15 00:32:43,300 - INFO - Train Epoch 108: 40/245 Loss: 14.310657
+2022-07-15 00:32:49,375 - INFO - Train Epoch 108: 60/245 Loss: 12.810964
+2022-07-15 00:32:55,450 - INFO - Train Epoch 108: 80/245 Loss: 13.369133
+2022-07-15 00:33:01,526 - INFO - Train Epoch 108: 100/245 Loss: 13.836752
+2022-07-15 00:33:07,606 - INFO - Train Epoch 108: 120/245 Loss: 13.159890
+2022-07-15 00:33:13,682 - INFO - Train Epoch 108: 140/245 Loss: 13.126753
+2022-07-15 00:33:19,762 - INFO - Train Epoch 108: 160/245 Loss: 12.593026
+2022-07-15 00:33:25,842 - INFO - Train Epoch 108: 180/245 Loss: 13.351639
+2022-07-15 00:33:31,917 - INFO - Train Epoch 108: 200/245 Loss: 13.610099
+2022-07-15 00:33:37,995 - INFO - Train Epoch 108: 220/245 Loss: 13.062095
+2022-07-15 00:33:44,073 - INFO - Train Epoch 108: 240/245 Loss: 11.912783
+2022-07-15 00:33:45,291 - INFO - **********Train Epoch 108: averaged Loss: 13.254580, tf_ratio: 1.000000
+2022-07-15 00:33:54,153 - INFO - **********Val Epoch 108: average Loss: 14.118650
+2022-07-15 00:33:54,153 - INFO - **********Epoch 108:Training Time: 74.4484s/epoch, Inference Time: 8.8615s/epoch
+2022-07-15 00:33:54,458 - INFO - Train Epoch 109: 0/245 Loss: 13.869457
+2022-07-15 00:34:00,534 - INFO - Train Epoch 109: 20/245 Loss: 13.750581
+2022-07-15 00:34:06,611 - INFO - Train Epoch 109: 40/245 Loss: 11.784590
+2022-07-15 00:34:12,691 - INFO - Train Epoch 109: 60/245 Loss: 13.461140
+2022-07-15 00:34:18,774 - INFO - Train Epoch 109: 80/245 Loss: 14.692010
+2022-07-15 00:34:24,852 - INFO - Train Epoch 109: 100/245 Loss: 14.128745
+2022-07-15 00:34:30,930 - INFO - Train Epoch 109: 120/245 Loss: 13.174767
+2022-07-15 00:34:37,004 - INFO - Train Epoch 109: 140/245 Loss: 13.597194
+2022-07-15 00:34:43,079 - INFO - Train Epoch 109: 160/245 Loss: 12.648784
+2022-07-15 00:34:49,154 - INFO - Train Epoch 109: 180/245 Loss: 13.410033
+2022-07-15 00:34:55,229 - INFO - Train Epoch 109: 200/245 Loss: 12.390238
+2022-07-15 00:35:01,303 - INFO - Train Epoch 109: 220/245 Loss: 13.041216
+2022-07-15 00:35:07,378 - INFO - Train Epoch 109: 240/245 Loss: 12.395903
+2022-07-15 00:35:08,594 - INFO - **********Train Epoch 109: averaged Loss: 13.260956, tf_ratio: 1.000000
+2022-07-15 00:35:17,441 - INFO - **********Val Epoch 109: average Loss: 14.388769
+2022-07-15 00:35:17,442 - INFO - **********Epoch 109:Training Time: 74.4421s/epoch, Inference Time: 8.8462s/epoch
+2022-07-15 00:35:17,746 - INFO - Train Epoch 110: 0/245 Loss: 13.163559
+2022-07-15 00:35:23,820 - INFO - Train Epoch 110: 20/245 Loss: 13.788653
+2022-07-15 00:35:29,893 - INFO - Train Epoch 110: 40/245 Loss: 12.094349
+2022-07-15 00:35:35,967 - INFO - Train Epoch 110: 60/245 Loss: 12.990695
+2022-07-15 00:35:42,040 - INFO - Train Epoch 110: 80/245 Loss: 14.737411
+2022-07-15 00:35:48,110 - INFO - Train Epoch 110: 100/245 Loss: 13.463416
+2022-07-15 00:35:54,183 - INFO - Train Epoch 110: 120/245 Loss: 13.519816
+2022-07-15 00:36:00,255 - INFO - Train Epoch 110: 140/245 Loss: 14.519013
+2022-07-15 00:36:06,327 - INFO - Train Epoch 110: 160/245 Loss: 13.755671
+2022-07-15 00:36:12,400 - INFO - Train Epoch 110: 180/245 Loss: 13.531914
+2022-07-15 00:36:18,473 - INFO - Train Epoch 110: 200/245 Loss: 12.798264
+2022-07-15 00:36:24,547 - INFO - Train Epoch 110: 220/245 Loss: 13.645906
+2022-07-15 00:36:30,619 - INFO - Train Epoch 110: 240/245 Loss: 15.387984
+2022-07-15 00:36:31,835 - INFO - **********Train Epoch 110: averaged Loss: 13.345093, tf_ratio: 1.000000
+2022-07-15 00:36:40,680 - INFO - **********Val Epoch 110: average Loss: 14.280929
+2022-07-15 00:36:40,680 - INFO - **********Epoch 110:Training Time: 74.3947s/epoch, Inference Time: 8.8436s/epoch
+2022-07-15 00:36:40,985 - INFO - Train Epoch 111: 0/245 Loss: 13.049869
+2022-07-15 00:36:47,060 - INFO - Train Epoch 111: 20/245 Loss: 13.316150
+2022-07-15 00:36:53,135 - INFO - Train Epoch 111: 40/245 Loss: 13.301292
+2022-07-15 00:36:59,209 - INFO - Train Epoch 111: 60/245 Loss: 13.936528
+2022-07-15 00:37:05,282 - INFO - Train Epoch 111: 80/245 Loss: 11.981195
+2022-07-15 00:37:11,357 - INFO - Train Epoch 111: 100/245 Loss: 13.796291
+2022-07-15 00:37:17,430 - INFO - Train Epoch 111: 120/245 Loss: 13.823070
+2022-07-15 00:37:23,504 - INFO - Train Epoch 111: 140/245 Loss: 12.814487
+2022-07-15 00:37:29,577 - INFO - Train Epoch 111: 160/245 Loss: 13.986370
+2022-07-15 00:37:35,651 - INFO - Train Epoch 111: 180/245 Loss: 13.403374
+2022-07-15 00:37:41,725 - INFO - Train Epoch 111: 200/245 Loss: 13.516872
+2022-07-15 00:37:47,799 - INFO - Train Epoch 111: 220/245 Loss: 12.990834
+2022-07-15 00:37:53,873 - INFO - Train Epoch 111: 240/245 Loss: 13.493595
+2022-07-15 00:37:55,088 - INFO - **********Train Epoch 111: averaged Loss: 13.258641, tf_ratio: 1.000000
+2022-07-15 00:38:03,938 - INFO - **********Val Epoch 111: average Loss: 14.285281
+2022-07-15 00:38:03,938 - INFO - **********Epoch 111:Training Time: 74.4095s/epoch, Inference Time: 8.8486s/epoch
+2022-07-15 00:38:04,243 - INFO - Train Epoch 112: 0/245 Loss: 13.668319
+2022-07-15 00:38:10,320 - INFO - Train Epoch 112: 20/245 Loss: 13.110106
+2022-07-15 00:38:16,399 - INFO - Train Epoch 112: 40/245 Loss: 13.660439
+2022-07-15 00:38:22,478 - INFO - Train Epoch 112: 60/245 Loss: 12.988993
+2022-07-15 00:38:28,557 - INFO - Train Epoch 112: 80/245 Loss: 12.709686
+2022-07-15 00:38:34,637 - INFO - Train Epoch 112: 100/245 Loss: 12.641498
+2022-07-15 00:38:40,714 - INFO - Train Epoch 112: 120/245 Loss: 13.732745
+2022-07-15 00:38:46,790 - INFO - Train Epoch 112: 140/245 Loss: 12.554766
+2022-07-15 00:38:52,867 - INFO - Train Epoch 112: 160/245 Loss: 13.307517
+2022-07-15 00:38:58,943 - INFO - Train Epoch 112: 180/245 Loss: 12.894863
+2022-07-15 00:39:05,021 - INFO - Train Epoch 112: 200/245 Loss: 13.860421
+2022-07-15 00:39:11,097 - INFO - Train Epoch 112: 220/245 Loss: 12.743960
+2022-07-15 00:39:17,174 - INFO - Train Epoch 112: 240/245 Loss: 13.068636
+2022-07-15 00:39:18,391 - INFO - **********Train Epoch 112: averaged Loss: 13.240786, tf_ratio: 1.000000
+2022-07-15 00:39:27,238 - INFO - **********Val Epoch 112: average Loss: 14.357099
+2022-07-15 00:39:27,238 - INFO - **********Epoch 112:Training Time: 74.4538s/epoch, Inference Time: 8.8458s/epoch
+2022-07-15 00:39:27,543 - INFO - Train Epoch 113: 0/245 Loss: 12.052083
+2022-07-15 00:39:33,619 - INFO - Train Epoch 113: 20/245 Loss: 14.426894
+2022-07-15 00:39:39,698 - INFO - Train Epoch 113: 40/245 Loss: 12.905227
+2022-07-15 00:39:45,776 - INFO - Train Epoch 113: 60/245 Loss: 13.914146
+2022-07-15 00:39:51,854 - INFO - Train Epoch 113: 80/245 Loss: 13.361072
+2022-07-15 00:39:57,927 - INFO - Train Epoch 113: 100/245 Loss: 13.308896
+2022-07-15 00:40:04,003 - INFO - Train Epoch 113: 120/245 Loss: 13.682788
+2022-07-15 00:40:10,080 - INFO - Train Epoch 113: 140/245 Loss: 13.586604
+2022-07-15 00:40:20,122 - INFO - Train Epoch 113: 160/245 Loss: 14.265529
+2022-07-15 00:40:26,195 - INFO - Train Epoch 113: 180/245 Loss: 12.762414
+2022-07-15 00:40:32,266 - INFO - Train Epoch 113: 200/245 Loss: 13.292706
+2022-07-15 00:40:38,337 - INFO - Train Epoch 113: 220/245 Loss: 12.718810
+2022-07-15 00:40:44,406 - INFO - Train Epoch 113: 240/245 Loss: 13.247952
+2022-07-15 00:40:45,621 - INFO - **********Train Epoch 113: averaged Loss: 13.285033, tf_ratio: 1.000000
+2022-07-15 00:40:54,458 - INFO - **********Val Epoch 113: average Loss: 14.150380
+2022-07-15 00:40:54,458 - INFO - **********Epoch 113:Training Time: 78.3844s/epoch, Inference Time: 8.8358s/epoch
+2022-07-15 00:40:54,763 - INFO - Train Epoch 114: 0/245 Loss: 13.237489
+2022-07-15 00:41:00,834 - INFO - Train Epoch 114: 20/245 Loss: 13.662455
+2022-07-15 00:41:06,906 - INFO - Train Epoch 114: 40/245 Loss: 13.608673
+2022-07-15 00:41:12,973 - INFO - Train Epoch 114: 60/245 Loss: 13.210640
+2022-07-15 00:41:19,043 - INFO - Train Epoch 114: 80/245 Loss: 13.066392
+2022-07-15 00:41:25,112 - INFO - Train Epoch 114: 100/245 Loss: 12.653895
+2022-07-15 00:41:31,184 - INFO - Train Epoch 114: 120/245 Loss: 12.980570
+2022-07-15 00:41:37,253 - INFO - Train Epoch 114: 140/245 Loss: 14.418406
+2022-07-15 00:41:43,324 - INFO - Train Epoch 114: 160/245 Loss: 13.830735
+2022-07-15 00:41:49,396 - INFO - Train Epoch 114: 180/245 Loss: 13.023504
+2022-07-15 00:41:55,469 - INFO - Train Epoch 114: 200/245 Loss: 13.048316
+2022-07-15 00:42:01,542 - INFO - Train Epoch 114: 220/245 Loss: 13.184216
+2022-07-15 00:42:07,610 - INFO - Train Epoch 114: 240/245 Loss: 13.313769
+2022-07-15 00:42:08,825 - INFO - **********Train Epoch 114: averaged Loss: 13.238564, tf_ratio: 1.000000
+2022-07-15 00:42:17,662 - INFO - **********Val Epoch 114: average Loss: 14.389933
+2022-07-15 00:42:17,663 - INFO - **********Epoch 114:Training Time: 74.3681s/epoch, Inference Time: 8.8369s/epoch
+2022-07-15 00:42:17,968 - INFO - Train Epoch 115: 0/245 Loss: 13.007244
+2022-07-15 00:42:24,038 - INFO - Train Epoch 115: 20/245 Loss: 14.604772
+2022-07-15 00:42:30,113 - INFO - Train Epoch 115: 40/245 Loss: 14.548438
+2022-07-15 00:42:36,189 - INFO - Train Epoch 115: 60/245 Loss: 12.592525
+2022-07-15 00:42:42,262 - INFO - Train Epoch 115: 80/245 Loss: 13.811178
+2022-07-15 00:42:48,336 - INFO - Train Epoch 115: 100/245 Loss: 13.196202
+2022-07-15 00:42:54,413 - INFO - Train Epoch 115: 120/245 Loss: 13.191289
+2022-07-15 00:43:00,489 - INFO - Train Epoch 115: 140/245 Loss: 13.443347
+2022-07-15 00:43:06,561 - INFO - Train Epoch 115: 160/245 Loss: 13.445062
+2022-07-15 00:43:12,635 - INFO - Train Epoch 115: 180/245 Loss: 14.184418
+2022-07-15 00:43:18,708 - INFO - Train Epoch 115: 200/245 Loss: 12.343601
+2022-07-15 00:43:24,782 - INFO - Train Epoch 115: 220/245 Loss: 13.400559
+2022-07-15 00:43:30,854 - INFO - Train Epoch 115: 240/245 Loss: 13.998483
+2022-07-15 00:43:32,070 - INFO - **********Train Epoch 115: averaged Loss: 13.283059, tf_ratio: 1.000000
+2022-07-15 00:43:40,914 - INFO - **********Val Epoch 115: average Loss: 14.138689
+2022-07-15 00:43:40,915 - INFO - **********Epoch 115:Training Time: 74.4079s/epoch, Inference Time: 8.8434s/epoch
+2022-07-15 00:43:41,220 - INFO - Train Epoch 116: 0/245 Loss: 12.043324
+2022-07-15 00:43:47,295 - INFO - Train Epoch 116: 20/245 Loss: 14.061733
+2022-07-15 00:43:53,373 - INFO - Train Epoch 116: 40/245 Loss: 13.709779
+2022-07-15 00:43:59,451 - INFO - Train Epoch 116: 60/245 Loss: 13.596663
+2022-07-15 00:44:05,525 - INFO - Train Epoch 116: 80/245 Loss: 13.405339
+2022-07-15 00:44:11,603 - INFO - Train Epoch 116: 100/245 Loss: 14.155938
+2022-07-15 00:44:17,679 - INFO - Train Epoch 116: 120/245 Loss: 12.761215
+2022-07-15 00:44:23,755 - INFO - Train Epoch 116: 140/245 Loss: 13.026634
+2022-07-15 00:44:29,830 - INFO - Train Epoch 116: 160/245 Loss: 13.180670
+2022-07-15 00:44:35,909 - INFO - Train Epoch 116: 180/245 Loss: 14.763916
+2022-07-15 00:44:41,984 - INFO - Train Epoch 116: 200/245 Loss: 13.079750
+2022-07-15 00:44:48,062 - INFO - Train Epoch 116: 220/245 Loss: 12.912053
+2022-07-15 00:44:54,139 - INFO - Train Epoch 116: 240/245 Loss: 12.946227
+2022-07-15 00:44:55,356 - INFO - **********Train Epoch 116: averaged Loss: 13.295412, tf_ratio: 1.000000
+2022-07-15 00:45:04,199 - INFO - **********Val Epoch 116: average Loss: 14.202624
+2022-07-15 00:45:04,199 - INFO - **********Epoch 116:Training Time: 74.4419s/epoch, Inference Time: 8.8423s/epoch
+2022-07-15 00:45:04,504 - INFO - Train Epoch 117: 0/245 Loss: 13.605594
+2022-07-15 00:45:10,581 - INFO - Train Epoch 117: 20/245 Loss: 12.828235
+2022-07-15 00:45:16,657 - INFO - Train Epoch 117: 40/245 Loss: 12.515067
+2022-07-15 00:45:22,733 - INFO - Train Epoch 117: 60/245 Loss: 13.291876
+2022-07-15 00:45:28,809 - INFO - Train Epoch 117: 80/245 Loss: 13.927108
+2022-07-15 00:45:34,887 - INFO - Train Epoch 117: 100/245 Loss: 12.974560
+2022-07-15 00:45:40,964 - INFO - Train Epoch 117: 120/245 Loss: 13.756021
+2022-07-15 00:45:47,040 - INFO - Train Epoch 117: 140/245 Loss: 14.323206
+2022-07-15 00:45:53,117 - INFO - Train Epoch 117: 160/245 Loss: 13.223502
+2022-07-15 00:45:59,194 - INFO - Train Epoch 117: 180/245 Loss: 13.679410
+2022-07-15 00:46:05,271 - INFO - Train Epoch 117: 200/245 Loss: 13.344377
+2022-07-15 00:46:11,347 - INFO - Train Epoch 117: 220/245 Loss: 13.015541
+2022-07-15 00:46:17,423 - INFO - Train Epoch 117: 240/245 Loss: 13.671216
+2022-07-15 00:46:18,639 - INFO - **********Train Epoch 117: averaged Loss: 13.221861, tf_ratio: 1.000000
+2022-07-15 00:46:27,479 - INFO - **********Val Epoch 117: average Loss: 14.112766
+2022-07-15 00:46:27,479 - INFO - **********Epoch 117:Training Time: 74.4411s/epoch, Inference Time: 8.8390s/epoch
+2022-07-15 00:46:27,784 - INFO - Train Epoch 118: 0/245 Loss: 13.330176
+2022-07-15 00:46:33,857 - INFO - Train Epoch 118: 20/245 Loss: 13.314764
+2022-07-15 00:46:39,931 - INFO - Train Epoch 118: 40/245 Loss: 12.660465
+2022-07-15 00:46:46,007 - INFO - Train Epoch 118: 60/245 Loss: 13.176575
+2022-07-15 00:46:52,082 - INFO - Train Epoch 118: 80/245 Loss: 12.694962
+2022-07-15 00:46:58,156 - INFO - Train Epoch 118: 100/245 Loss: 13.906865
+2022-07-15 00:47:04,231 - INFO - Train Epoch 118: 120/245 Loss: 12.730285
+2022-07-15 00:47:10,307 - INFO - Train Epoch 118: 140/245 Loss: 13.261913
+2022-07-15 00:47:16,382 - INFO - Train Epoch 118: 160/245 Loss: 13.918434
+2022-07-15 00:47:22,454 - INFO - Train Epoch 118: 180/245 Loss: 12.123861
+2022-07-15 00:47:28,530 - INFO - Train Epoch 118: 200/245 Loss: 13.671073
+2022-07-15 00:47:34,605 - INFO - Train Epoch 118: 220/245 Loss: 14.345120
+2022-07-15 00:47:40,680 - INFO - Train Epoch 118: 240/245 Loss: 13.050342
+2022-07-15 00:47:41,897 - INFO - **********Train Epoch 118: averaged Loss: 13.260048, tf_ratio: 1.000000
+2022-07-15 00:47:50,738 - INFO - **********Val Epoch 118: average Loss: 14.129510
+2022-07-15 00:47:50,738 - INFO - **********Epoch 118:Training Time: 74.4186s/epoch, Inference Time: 8.8401s/epoch
+2022-07-15 00:47:50,738 - INFO - Validation performance didn't improve for 15 epochs. Training stops.
+2022-07-15 00:47:50,739 - INFO - Average Training Time: 75.3314 secs/epoch
+2022-07-15 00:47:50,739 - INFO - Average Inference Time: 8.9340 secs
+2022-07-15 00:47:50,739 - INFO - Total training time: 165.7252min, best loss: 14.091883
+2022-07-15 00:47:52,822 - INFO - Saving current best model to ./pre-trained/PEMS03/TGCRN/3_TranNoaW09E10best_model0.pth
+2022-07-15 00:48:02,332 - INFO - ------Horizon 01, MAE: 13.0743, RMSE: 23.4020, MAPE: 12.5131%
+2022-07-15 00:48:02,335 - INFO - ------Horizon 02, MAE: 13.6037, RMSE: 24.3346, MAPE: 12.8508%
+2022-07-15 00:48:02,337 - INFO - ------Horizon 03, MAE: 14.0581, RMSE: 25.1307, MAPE: 13.1572%
+2022-07-15 00:48:02,339 - INFO - ------Horizon 04, MAE: 14.3980, RMSE: 25.7461, MAPE: 13.3616%
+2022-07-15 00:48:02,342 - INFO - ------Horizon 05, MAE: 14.6943, RMSE: 26.2573, MAPE: 13.5555%
+2022-07-15 00:48:02,344 - INFO - ------Horizon 06, MAE: 14.9866, RMSE: 26.7310, MAPE: 13.7608%
+2022-07-15 00:48:02,346 - INFO - ------Horizon 07, MAE: 15.2730, RMSE: 27.1695, MAPE: 13.9699%
+2022-07-15 00:48:02,349 - INFO - ------Horizon 08, MAE: 15.5360, RMSE: 27.5631, MAPE: 14.1695%
+2022-07-15 00:48:02,351 - INFO - ------Horizon 09, MAE: 15.7860, RMSE: 27.9236, MAPE: 14.3636%
+2022-07-15 00:48:02,353 - INFO - ------Horizon 10, MAE: 16.0188, RMSE: 28.2496, MAPE: 14.5552%
+2022-07-15 00:48:02,355 - INFO - ------Horizon 11, MAE: 16.2418, RMSE: 28.5544, MAPE: 14.7425%
+2022-07-15 00:48:02,358 - INFO - ------Horizon 12, MAE: 16.4766, RMSE: 28.8687, MAPE: 14.9382%
+2022-07-15 00:48:02,380 - INFO - ------Average Horizon, MAE: 15.0554, RMSE: 26.7124, MAPE: 13.8282%
+2022-07-15 00:48:02,380 - INFO - 
+
+Results for 1 runs
+
+
+2022-07-15 00:48:02,380 - INFO - test	MAE	RMSE	MAPE
+2022-07-15 00:48:02,380 - INFO - mean:	15.0554	26.7124	13.8282%
+2022-07-15 00:48:02,381 - INFO - std:	0.0000	0.0000	0.0000%
